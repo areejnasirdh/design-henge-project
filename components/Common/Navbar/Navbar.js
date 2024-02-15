@@ -137,7 +137,7 @@ const Navbr = () => {
                     buttonText="GET IT TOUCH"
                     // handleMouseMove={handleMouseMove}
                     // btnRef={btnRef}
-                    additionalClasses="mt-0 p-[10px] "
+                    additionalClasses="mt-0 nav-btn p-[10px] "
                   />
                 </Nav>
               </Navbar.Collapse>
