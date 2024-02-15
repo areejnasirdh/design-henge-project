@@ -22,6 +22,9 @@
   text-shadow: -4px 4px black;
   text-transform: uppercase;
 }
+h1.font-bebas.uppercase{
+  font-size: calc(1.375rem + 1.5vw) !important;
+}
 
 .banner_section_main h1:nth-child(1) {
   font-size: calc(1.375rem + 1.5vw);
@@ -313,9 +316,9 @@
 }
 
 .HomeSlider .slick-current .SliderCard {
-  background-image: url("../images/services-active-box.png");
-  padding-bottom: 16%;
-  transform: scale(1.2);
+  background-image: url("../images/services-active-box.png") !important;
+  padding-bottom: 16% !important;
+  transform: scale(1.2) !important;
 }
 
 .HomeSlider .slick-track {

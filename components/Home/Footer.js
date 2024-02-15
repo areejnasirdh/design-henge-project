@@ -11,9 +11,20 @@ export default function Footer() {
             <a href="/" className="text-xs font-medium text-white">
               <img src='/images/Footer-logo.png' />
             </a>
-            <a href="/about-us" className="text-xs font-medium text-white">
-              <img src="/images/Footer-social-media.png" className="mt-5" />
+            <div className="w-full h-[50px] flex justify-between mt-4">
+            <a href="https://www.facebook.com/DesignHenge?mibextid=ZbWKwL" className="text-xs font-medium text-white">
+              <img src="/images/facebook-icon.png" className="w-full h-full" />
             </a>
+            <a href="https://www.instagram.com/designhengeco?igsh=MXh1Zmt6ZXNsaGdzZQ==" className="text-xs font-medium text-white">
+              <img src="/images/insta-icon.png" className="w-full h-full" />
+            </a>
+            <a href="https://twitter.com/designaligators" className="text-xs font-medium text-white">
+              <img src="/images/tw-icon.png" className="w-full h-full" />
+            </a>
+            <a href="https://www.linkedin.com/company/design-henge/" className="text-xs font-medium text-white">
+              <img src="/images/linked-icon.png" className="w-full h-full" />
+            </a>
+            </div>
             <a href="/services" className="text-xs font-medium text-white">
               <img src="/images/Footer-reviews.png" className="mt-4 w-full" />
             </a>
@@ -26,7 +37,7 @@ export default function Footer() {
             </div>
             <div className="mt-2">
               <a
-                href="https://www.facebook.com/designalligators/"
+                href="/"
                 target="__blank"
                 className="text-sm font-light text-gray-200"
               >
@@ -35,7 +46,7 @@ export default function Footer() {
             </div>
             <div className="mt-3">
               <a
-                href="https://www.facebook.com/designalligators/"
+                href="/about-us"
                 target="__blank"
                 className="text-sm font-light text-gray-200"
               >
@@ -44,7 +55,7 @@ export default function Footer() {
             </div>
             <div className="mt-3">
               <a
-                href="https://twitter.com/designaligators"
+                href="/services"
                 target="__blank"
                 className="text-sm font-light text-gray-200"
               >
@@ -53,7 +64,7 @@ export default function Footer() {
             </div>
             <div className="mt-3">
               <a
-                href="https://www.instagram.com/designalligators/"
+                href="/case-study"
                 target="__blank"
                 className="text-sm font-light text-gray-200"
               >
@@ -62,7 +73,7 @@ export default function Footer() {
             </div>
             <div className="mt-3">
               <a
-                href="https://www.instagram.com/designalligators/"
+                href="/contact-us"
                 target="__blank"
                 className="text-sm font-light text-gray-200"
               >

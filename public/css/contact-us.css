@@ -295,9 +295,9 @@
 }
 
 .HomeSlider .slick-current .SliderCard {
-  background-image: url("../images/services-active-box.png");
-  padding-bottom: 16%;
-  transform: scale(1.2);
+  background-image: url("../images/services-active-box.png") !important;
+  padding-bottom: 16% !important;
+  transform: scale(1.2) !important;
 }
 
 .HomeSlider .slick-track {
@@ -405,7 +405,7 @@
 }
 .clients_main img{
   height: 100% !important;
-  object-fit: none;
+  object-fit: contain;
 }
 
 .contact-info h3 {
