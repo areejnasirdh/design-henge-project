@@ -31,8 +31,9 @@ const Overview = () => {
         whileInView={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
       >
-        Speakable empowers people with disabilities and other barriers through
-        job training and employment at Speakable and in the community.
+        The Book Lover empowers people with disabilities and other barriers
+        through job training and employment at Speakable and in the
+        community.
       </motion.h5>
       <motion.p
         initial={{
@@ -43,11 +44,7 @@ const Overview = () => {
         whileInView={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit diam
-        ullamcorper urna sit quisque tincidunt hendrerit mattis. Dictum lectus
-        magnis phasellus dictumst eu, enim, at id non. Metus diam quis interdum
-        morbi mi velit commodo, malesuada. Velit lacinia donec aliquam nunc
-        volutpat.
+        Design Henge Interactive worked with Goodwill’s team to help them in their mission of continuing to amplify the voice of individuals with disabilities, providing independence and access for all. Speakable is known for being an advocate and defender of those who are going through difficult times.
       </motion.p>
       <motion.p
         initial={{
@@ -58,11 +55,7 @@ const Overview = () => {
         whileInView={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit diam
-        ullamcorper urna sit quisque tincidunt hendrerit mattis. Dictum lectus
-        magnis phasellus dictumst eu, enim, at id non. Metus diam quis interdum
-        morbi mi velit commodo, malesuada. Velit lacinia donec aliquam nunc
-        volutpat.
+        To further their objectives, Speakable hired Design Henge Interactive to support their business with web design expertise and occasional consulting related to digital marketing services. As the web design agency of Speakable’s choice, ongoing web support and maintenance, as well as on-page SEO and management of their $10,000 monthly Google Ads Grant, was managed by the Design henge team.
       </motion.p>
     </OverviewSection>
   );

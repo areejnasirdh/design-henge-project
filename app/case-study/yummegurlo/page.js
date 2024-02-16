@@ -19,10 +19,10 @@ const page = () => {
       </div>
       <Overview />
       <WhereItStarted />
-      <YummyGirlo />
       <CaseStudyImgSection />
+      <YummyGirlo />
       <VisualWebsiteDesign />
-      <Label />
+      {/* <Label /> */}
       <SocialMedia />
       <CaseStudyImgSection2 />
     </div>

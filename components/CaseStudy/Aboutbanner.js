@@ -15,7 +15,7 @@ const AboutBanner = () => {
       <Container fluid className="container-width-2">
         <Row>
           <Col
-            md={6}
+            md={7}
             className="pt-5 pt-md-0 d-flex flex-col justify-content-center"
           >
             <motion.h1
@@ -26,7 +26,7 @@ const AboutBanner = () => {
                 delay: "0.3",
               }}
             >
-              OUR CASE STUDIES
+              OUR CASE STUDY
             </motion.h1>
             {/* <motion.h1
               initial={{ y: 200, opacity: 0 }}
@@ -81,7 +81,7 @@ const AboutBanner = () => {
             className="d-flex justify-content-center align-items-center mt-4"
           >
             {/* <div className="banner_img_box"> */}
-            <Image src={BannerImg} />
+            <Image src={BannerImg} className="banner-img"/>
             {/* </div> */}
           </Col>
         </Row>

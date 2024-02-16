@@ -17,11 +17,11 @@
 }
 
 .case_study_main.yummy_gurlo {
-  background-image: url("../images/yummygurlo/case-study-banner.jpg");
+  background-image: url("../images/yummygurlo/case-study-banner.png");
 }
 
 .contact_us_main.yummy_gurlo {
-  background-image: url("../images/yummygurlo/case-study-banner.jpg");
+  background-image: url("../images/yummygurlo/case-study-banner.png");
 }
 
 .case_study_main.orange_county {
@@ -295,7 +295,7 @@
 }
 
 .social_media_main {
-  background-image: url("../images/visual-website-bg.png");
+  background-image: url("../images/about_bg.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: top;
@@ -304,8 +304,15 @@
 }
 
 .social_media_main h2 {
-  font-family: "Bebas Neue Bold";
-  font-size: 75px;
+  font-size: 60px;
+  font-family: "Zurich XBlk BT";
+
+  font-weight: 800;
+  color: #ededed;
+  -webkit-text-stroke: 1.5px black;
+  /* For Webkit-based browsers */
+  text-shadow: -6px 7px #0097d9;
+  letter-spacing: -4px;
 }
 
 .Home_container-width-2 {
@@ -328,8 +335,13 @@
 }
 
 .home_page_main h2 {
-  font-family: "Bebas Neue Bold";
-  font-size: 75px;
+  font-size: 60px;
+  font-family: "Zurich XBlk BT";
+  font-weight: 800;
+  color: #ededed;
+  -webkit-text-stroke: 1.5px black;
+  text-shadow: -6px 7px #0097d9;
+  letter-spacing: -4px;
 }
 
 .yummy_girlo_main {
@@ -350,7 +362,7 @@
 
 .yummy_girlo_main p {
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1600px) {

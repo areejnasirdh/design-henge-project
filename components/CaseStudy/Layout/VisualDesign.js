@@ -8,7 +8,7 @@ const VisualDesign = ({img}) => {
       <Container fluid className="container-width-2">
         <Row className="justify-content-center">
           <Col md={10}>
-            <h1 className="stroke text-center">Visual Website Design</h1>
+            <h1 className="stroke1 text-center">Visual Website Design</h1>
             <Image src={img} />
           </Col>
         </Row>

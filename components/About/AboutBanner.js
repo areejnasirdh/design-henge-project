@@ -33,9 +33,11 @@ import Image from "next/image";
 const AboutBanner = () => {
   return (
     <Banner
-      heading="ABOUT US"
-      subHeading="OUR VISION"
-      text="We strive to become an integral part of every organizations business promotion plan. We are committed to achieving our vision through a three-pronged strategy: Deliver, Create, Advance."
+      heading="Strategic Thinkers."
+      subHeading="Digital Innovators. 
+      Growth Catalysts."
+      text="Providing excellence in custom software and digital marketing services.. Providing excellence in custom 
+      software and digital marketing services."
       img={BannerImg}
     />
   );

@@ -54,6 +54,7 @@ const Navbr = () => {
     else navbarRef.current.style.width = "100%";
   };
 
+
   return (
     <>
       <Sidebar navbarRef={navbarRef} NavHandler={NavHandler} />
@@ -108,11 +109,14 @@ const Navbr = () => {
                     href="/case-study"
                     // onMouseEnter={() => handleMouseLeave()}
                     className={
-                      pathname === "/case-study" ? "nav-active relative p-4" : ""
+                      (pathname === "/case-study" || pathname === "/case-study/Zego" || pathname === "/case-study/Victek" || pathname === "/case-study/yummegurlo") ? "nav-active relative p-4" : ""
                     }
                   >
                     Case study
                     {pathname === "/case-study" && <SVGimage />}
+                    {pathname === "/case-study/Victek" && <SVGimage />}
+                    {pathname === "/case-study/yummegurlo" && <SVGimage />}
+                    {pathname === "/case-study/Zego" && <SVGimage />}
                   </Link>
                   <Link
                     href="/contact-us"

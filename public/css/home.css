@@ -72,6 +72,7 @@ h1.font-bebas.uppercase{
   width: 100% !important;
   height: 100% !important;
   object-fit: contain !important;
+  transform: scale(1.1) !important;
 }
 
 /* *****************Home About *************** */

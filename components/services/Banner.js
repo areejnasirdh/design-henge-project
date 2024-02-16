@@ -11,7 +11,7 @@ const BannerSection = () => {
     <div className="services_banner_section_main">
       <Container fluid className="container-width-2">
         <Row>
-          <Col md={6} className="pt-5 d-flex flex-col justify-center">
+          <Col md={7} className="pt-5 d-flex flex-col justify-center">
             <motion.h1
               initial={{ y: 200, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}

@@ -8,7 +8,7 @@ const DesignTheme = ({ Logo, Color, text, Font }) => {
       <Container fluid className="container-width-2">
         <Row className="py-3 gx-2">
           <Col md={4} className="d-flex align-items-center">
-            <h3 className="stroke1">THE LOGO</h3>
+            <h3 className="stroke4">THE LOGO</h3>
           </Col>
           <Col md={6}>
             <Image src={Logo} height={140} />
@@ -16,7 +16,7 @@ const DesignTheme = ({ Logo, Color, text, Font }) => {
         </Row>
         <Row className="py-3 gx-2">
           <Col md={4}>
-            <h3 className="stroke1">
+            <h3 className="stroke4">
               COLOR <br />
               Pellete
             </h3>
@@ -27,7 +27,7 @@ const DesignTheme = ({ Logo, Color, text, Font }) => {
         </Row>
         <Row className="py-3 gx-2">
           <Col md={4}>
-            <h3 className="stroke1">TYPOGRAPHY.</h3>
+            <h3 className="stroke4">TYPOGRAPHY.</h3>
             <p>{text}</p>
           </Col>
           <Col md={8}>

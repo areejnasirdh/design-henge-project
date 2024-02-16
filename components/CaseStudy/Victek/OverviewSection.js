@@ -21,23 +21,16 @@ const Overview = () => {
   return (
     <OverviewSection logo={vicket} services_list={services_list}>
       <h5>
-        Zego empowers people with disabilities and other barriers through job
-        training and employment at Zego and in the community.
+        Vic-Tek empowers people with disabilities and other barriers
+        through job training and employment at Vic-Tek and in the
+        community.
       </h5>
       <p>
-        Design Henge Interactive worked with Goodwill's team to help them in
-        their mission of continuing to amplify the voice of individuals with
-        disabilities, providing independence and access for all. Speakable is
-        known for being an advocate and defender of those who are going through
-        difficult times.
+        Design Henge Interactive worked with Goodwill’s team to help them in their mission of continuing to amplify the voice of individuals with disabilities, providing independence and access for all. Speakable is known for being an advocate and defender of those who are going through difficult times.
+
       </p>
       <p>
-        To further their objectives, Speakable hired Design Henge Interactive to
-        support their business with web design expertise and occasional
-        consulting related to digital marketing services. As the web design
-        agency of Speakable's choice, ongoing web support and maintenance, as
-        well as on-page SEO and management of their $10,000 monthly Google Ads
-        Grant, was managed by the Design henge team.
+        To further their objectives, Speakable hired Design Henge Interactive to support their business with web design expertise and occasional consulting related to digital marketing services. As the web design agency of Speakable’s choice, ongoing web support and maintenance, as well as on-page SEO and management of their $10,000 monthly Google Ads Grant, was managed by the Design henge team.
       </p>
     </OverviewSection>
   );

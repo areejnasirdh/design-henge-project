@@ -32,7 +32,8 @@
   font-weight: lighter;
   color: white;
   padding-top: 15px !important;
-  line-height: 2;
+  line-height: 1.5;
+  max-width: 600px;
 }
 
 .contact_banner_section_main button {
@@ -74,7 +75,7 @@
   background-size: cover;
 }
 
-.home_about_main h3,
+.home_about_main h3, 
 .home_blog_main h3 {
   font-size: 60px;
   font-family: "Zurich XBlk BT";

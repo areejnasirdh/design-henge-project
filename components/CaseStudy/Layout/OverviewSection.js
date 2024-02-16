@@ -15,7 +15,7 @@ const OverviewSection = ({ logo, services_list, children }) => {
         <Container fluid className="container-width-2">
           <Row className="py-3 gx-2">
             <Col md={4}>
-              <h3 className="stroke1">OVERVIEW</h3>
+              <h3 className="stroke3">OVERVIEW</h3>
             </Col>
             <Col md={8}>
               <Image src={logo} height={120} />
