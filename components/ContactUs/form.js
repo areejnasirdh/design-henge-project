@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import ReusableButton from "../Common/Banner/hoverbuttonclass";
 
 const Contactform = () => {
   return (
@@ -39,7 +40,15 @@ const Contactform = () => {
               </div>
             </Col>
             <Col>
-              <button className="cta_btn px-3 py-2 my-3">GET IT TOUCH</button>
+              {/* <button className="cta_btn px-3 py-2 my-3">GET IT TOUCH</button>
+               */}
+                <ReusableButton
+                    buttonText="GET IT TOUCH"
+                    // handleMouseMove={handleMouseMove}
+                    // btnRef={btnRef}
+                    // onClick={() => router.push("/contact-us")}
+                    additionalClasses="mt-0 nav-btn p-[10px] "
+                  />
             </Col>
           </Row>
         </form>

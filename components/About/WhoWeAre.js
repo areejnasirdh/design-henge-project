@@ -6,7 +6,7 @@ import AboutImg2 from "../../public/images/about-img-2.png";
 
 const WhoWeAre = () => {
   return (
-    <div className="who_we_are_main">
+    <div className="who_we_are_main" id='who_we_are_main'>
       <div className="d-flex flex-column align-items-center pt-4">
         <h4>WHO WE ARE</h4>
         

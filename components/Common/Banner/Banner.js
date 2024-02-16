@@ -6,10 +6,12 @@ import { motion } from "framer-motion";
 import { useRef } from "react";
 import ReusableButton from "./hoverbuttonclass";
 import { usePathname } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const Banner = ({ heading, subHeading, text, img }) => {
   const pathname = usePathname();
   let route = pathname.split("/");
+  const router = useRouter()
   
   console.log(route);
   if(route[route.length-1]==""){
@@ -17,13 +19,13 @@ const Banner = ({ heading, subHeading, text, img }) => {
   }
   const btnRef = useRef(null);
 
-  const handleMouseMove = (e) => {
-    const x = e.pageX - btnRef.current.offsetLeft;
-    const y = e.pageY - btnRef.current.offsetTop;
+  // const handleMouseMove = (e) => {
+  //   const x = e.pageX - btnRef.current.offsetLeft;
+  //   const y = e.pageY - btnRef.current.offsetTop;
 
-    btnRef.current.style.setProperty("--x", `${x}px`);
-    btnRef.current.style.setProperty("--y", `${y}px`);
-  };
+  //   btnRef.current.style.setProperty("--x", `${x}px`);
+  //   btnRef.current.style.setProperty("--y", `${y}px`);
+  // };
   return (
     
     <div className="banner_section_main">
@@ -86,7 +88,7 @@ const Banner = ({ heading, subHeading, text, img }) => {
             </motion.button> */}
             <ReusableButton
               buttonText="READ MORE"
-              handleMouseMove={handleMouseMove}
+              handleMouseMove={() => router.push("#who_we_are_main")}
               btnRef={btnRef}
               additionalClasses="your-custom-classes"
             />

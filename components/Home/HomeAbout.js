@@ -6,17 +6,19 @@ import Image from "next/image";
 import ReusableButton from "../Common/Banner/hoverbuttonclass";
 import { useRef } from "react";
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 const HomeAbout = () => {
   const btnRef = useRef(null);
+  const router = useRouter()
 
-  const handleMouseMove = (e) => {
-    const x = e.pageX - btnRef.current.offsetLeft;
-    const y = e.pageY - btnRef.current.offsetTop;
+  // const handleMouseMove = (e) => {
+  //   const x = e.pageX - btnRef.current.offsetLeft;
+  //   const y = e.pageY - btnRef.current.offsetTop;
 
-    btnRef.current.style.setProperty("--x", `${x}px`);
-    btnRef.current.style.setProperty("--y", `${y}px`);
-  };
+  //   btnRef.current.style.setProperty("--x", `${x}px`);
+  //   btnRef.current.style.setProperty("--y", `${y}px`);
+  // };
   return (
     <div className="home_about_main">
       <motion.div
@@ -81,7 +83,7 @@ const HomeAbout = () => {
               </Row>
               <ReusableButton
                 buttonText="READ MORE"
-                handleMouseMove={handleMouseMove}
+                handleMouseMove={()=> router.push("/about-us")}
                 btnRef={btnRef}
                 additionalClasses="your-custom-classes"
               />

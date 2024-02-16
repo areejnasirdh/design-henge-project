@@ -6,8 +6,10 @@ import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import ReusableButton from "../Common/Banner/hoverbuttonclass";
+import { useRouter } from "next/navigation";
 
 const AboutBanner = () => {
+  const router = useRouter()
   return (
     <div className="contact_banner_section_main">
       <Container fluid className="container-width-2">
@@ -50,6 +52,7 @@ const AboutBanner = () => {
             <ReusableButton
               buttonText="READ MORE"
               additionalClasses="your-custom-classes"
+              onClick={() => router.push("#case-study-products")}
             />
             {/* <div className="contact_banner_heading_line">
               <motion.hr

@@ -20,13 +20,13 @@ import Sidebar from "../Sidebar/Sidebar";
 import MenuBtn from "../../../public/images/menu-btn.png";
 import ReusableButton from "../Banner/hoverbuttonclass";
 import { usePathname } from 'next/navigation'
-
+import { useRouter } from "next/navigation";
 
 const Navbr = () => {
-  const router = () => { };
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const pathname = usePathname()
+  const pathname = usePathname();
   useEffect(() => {
     handleMouseLeave();
   }, [router?.pathname]);
@@ -137,6 +137,7 @@ const Navbr = () => {
                     buttonText="GET IT TOUCH"
                     // handleMouseMove={handleMouseMove}
                     // btnRef={btnRef}
+                    onClick={() => router.push("/contact-us")}
                     additionalClasses="mt-0 nav-btn p-[10px] "
                   />
                 </Nav>

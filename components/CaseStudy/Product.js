@@ -105,7 +105,7 @@ function Product() {
   };
 
   return (
-    <div id="case-study px-3 md:px-10 " className="projects pt-14 pb-6">
+    <div id="case-study-products" className="projects pt-14 pb-6">
         <div className="flex flex-col space-y-20 mx-auto max-w-[120rem] my-5">
           {/* first case study */}
           {cases &&
