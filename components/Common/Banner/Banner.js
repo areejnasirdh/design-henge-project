@@ -89,8 +89,9 @@ const Banner = ({ heading, subHeading, text, img, navigate }) => {
             <ReusableButton
               buttonText="READ MORE"
               onClick={() => router.push(navigate)}
-              // btnRef={btnRef}
-              additionalClasses="your-custom-classes"
+              btnRef={{}}
+              onMouseMove={()=> {}}
+              // additionalClasses="your-custom-classes"
             />
           </Col>
           <Col md={5} className="d-flex justify-content-center">
