@@ -12,10 +12,10 @@ const Banner = ({ heading, subHeading, text, img, navigate }) => {
   const pathname = usePathname();
   let route = pathname.split("/");
   const router = useRouter()
-  
+
   console.log(route);
-  if(route[route.length-1]==""){
-    route=false;
+  if (route[route.length - 1] == "") {
+    route = false;
   }
   const btnRef = useRef(null);
 
@@ -27,12 +27,12 @@ const Banner = ({ heading, subHeading, text, img, navigate }) => {
   //   btnRef.current.style.setProperty("--y", `${y}px`);
   // };
   return (
-    
+
     <div className="banner_section_main">
       <Container fluid className="container-width-2">
         <Row className="items-center py-[10px] px-0">
           <Col md={7}>
-          <motion.h1
+            <motion.h1
               initial={{ y: 200, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{
@@ -40,7 +40,7 @@ const Banner = ({ heading, subHeading, text, img, navigate }) => {
                 delay: "0.3",
               }}
             >
-                  {!route?<img className="agent-image" src="/images/header-description.png"/>:null}
+              {!route ? <img className="agent-image" src="/images/header-description.png" /> : null}
             </motion.h1>
             <motion.h1
               initial={{ y: 200, opacity: 0 }}
@@ -88,15 +88,15 @@ const Banner = ({ heading, subHeading, text, img, navigate }) => {
             </motion.button> */}
             <ReusableButton
               buttonText="READ MORE"
-              onClick={() => router.push(navigate)}
+              onClick={(e) => { e.preventDefault(); router.push(navigate) }}
               btnRef={{}}
-              onMouseMove={()=> {}}
-              // additionalClasses="your-custom-classes"
+              onMouseMove={() => { }}
+            // additionalClasses="your-custom-classes"
             />
           </Col>
           <Col md={5} className="d-flex justify-content-center">
             {/* <div className="banner_img_box"> */}
-            <Image src={img} className="banner-img"/>
+            <Image src={img} className="banner-img" />
             {/* </div> */}
           </Col>
         </Row>
