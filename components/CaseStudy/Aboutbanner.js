@@ -7,6 +7,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import ReusableButton from "../Common/Banner/hoverbuttonclass";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const AboutBanner = () => {
   const router = useRouter()
@@ -48,12 +49,13 @@ const AboutBanner = () => {
             >
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
             </motion.p>
-
-            <ReusableButton
-              buttonText="READ MORE"
-              additionalClasses="your-custom-classes"
-              onClick={() => router.push("#case-study-products")}
-            />
+            <Link href={"#case-study-products"}>
+              <ReusableButton
+                buttonText="READ MORE"
+              // additionalClasses="your-custom-classes"
+              // onClick={() => router.push("#case-study-products")}
+              />
+            </Link>
             {/* <div className="contact_banner_heading_line">
               <motion.hr
                 initial={{ y: 200, opacity: 0 }}
@@ -81,7 +83,7 @@ const AboutBanner = () => {
             className="d-flex justify-content-center align-items-center mt-4"
           >
             {/* <div className="banner_img_box"> */}
-            <Image src={BannerImg} className="banner-img"/>
+            <Image src={BannerImg} className="banner-img" />
             {/* </div> */}
           </Col>
         </Row>

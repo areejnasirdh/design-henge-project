@@ -7,6 +7,7 @@ import { useRef } from "react";
 import ReusableButton from "./hoverbuttonclass";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const Banner = ({ heading, subHeading, text, img, navigate }) => {
   const pathname = usePathname();
@@ -86,13 +87,15 @@ const Banner = ({ heading, subHeading, text, img, navigate }) => {
             >
               <span>READ MORE</span>
             </motion.button> */}
-            <ReusableButton
-              buttonText="READ MORE"
-              onClick={(e) => { e.preventDefault(); router.push(navigate) }}
-              btnRef={{}}
-              onMouseMove={() => { }}
-            // additionalClasses="your-custom-classes"
-            />
+            <Link href={navigate}>
+              <ReusableButton
+                buttonText="READ MORE"
+              // onClick={(e) => { e.preventDefault(); router.push(navigate) }}
+              // btnRef={{}}
+              // onMouseMove={() => { }}
+              // additionalClasses="your-custom-classes"
+              />
+            </Link>
           </Col>
           <Col md={5} className="d-flex justify-content-center">
             {/* <div className="banner_img_box"> */}
