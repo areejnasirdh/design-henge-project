@@ -7,7 +7,7 @@ const BannerSection = ({ bannerClass, children }) => {
     <div className={`case_study_banner_main ${bannerClass}`}>
       <Container fluid className="container-width-2">
         <Row>
-          <Col md={5}>{children}</Col>
+          <Col md={7}>{children}</Col>
         </Row>
       </Container>
     </div>

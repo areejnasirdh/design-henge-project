@@ -60,7 +60,7 @@
 }
 
 .digital_demand_main h2 {
-  font-size: 70px;
+  font-size: 90px;
   font-family: "Bebas Neue Bold";
   color: #0097d9;
 }
@@ -161,6 +161,9 @@
   .services_banner_section_main p{
     color: black;
   }
+  .when_we_started_main h2{
+    font-size: 55px;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -170,11 +173,23 @@
 }
 
 @media screen and (max-width: 768px) {
-  .services_banner_section_main h1 {
+  /* .services_banner_section_main h1 {
+    font-size: 45px;
+  } */
+  .solutions_provide h1 {
     font-size: 45px;
   }
-  .solutions_provide h1 {
-    font-size: 40px;
+}
+
+@media (max-width: 1024px){
+  .digital_demand_main h2 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 1250px){
+  .services_banner_section_main p {
+    font-size: 15px;
   }
 }
 
@@ -187,16 +202,12 @@
     /* object-fit: cover; */
   }
 
-  .services_banner_section_main h1 {
+  /* .services_banner_section_main h1 {
     font-size: 76px;
-  }
+  } */
 
   .services_banner_section_main h2 {
     font-size: 60px;
-  }
-
-  .services_banner_section_main p {
-    font-size: 20px;
   }
 
   .solutions_provide h1 {
@@ -210,7 +221,14 @@
 
 @media (max-width: 439px) {
   .solutions_provide h1 {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 20px !important;
+  }
+  .digital_demand_main h2 {
+    font-size: 42px;
+  }
+
+  .when_we_started_main h2{
+    font-size: 42px;
   }
 }

@@ -10,7 +10,8 @@
   -webkit-text-stroke: 2px black;
   /* For Webkit-based browsers */
   text-stroke: 2px black;
-  text-shadow: -4px 4px black;;
+  text-shadow: -4px 4px black;
+  ;
 }
 
 .contact_banner_section_main h1:nth-child(1) {
@@ -75,9 +76,9 @@
   background-size: cover;
 }
 
-.home_about_main h3, 
+.home_about_main h3,
 .home_blog_main h3 {
-  font-size: 60px;
+  font-size: 70px;
   font-family: "Zurich XBlk BT";
 
   font-weight: 800;
@@ -91,6 +92,7 @@
 .home_about_main h4,
 .home_blog_main h4 {
   font-size: 90px;
+  text-align: center;
   font-family: "Bebas Neue";
   /* font-weight: 600; */
   color: #0097d9;
@@ -185,7 +187,7 @@
   font-size: 14px;
 }
 
-.home_contact_form input::placeholder{
+.home_contact_form input::placeholder {
   color: rgb(100, 98, 98);
 }
 
@@ -229,7 +231,7 @@
   padding-top: 60px;
   text-align: center;
   color: #ededed !important;
-  font-size: calc(3.375rem + 1.5vw);
+  font-size: 70px;
   font-family: "Zurich XBlk BT";
 }
 
@@ -404,7 +406,8 @@
 .clients_main img {
   height: 200px;
 }
-.clients_main img{
+
+.clients_main img {
   height: 100% !important;
   object-fit: contain;
 }
@@ -425,6 +428,12 @@
   width: 100%;
 }
 
+@media (max-width: 1250px){
+  .contact_banner_section_main p{
+    font-size: 15px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .contact_banner_section_main h1:nth-child(2) {
     font-size: 55px;
@@ -443,18 +452,33 @@
   .contact-info h6 {
     font-size: 10px;
   }
-}
 
-@media (max-width: 990px){
+  .home_contact_form h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .home_about_main h3,
+  .home_blog_main h3, .home_services_main>div h1, .process-heading, .clients_main h3, .home_page_main h2 {
+    font-size: 60px;
+    letter-spacing: 0px;
+    text-shadow: -6px 5px #0097d9;
+}}
+
+@media (max-width: 990px) {
   .home_contact_form h3 {
     font-size: 30px;
+    line-height: 40px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .contact_banner_section_main h1:nth-child(1) {
-    font-size: 55px;
+  .clients_main h3{
+    font-size: 50px;
   }
+  /* .contact_banner_section_main h1:nth-child(1) {
+    font-size: 55px;
+  } */
 
   .contact_banner_section_main h1:nth-child(2) {
     font-size: 55px;
@@ -466,9 +490,13 @@
     margin-top: 32px;
   }
 
-  .case_study_banner_main h1:nth-child(1) {
-    font-size: 50px;
+  .home_contact_form h3 {
+    line-height: unset;
   }
+
+  /* .case_study_banner_main h1:nth-child(1) {
+    font-size: 50px;
+  } */
 
   .info-box {
     display: flex;
@@ -494,15 +522,25 @@
     padding: 0px 0px 0px 0px;
   }
 
-  .home_about_main h4 {
+  .home_about_main h4,
+  .home_blog_main h4, .who_we_are_main h4 {
     font-size: 42px;
     padding-top: 0px;
   }
 
-  .home_blog_main h4 {
+  .home_about_main h3,
+  .home_blog_main h3, .home_services_main>div h1, .process-heading, .clients_main h3, .home_page_main h2 {
+    font-size: 45px;
+    letter-spacing: 1px;
+    text-shadow: -6px 4px #0097d9;
+  }
+
+
+
+  /* .home_blog_main h4 {
     font-size: 50px;
     padding-top: 0px;
-  }
+  } */
 
   .home_about_details img {
     width: 500px;
@@ -516,7 +554,7 @@
 
   .home_services_main>div h1 {
     padding-top: 25px;
-    font-size: 50px !important;
+    /* font-size: 50px !important; */
     line-height: 1;
   }
 
@@ -526,7 +564,7 @@
   }
 
   .clients_main h4 {
-    font-size: 54px;
+    font-size: 42px;
     padding-top: 5px;
     line-height: 1;
   }
@@ -548,18 +586,18 @@
 }
 
 @media screen and (min-width: 1400px) and (max-width: 2560px) {
-  .contact_banner_section_main h1:nth-child(1) {
+  /* .contact_banner_section_main h1:nth-child(1) {
     font-size: 75px;
-  }
+  } */
 
   .contact_banner_section_main h1:nth-child(2) {
     font-size: 105px;
 
   }
 
-  .contact_banner_section_main p {
+  /* .contact_banner_section_main p {
     font-size: 18px;
-  }
+  } */
 
   .contact_banner_section_main img {
     width: 600px;
@@ -590,19 +628,23 @@
   }
 
   .case_study_banner_main p {
-    font-size: 8px;
+    font-size: 15px;
   }
 
-  .contact_banner_section_main p {
+  /* .contact_banner_section_main p {
     font-size: 7px;
-  }
+  } */
 
-  .contact_banner_section_main h1:nth-child(1) {
+  /* .contact_banner_section_main h1:nth-child(1) {
     font-size: 36px;
-  }
+  } */
 
   .contact_banner_section_main h1:nth-child(2) {
     font-size: 50px;
+  }
+  .clients_main h4, .home_about_main h4, .home_blog_main h4, .who_we_are_main h4{
+    font-size: 55px;
+    line-height: 50px;
   }
 }
 
@@ -614,8 +656,11 @@
   }
 }
 
-@media (max-width: 500px){
-  .home_services_main>div h1 {
-    font-size: 30px !important;
+@media (max-width: 400px) {
+  .home_about_main h3,
+  .home_blog_main h3, .home_services_main>div h1, .process-heading, .clients_main h3, .home_page_main h2 {
+    font-size: 35px;
+    letter-spacing: unset;
+    text-shadow: -4px 3px #0097d9;
   }
 }

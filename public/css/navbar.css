@@ -328,6 +328,9 @@
   .hamburger{
     display: block;
   }
+  .overlay .nav-link{
+    font-size: 20px !important ;
+  }
 }
 @media screen and (max-height: 450px) {
   .overlay a {
@@ -472,9 +475,6 @@
 }
 
 @media (max-width: 486px) {
-  .overlay-content {
-    margin: 30px 0 0 30px;
-  }
   .overlay-dropdown-container {
     width: 100%;
   }

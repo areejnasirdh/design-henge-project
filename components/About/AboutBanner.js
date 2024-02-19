@@ -39,6 +39,7 @@ const AboutBanner = () => {
       text="Providing excellence in custom software and digital marketing services.. Providing excellence in custom 
       software and digital marketing services."
       img={BannerImg}
+      navigate="#who_we_are_main"
     />
   );
 };

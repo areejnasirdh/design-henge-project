@@ -217,7 +217,7 @@
 
 .overview_details h5 {
   color: #0097d9;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 /********* Wher it started************** */
@@ -234,7 +234,7 @@
 .where_it_started_main h1 {
   color: white;
   font-family: "Bebas Neue Bold";
-  font-size: 70px;
+  font-size: 55px;
   margin: 20px 0px !important;
 }
 
@@ -335,7 +335,7 @@
 }
 
 .home_page_main h2 {
-  font-size: 60px;
+  font-size: 70px;
   font-family: "Zurich XBlk BT";
   font-weight: 800;
   color: #ededed;
@@ -365,6 +365,12 @@
   font-weight: 400;
 }
 
+@media (max-width: 1440px){
+  .case_study_banner_main h1:nth-child(2){
+    font-size: 73px;
+  }
+}
+
 @media screen and (min-width: 1400px) and (max-width: 1600px) {
   .case_study_main {
     min-height: 750px;
@@ -391,30 +397,73 @@
   .case_study_main {
     min-height: 800px;
   }
-
+/* 
   .case_study_banner_main h1:nth-child(1) {
     font-size: 83px;
 
     padding-top: 30px;
-    /* text-shadow: 2px 2px 0px  #000, -2px -2px 0px  #000, 2px -2px 0px  #000, -2px 2px 0px  #000; */
-  }
+    text-shadow: 2px 2px 0px  #000, -2px -2px 0px  #000, 2px -2px 0px  #000, -2px 2px 0px  #000;
+  } */
 
-  .case_study_banner_main h1:nth-child(2) {
+  /* .case_study_banner_main h1:nth-child(2) {
     font-size: 103px;
-  }
+  } */
 
-  .case_study_banner_main p {
+  /* .case_study_banner_main p {
     margin-top: 10px;
     font-size: 18px;
-  }
+  } */
 
   .case_study_banner_main .row>div {
     padding-top: 6rem;
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 1250px){
+  .case_study_banner_main p{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1024px){
+  .case_study_banner_main h1:nth-child(2){
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px){
   img.object-contain.md\:object-cover.w-\[50\%\].pr-3.overflow-hidden.lg\:ml-\[-20px\]{
     transform: none !important;
+  }
+  .social_media_main h2{
+    font-size: 48px;
+  }
+  .overview_details h5{
+    font-size: 20px;
+  }
+  .where_it_started_main h1{
+    font-size: 42px;
+  }
+  .visual_website_design h1{
+    font-size: 64px;
+  }
+  .yummy_girlo_main h3{
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 500px){
+  .case_study_banner_main h1:nth-child(2){
+    font-size: 40px;
+  }
+  .social_media_main h2{
+    font-size: 35px;
+    letter-spacing: normal ;
+  }
+  .where_it_started_main h1{
+    font-size: 35px;
+  }
+  .visual_website_design h1{
+    font-size: 40px;
   }
 }

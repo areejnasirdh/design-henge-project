@@ -8,7 +8,7 @@ import ReusableButton from "./hoverbuttonclass";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
 
-const Banner = ({ heading, subHeading, text, img }) => {
+const Banner = ({ heading, subHeading, text, img, navigate }) => {
   const pathname = usePathname();
   let route = pathname.split("/");
   const router = useRouter()
@@ -88,8 +88,8 @@ const Banner = ({ heading, subHeading, text, img }) => {
             </motion.button> */}
             <ReusableButton
               buttonText="READ MORE"
-              handleMouseMove={() => router.push("#who_we_are_main")}
-              btnRef={btnRef}
+              onClick={() => router.push(navigate)}
+              // btnRef={btnRef}
               additionalClasses="your-custom-classes"
             />
           </Col>

@@ -49,11 +49,11 @@ function Process() {
                 }}
                 className="overflow-hidden flex flex-col md:flex-row space-y-3 md:space-y-0 md:items-center md:space-x-3 lg:space-x-8 xl:space-x-5"
               >
-                <h1 className="text-blue-primary text-8xl lg:text-[10rem] xl:text-[10rem] font-bebas stroke">
+                <h1 className="text-blue-primary text-8xl lg:text-[8rem] xl:text-[10rem] font-bebas stroke">
                   01
                 </h1>
-                <div className="flex flex-col space-y-5">
-                  <h3 className="font-medium uppercase text-3xl lg:text-[45px] font-bebas">
+                <div className="flex flex-col space-y-0 lg:space-y-5">
+                  <h3 className="font-medium uppercase text-3xl md:text-[25px] lg:text-[30px] xl:text-[45px] font-bebas">
                     Ideas, Brainstorm, Strategize
                   </h3>
                   <p className="text-sm md:text-xs lg:text-sm font-light max-w-[455px]">
@@ -77,11 +77,11 @@ function Process() {
                 }}
                 className="overflow-hidden flex flex-col md:flex-row-reverse space-y-3 md:space-y-0 md:items-center lg:mr-[130px] "
               >
-                <h1 className="text-blue-primary text-9xl lg:text-[10rem] xl:text-[10rem] font-bebas stroke">
+                <h1 className="text-blue-primary text-8xl lg:text-[8rem] xl:text-[10rem] font-bebas stroke ml-2">
                   02
                 </h1>
-                <div className="flex flex-col space-y-5">
-                  <h3 className="font-medium uppercase text-3xl lg:text-[45px] font-bebas">
+                <div className="flex flex-col space-y-0 lg:space-y-5">
+                  <h3 className="font-medium uppercase text-3xl lg:text-[30px] xl:text-[45px] font-bebas">
                     Content, designing, tech
                   </h3>
                   <p className="text-sm md:text-xs lg:text-sm font-light max-w-[455px]">
@@ -105,11 +105,11 @@ function Process() {
                 }}
                 className="overflow-hidden flex flex-col md:flex-row space-y-3 md:space-y-0 md:items-center md:space-x-3 lg:space-x-8 xl:space-x-5"
               >
-                <h1 className="text-blue-primary text-9xl lg:text-[10rem] xl:text-[10rem] font-bebas stroke">
+                <h1 className="text-blue-primary text-8xl lg:text-[8rem] xl:text-[10rem] font-bebas stroke">
                   03
                 </h1>
-                <div className="flex flex-col space-y-5">
-                  <h3 className="font-medium uppercase text-3xl lg:text-[45px] font-bebas">
+                <div className="flex flex-col space-y-0 lg:space-y-5">
+                  <h3 className="font-medium uppercase text-3xl lg:text-[30px] xl:text-[45px] font-bebas">
                     perform, experience, examine
                   </h3>
                   <p className="text-sm md:text-xs lg:text-sm font-light max-w-[455px]">

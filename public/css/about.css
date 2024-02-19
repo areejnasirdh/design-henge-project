@@ -60,7 +60,7 @@
 }
 
 .who_we_are_main h4 {
-  font-size: 70px;
+  font-size: 90px;
   font-family: "Bebas Neue Bold";
   /* font-weight: 600; */
   color: #0097d9;
@@ -79,7 +79,7 @@
 
 .who_we_are_details h6 {
   color: #0097d9;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .who_we_are_details h5 {
@@ -87,7 +87,7 @@
 }
 
 .who_we_are_details p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
 }
 
@@ -104,7 +104,7 @@
   width: 100%;
   padding-top: 60px;
   color: #ededed;
-  font-size: 68px;
+  font-size: 60px;
   font-family: "Zurich XBlk BT";
 }
 
@@ -180,9 +180,9 @@
     height: auto;
   }
 
-  .contact_banner_section_main h1:nth-child(1) {
+  /* .contact_banner_section_main h1:nth-child(1) {
     margin-top: 95px;
-  }
+  } */
 
   .about_banner_section_main h1:nth-child(1) {
     font-size: 50px;
@@ -231,13 +231,13 @@
 }
 
 @media screen and (min-width:1400px) and (max-width:2560px) {
-  .contact_banner_section_main h1:nth-child(1) {
-    margin-top: 75px;
-    font-size: 89px;
-  }
 
   .contact_banner_section_main h1:nth-child(2) {
     font-size: 114px;
+  }
+
+  .acheivements_main h1{
+    font-size: 70px;
   }
 }
 
@@ -248,6 +248,13 @@
 }
 
 @media (max-width: 439px){
+  .acheivements_main h1 {
+    padding-top: 30px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 321px){
   .acheivements_main h1 {
     padding-top: 30px;
     font-size: 30px;

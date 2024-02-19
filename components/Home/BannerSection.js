@@ -9,6 +9,7 @@ const BannerSection = () => {
       subHeading="Creating Experiences. Transforming."
       text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna."
       img={BannerImg}
+      navigate="/services"
     />
   );
 };

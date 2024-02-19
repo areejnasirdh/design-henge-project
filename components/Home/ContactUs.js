@@ -25,21 +25,21 @@ function ContactUs() {
   const pathname = usePathname();
   const route = pathname.split("/");
 
-  const handleMouseMove = (e) => {
-    const x = e.pageX - btnRef.current.offsetLeft;
-    const y = e.pageY - btnRef.current.offsetTop;
+  // const handleMouseMove = (e) => {
+  //   const x = e.pageX - btnRef.current.offsetLeft;
+  //   const y = e.pageY - btnRef.current.offsetTop;
 
-    btnRef.current.style.setProperty("--x", `${x}px`);
-    btnRef.current.style.setProperty("--y", `${y}px`);
-  };
+  //   btnRef.current.style.setProperty("--x", `${x}px`);
+  //   btnRef.current.style.setProperty("--y", `${y}px`);
+  // };
 
-  const handleMouseMovebutton = (e) => {
-    const x = e.pageX - btnRef.current.offsetLeft;
-    const y = e.pageY - btnRef.current.offsetTop;
+  // const handleMouseMovebutton = (e) => {
+  //   const x = e.pageX - btnRef.current.offsetLeft;
+  //   const y = e.pageY - btnRef.current.offsetTop;
 
-    btnRef.current.style.setProperty("--x", `${x}px`);
-    btnRef.current.style.setProperty("--y", `${y}px`);
-  };
+  //   btnRef.current.style.setProperty("--x", `${x}px`);
+  //   btnRef.current.style.setProperty("--y", `${y}px`);
+  // };
 
   return (
     <>
@@ -71,7 +71,7 @@ function ContactUs() {
               </div>
               {/* form */}
               <div className="d-flex justify-end lg:w-[40%] md:w-[50%]">
-                <div className="home_contact_form w-full md:w-[29rem] px-8 py-8 lg:pl-10 lg:pr-10 lg:py-10 flex justify-center">
+                <div className="home_contact_form w-full md:w-[29rem] px-6 py-6 lg:pl-10 lg:pr-10 lg:py-10 flex justify-center">
                   <div >
                     <h3>LET'S GET STARTED WITH YOUR BRAND!</h3>
                     <form className="pt-4 pb-3">
@@ -93,8 +93,9 @@ function ContactUs() {
                         <Col>
                           <ReusableButton
                             buttonText="GET IT TOUCH"
-                            handleMouseMove={handleMouseMovebutton}
-                            btnRef={btnRef}
+                            // handleMouseMove={handleMouseMovebutton}
+                            // btnRef={btnRef}
+                            onClick={()=> {}}
                             additionalClasses="your-custom-classes"
                           />
                         </Col>

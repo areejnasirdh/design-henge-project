@@ -116,22 +116,22 @@ function Product() {
                   style={{
                     overflow: "hidden",
                   }}
-                  className={
-                    i % 2 === 0
-                      ? "flex justify-between items-center w-full"
-                      : "flex flex-col space-y-4 md:space-y-0 md:flex-row-reverse md:items-center w-full"
-                  }
+                  className={`flex-col md:flex-row w-full flex justify-between items-center
+                   ${ i % 2 === 0
+                    ? ""
+                    : "md:flex-row-reverse"}
+                 ` }
                 >
                   <motion.img
                     src={item.image}
                     width={700}
                     height={700}
                     alt=""
-                    className={`object-contain md:object-cover w-[50%] pr-3 overflow-hidden ${i % 2 === 0? "lg:ml-[-20px]": "lg:mr-[-25px]"}`}
+                    className={`object-contain md:object-cover w-[100%] md:w-[50%] pr-3 overflow-hidden ${i % 2 === 0? "lg:ml-[-20px]": "lg:mr-[-25px]"}`}
                     initial={{
                       opacity: 0,
                       scale: 1,
-                      x: i % 2 === 0 ? -400 : 400,
+                      x: i % 2 === 0 ? 400 : -400,
                     }}
                     whileInView={{ opacity: 1, scale: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
@@ -141,11 +141,11 @@ function Product() {
                     initial={{
                       opacity: 0,
                       scale: 1,
-                      x: i % 2 === 0 ? 400 : -400,
+                      x: i % 2 === 0 ? -400 : 400,
                     }}
                     whileInView={{ opacity: 1, scale: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
-                    className={`flex flex-col space-y-4 md:space-y-2 lg:space-y-4 overflow-hidden md:w-[50%] mx-5 ${
+                    className={`flex flex-col space-y-4 md:space-y-2 lg:space-y-4 overflow-hidden md:w-[50%] mx-5 mt-4 ${
                       i % 2 === 0
                         ? "px-3 md:pl-0 ml-10 w-full"
                         : "pr-3 md:pr-0 pl-[15px] md:pl-[60px] 2xl:pl-28 w-full"

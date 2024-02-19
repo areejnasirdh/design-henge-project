@@ -40,7 +40,7 @@ function Services() {
             {/* </div> */}
             <p className="pt-4 font-light">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
-              volutpat <br /> turpis leo diam sapien Auctor odioodi duist.
+              volutpat turpis leo diam sapien Auctor odioodi duist.
             </p>
           </div>
 

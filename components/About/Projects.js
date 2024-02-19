@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className="about_projects_main">
       <Container fluid className="container-width-2">
-        <Row className="mt-3 justify-center">
+        <Row className="mt-3 justify-center items-center">
           <Col xl={6} lg={5}>
             <Row className="gx-0 mb-4 pb-2">
               <Col>
