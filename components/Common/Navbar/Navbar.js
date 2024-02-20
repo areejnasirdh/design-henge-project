@@ -109,7 +109,7 @@ const Navbr = () => {
                     href="/case-study"
                     // onMouseEnter={() => handleMouseLeave()}
                     className={
-                      (pathname === "/case-study" || pathname === "/case-study/Zego" || pathname === "/case-study/Victek" || pathname === "/case-study/yummegurlo") ? "nav-active relative p-4" : ""
+                      (pathname === "/case-study" || pathname === "/case-study/Zego" || pathname === "/case-study/Victek" || pathname === "/case-study/yummegurlo" || pathname === "/case-study/BookLover" || pathname === "/case-study/DreamShot" || pathname === "/case-study/orange-county" || pathname === "/case-study/Power_atm" || pathname === "/case-study/Speakable") ? "nav-active relative p-4" : ""
                     }
                   >
                     Case study
@@ -117,6 +117,11 @@ const Navbr = () => {
                     {pathname === "/case-study/Victek" && <SVGimage />}
                     {pathname === "/case-study/yummegurlo" && <SVGimage />}
                     {pathname === "/case-study/Zego" && <SVGimage />}
+                    {pathname === "/case-study/BookLover" && <SVGimage />}
+                    {pathname === "/case-study/DreamShot" && <SVGimage />}
+                    {pathname === "/case-study/orange-county" && <SVGimage />}
+                    {pathname === "/case-study/Power_atm" && <SVGimage />}
+                    {pathname === "/case-study/Speakable" && <SVGimage />}
                   </Link>
                   <Link
                     href="/contact-us"

@@ -148,7 +148,7 @@
 
 .overview_details_orange p {
   font-weight: 300;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .overview_details_orange .row>div:nth-child(1) p {
@@ -215,7 +215,7 @@
   font-size: 15px;
 }
 
-.overview_details h5 {
+.overview_details h5, .overview_details_orange h5 {
   color: #0097d9;
   font-size: 24px;
 }
@@ -438,7 +438,7 @@
   .social_media_main h2{
     font-size: 48px;
   }
-  .overview_details h5{
+  .overview_details h5, .overview_details_orange h5{
     font-size: 20px;
   }
   .where_it_started_main h1{
