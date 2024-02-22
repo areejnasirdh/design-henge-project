@@ -1,0 +1,47 @@
+.blog-main{
+    width: 100vw;
+    max-width: 100%;
+    background-image: url("../images/about_bg.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+button.btn.rounded-none.hover\:text-black.bg-\[FD022C\].md\:text-\[14px\].lg\:text-\[16px\].xl\:text-\[18px\].text-white.border.border-black.w-max.px-6.py-\[0\.6rem\].lg\:px-5.lg\:py-\[16px\].shadow-\[10px_9px_0px_1px_\#111\].your-custom-classes{
+    margin-top: 10px !important;
+}
+  
+  .down-arrows .scroll-arrow {
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    border-right: 2px solid gray;
+    border-bottom: 5px solid gray;
+    border-right: 5px solid gray;
+    animation: arrow-wave 1s infinite;
+    animation-direction: alternate;
+    border-radius: 3px;
+  }
+  
+ .down-arrows .scroll-arrow:nth-child(1) {
+    animation-delay: calc( 0.1s * 1);
+  }
+  
+ .down-arrows .scroll-arrow:nth-child(2) {
+    animation-delay: calc( 0.1s * 2);
+  }
+  
+ .down-arrows .scroll-arrow:nth-child(3) {
+    animation-delay: calc( 0.1s * 3);
+  }
+  
+  @keyframes arrow-wave {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

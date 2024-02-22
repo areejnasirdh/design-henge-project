@@ -80,6 +80,15 @@ export default function Footer() {
                 CONTACT US
               </a>
             </div>
+            <div className="mt-3">
+              <a
+                href="/blog"
+                target="__blank"
+                className="text-sm font-light text-gray-200"
+              >
+                BLOG
+              </a>
+            </div>
             {/* </div> */}
           </div>
           <div className="min-w-[250px] mr-4 mt-4">

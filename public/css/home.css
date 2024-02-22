@@ -88,7 +88,7 @@ h1.font-bebas.uppercase {
 }
 
 .home_about_main h3,
-.home_blog_main h3 {
+.home_blog_main h3, .blog-main h3 {
   font-size: 70px;
   font-family: "Zurich XBlk BT";
 
@@ -548,7 +548,7 @@ h1.font-bebas.uppercase {
   }
 
   .home_about_main h3,
-  .home_blog_main h3 {
+  .home_blog_main h3, .blog-main h3 {
     font-size: 60px;
   }
 }
