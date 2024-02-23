@@ -83,6 +83,20 @@ const Clients = () => {
                       alt=""
                       className="mx-auto 2xl:w-32"
                     />
+                     <Image
+                      src="/images/client-img9.png"
+                      width={100}
+                      height={100}
+                      alt=""
+                      className="mx-auto 2xl:w-32"
+                    />
+                     <Image
+                      src="/images/client-img10.png"
+                      width={100}
+                      height={100}
+                      alt=""
+                      className="mx-auto 2xl:w-32"
+                    />
                   </div>
                 </Marquee>
                 {/* <div className="absolute bottom-0 z-10  md:bottom-[29px] right-0 bg-gradient-to-l from-white to-transparent  w-36 md:w-[10rem] h-[8rem] lg:w-[14rem] 2xl:w-[18rem] 2xl:h-[10rem]" /> */}
@@ -94,56 +108,70 @@ const Clients = () => {
                 <Marquee direction="left" autoFill>
                   <div className="flex items-center gap-6 md:gap-16 pt-10 px-10 -mt-10 h-[150px]">
                   <Image
-                      src="/images/client-img1.png"
+                      src="/images/client-img11.png"
                       width={70}
                       height={70}
                       alt=""
                       className="mx-auto 2xl:w-16"
                     />
                     <Image
-                      src="/images/client-img2.png"
+                      src="/images/client-img12.png"
                       width={100}
                       height={100}
                       alt=""
                       className="mx-auto 2xl:w-32"
                     />
                     <Image
-                      src="/images/client-img3.png"
+                      src="/images/client-img13.png"
                       width={100}
                       height={100}
                       alt=""
                       className="mx-auto 2xl:w-32"
                     />
                     <Image
-                      src="/images/client-img4.png"
+                      src="/images/client-img14.png"
                       width={100}
                       height={100}
                       alt=""
                       className="mx-auto 2xl:w-40"
                     />
                     <Image
-                      src="/images/client-img5.png"
+                      src="/images/client-img15.png"
                       width={100}
                       height={100}
                       alt=""
                       className="mx-auto 2xl:w-32"
                     />
                     <Image
-                      src="/images/client-img6.png"
+                      src="/images/client-img16.png"
                       width={100}
                       height={100}
                       alt=""
                       className="mx-auto 2xl:w-32"
                     />
                     <Image
-                      src="/images/client-img7.png"
+                      src="/images/client-img17.png"
                       width={100}
                       height={100}
                       alt=""
                       className="mx-auto 2xl:w-32"
                     />
                     <Image
-                      src="/images/client-img8.png"
+                      src="/images/client-img18.png"
+                      width={100}
+                      height={100}
+                      alt=""
+                      className="mx-auto 2xl:w-32"
+                    />
+                     <Image
+                      src="/images/client-img19.png"
+                      width={100}
+                      height={100}
+                      alt=""
+                      className="mx-auto 2xl:w-32"
+                    />
+                     <Image
+                      src="/images/client-img20.png"
                       width={100}
                       height={100}
                       alt=""
