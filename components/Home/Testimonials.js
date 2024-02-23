@@ -14,7 +14,8 @@ const settings = {
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
+  // lazyLoad: true,
   prevArrow: <CustomPrevArrow />,
   nextArrow: <CustomNextArrow />,
   responsive: [
@@ -32,7 +33,7 @@ const settings = {
 const testimonials = [
   {
     testimonial:
-      "Design Henge brought our brand to life with an exceptional logo design. Their attention to detail and creativity exceeded our expectations. Thank you, Design Henge!",
+      "Working with Design Henge was an absolute pleasure. Their team's web design and development expertise resulted in a stunning website that perfectly represents our brand. Highly recommended!",
     name: "Emily Johnson",
     position: "CEO of Stellar Solutions",
   },

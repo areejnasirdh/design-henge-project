@@ -14,23 +14,22 @@ function CaseStudy() {
   const [cases, setcases] = useState([
     {
       image: "/images/caseStudy/Case-study-section-1.webp",
-      heading: "Yumme Girl O Skin",
-      description:
-        "Design Henge collaborated with Yumme Girl O Skin, a culinary startup, to develop a logo embodying their brand identity. A vibrant and contemporary logo was crafted through meticulous research, creative exploration, and iterative feedback, reflecting the brand's passion for authentic flavors and culinary artistry.",
+      heading: "YUMME GIRL O SKIN",
+      description:"Design Henge partnered with Yumme Girl O Skin, a dynamic skincare startup, to create a logo that captures their unique brand essence. Through extensive research, creative exploration, and iterative feedback, we crafted a vibrant and contemporary logo that reflects their passion for authentic artistry.",
       link: "/case-study/yummegurlo",
     },
     {
       image: "/images/caseStudy/Case-study-section-2.webp",
       heading: "Speakable",
       description:
-        "Design Henge collaborated with Yumme Girl O Skin, a culinary startup, to develop a logo embodying their brand identity. A vibrant and contemporary logo was crafted through meticulous research, creative exploration, and iterative feedback, reflecting the brand's passion for authentic flavors and culinary artistry.",
+        "Speakable and Design Henge worked together to create a responsive website that met all of their requirements. Thanks to our tight collaboration and diligent planning, we were able to create an intuitive platform that highlights their services and skills in a captivating way, guaranteeing that their audience will have an engaging online experience.",
       link: "/case-study/Speakable",
     },
     {
       image: "/images/caseStudy/Case-study-section-3.webp",
       heading: "Orange County",
       description:
-        "Design Henge collaborated with Yumme Girl O Skin, a culinary startup, to develop a logo embodying their brand identity. A vibrant and contemporary logo was crafted through meticulous research, creative exploration, and iterative feedback, reflecting the brand's passion for authentic flavors and culinary artistry.",
+        "Design Henge provided comprehensive content marketing services to an OCEATING. Through targeted content creation and strategic dissemination, we raised awareness and fostered engagement within the community, amplifying the group's impact and support network.",
       link: "/case-study/orange-county",
     },
   ]);

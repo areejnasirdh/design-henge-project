@@ -1,0 +1,134 @@
+.blog-inner{
+    width: 100vw;
+    max-width: 100%;
+    background-image: url("../images/Blog_Inner/nav-back.png");
+    background-size: contain;
+    background-position: top;
+    padding-bottom: 20px;
+}
+
+.blog-inner h2 {
+    font-size: 25px;
+    color: #0097d9;
+    font-family: "Montserrat";
+    margin-top: 20px;
+}
+
+.blog-inner h1 {
+    font-size: 40px;
+    color: black;
+    font-family: "Bebas Neue";
+    margin-top: 20px;
+    max-width: 700px;
+}
+
+.blog-inner p,
+.blog-inner ul li {
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 20px;
+    font-family: "Montserrat";
+}
+
+.blog-inner ul li {
+    position: relative;
+}
+
+.blog-inner ul li::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.blog-inner h3 {
+    font-size: 25px;
+    color: black;
+    font-family: "Bebas Neue";
+    max-width: 700px;
+}
+
+.blog-inner .socials-content h3{
+    margin-right: 10px;
+}
+
+.blog-inner .socials-content a {
+    background-color: white;
+    padding: 4px 8px;
+    border-radius: 20px;
+    border: 1.5px solid #3a2860;
+    text-decoration: none;
+    height: fit-content;
+    font-size: 12px;
+    color: #3a2860;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.blog-inner input {
+    outline: none;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.blog-inner .left-side-text {
+    font-size: 14px !important;
+    color: gray !important;
+    font-weight: 400 ;
+}
+
+.blog-inner h4{
+    font-size: 12px;
+}
+
+.blog-inner .categories-text {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: black !important;
+    padding: 0 !important;
+}
+
+.blog-inner .business-tags{
+    background-color: white;
+    padding: 6px 8px;
+    border-radius: 10px;
+    border: 1.5px solid #3a2860;
+    text-decoration: none;
+    height: fit-content;
+    font-size: 10px;
+    color: #3a2860;
+    margin-right: 10px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.blog-inner hr {
+    color: lightgray;
+}
+
+@media (max-width: 767px) {
+    .blog-inner .socials-content a {
+        margin-top: 10px;
+    }
+    .blog-inner .socials-content h3{
+        margin-top: 10px;
+    }
+    .blog-inner h1{
+        font-size: 32px;
+    }
+    .blog-inner h2{
+        font-size: 20px;
+    }
+}
+@media (max-width: 490px){
+    .blog-inner h2{
+        font-size: 18px;
+    }
+    .blog-inner h1{
+        font-size: 28px;
+    }
+}

@@ -2,9 +2,11 @@
 import Image from "next/image";
 import React, { useRef } from "react";
 import ReusableButton from "../Common/Banner/hoverbuttonclass";
+import { useRouter } from "next/navigation";
 
 function BlogCard({ title, desc, img }) {
   const btnRef = useRef(null);
+  const router = useRouter()
 
   const handleMouseMove = (e) => {
     const x = e.pageX - btnRef.current.offsetLeft;
@@ -43,6 +45,7 @@ function BlogCard({ title, desc, img }) {
         buttonText="READ MORE"
         handleMouseMove={handleMouseMovebutton}
         btnRef={btnRef}
+        onClick={() => router.push("/blog-inner")}
         additionalClasses="your-custom-classes"
       />
     </div>

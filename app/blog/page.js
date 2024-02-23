@@ -4,9 +4,11 @@ import Navbar from "@/components/Common/Navbar/Navbar";
 import Image from "next/image";
 import { useState } from "react";
 import { IoSearchOutline } from "react-icons/io5";
+import { useRouter } from "next/navigation";
 
 const Blog = () => {
     const [loadCard, setloadCard] = useState(9);
+    const router = useRouter();
 
     const blogData = [
         {
@@ -167,7 +169,7 @@ const Blog = () => {
                             <ReusableButton
                                 buttonText="READ FULL BLOG"
                                 // handleMouseMove={handleMouseMovebutton}
-                                // onClick={() => router.push("/blog")}
+                                onClick={() => router.push("/blog-inner")}
                                 // btnRef={btnRef}
                                 additionalClasses="your-custom-classes"
                             />

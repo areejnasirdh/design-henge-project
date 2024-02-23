@@ -758,6 +758,22 @@ h1.font-bebas.uppercase {
   position: absolute;
   bottom: 0;
   left: 0;
+  animation-delay: 1.2s;
+}
+.slick-current .testimonial-container::before {
+  animation: animate 3s linear 1;
+}
+
+@keyframes animate {
+  0%{
+    width: 0;
+  }
+  50%{
+    width: 50%;
+  }
+  100%{
+    width: 100%;
+  }
 }
 
 .testimonial_slider .slick-arrow.slick-prev.custom_slick_prev,

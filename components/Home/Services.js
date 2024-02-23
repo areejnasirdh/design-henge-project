@@ -39,8 +39,7 @@ function Services() {
             </div> */}
             {/* </div> */}
             <p className="pt-4 font-light">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
-              volutpat turpis leo diam sapien Auctor odioodi duist.
+            We are your one-stop solution to all your business misery. Breath a new air into your dying business, let’s walk the talk.
             </p>
           </div>
 

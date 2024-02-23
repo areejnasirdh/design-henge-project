@@ -6,22 +6,22 @@ const SliderContent = [
   {
     icon: "/images/service-logo-designing.png",
     title: "LOGO DESIGNING",
-    subtext: "Creatively appealing and attention grabbing designs that captivate everyone."
+    subtext: "We fuse creativity with strategic insight to craft distinctive visual identities that reflect your brand's essence."
   },
   {
     icon: "/images/service-branding.png",
     title: "Development",
-    subtext: "Coding application for tailored solutions with a multidisciplinary approach."
+    subtext: "We offer tailored solutions across website development, ecommerce store development, web application and more."
   },
-  {
-    icon: "/images/service-branding.png",
-    title: "Mobile Apps",
-    subtext: "Programming futuristic mobile apps that are compatible & optimized for usability."
-  },
+  // {
+  //   icon: "/images/service-branding.png",
+  //   title: "Mobile Apps",
+  //   subtext: "Programming futuristic mobile apps that are compatible & optimized for usability."
+  // },
   {
     icon: "/images/service-designing.png",
     title: "Marketing",
-    subtext: "Spreading the word out in the public to get our clients noticed by the right audience."
+    subtext: "We elicit the insight necessary to have significant effect, based on a thorough grasp of the business."
   }
 ];
 
