@@ -14,7 +14,7 @@ function Process() {
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
               transition={{
-                duration: "0.5",
+                duration: "0.7",
               }}
               className="font-bebas text-5xl sm:text-8xl md:text-6xl xl:text-7xl 2xl:text-[110px] process-heading font-outline-white-1 text-blue-primary text-shadow-blue stroke1"
             >
@@ -37,16 +37,11 @@ function Process() {
             />
             <div className="overflow-hidden flex flex-col space-y-[80px] md:col-span-3 2xl:max-w-4xl">
               <motion.div
-                initial={{
-                  opacity: 0,
-                  scale: 1,
-                  x: -200,
-                }}
-                whileInView={{ opacity: 1, scale: 1, x: 0 }}
-                transition={{
-                  duration: "0.7",
-                  delay: "0.2",
-                }}
+               initial={{ y: 100, opacity: 0 }}
+               whileInView={{ opacity: 1, scale: 1, y: 0 }}
+               transition={{
+                 duration: "0.7",
+               }}
                 className="overflow-hidden flex flex-col md:flex-row space-y-3 md:space-y-0 md:items-center md:space-x-3 lg:space-x-8 xl:space-x-5"
               >
                 <h1 className="text-blue-primary text-8xl lg:text-[8rem] xl:text-[10rem] font-bebas stroke">
@@ -65,16 +60,11 @@ function Process() {
               </motion.div>
 
               <motion.div
-                initial={{
-                  opacity: 0,
-                  scale: 1,
-                  x: 200,
-                }}
-                whileInView={{ opacity: 1, scale: 1, x: 0 }}
-                transition={{
-                  duration: "0.7",
-                  delay: "0.2",
-                }}
+                 initial={{ y: 100, opacity: 0 }}
+                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                 transition={{
+                   duration: "0.7",
+                 }}
                 className="overflow-hidden flex flex-col md:flex-row-reverse space-y-3 md:space-y-0 md:items-center lg:mr-[130px] "
               >
                 <h1 className="text-blue-primary text-8xl lg:text-[8rem] xl:text-[10rem] font-bebas stroke ml-2">
@@ -93,15 +83,10 @@ function Process() {
               </motion.div>
 
               <motion.div
-                initial={{
-                  opacity: 0,
-                  scale: 1,
-                  x: -200,
-                }}
-                whileInView={{ opacity: 1, scale: 1, x: 0 }}
+                initial={{ y: 100, opacity: 0 }}
+                whileInView={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{
                   duration: "0.7",
-                  delay: "0.2",
                 }}
                 className="overflow-hidden flex flex-col md:flex-row space-y-3 md:space-y-0 md:items-center md:space-x-3 lg:space-x-8 xl:space-x-5"
               >

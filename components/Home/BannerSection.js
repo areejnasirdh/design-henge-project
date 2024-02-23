@@ -5,9 +5,9 @@ import Banner from "../Common/Banner/Banner";
 const BannerSection = () => {
   return (
     <Banner
-      heading="Building Brands."
-      subHeading="Creating Experiences. Transforming."
-      text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna."
+      heading="PROPEL YOUR BRANDS."
+      subHeading="TOWARDS SUCCESS WITH DESIGN HENGE."
+      text="We're a digital marketing and branding agency based in Illinois, passionately creating impactful work with a focus on our clients and their success."
       img={BannerImg}
       navigate="/services"
     />

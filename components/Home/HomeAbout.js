@@ -30,7 +30,7 @@ const HomeAbout = () => {
         className="d-flex flex-column align-items-center py-[70px]"
       >
         <h3>ABOUT</h3>
-        <h4>FUTURE ORIENTED AGENCY</h4>
+        <h4>HELPING BRANDS ONLINE</h4>
         {/* <div className="d-flex align-items-center mt-1">
           <div className="w-10 h-1 bg-red-500 mr-2 "></div>
           <p>The best team</p>
@@ -52,15 +52,10 @@ const HomeAbout = () => {
             </Col>
             <Col md={6} className="mt-4 ">
               <h6>
-                We At Qreate Are A Team Of Enthusiasts Who Love To Ideate And
-                Create For You.
+                At Design Henge, we rise by helping others. This has helped us cater numerous clients across the globe and make our mark in the industry.
               </h6>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit
-                diam ullamcorper urna sit quisque tincidunt hendrerit mattis.
-                Dictum lectus magnis phasellus dictumst eu, enim, at id non.
-                Metus diam quis interdum morbi mi velit commodo, malesuada.
-                Velit lacinia donec aliquam nunc volutpat.
+                We helps brands create meaningful and personalized customer experiences for web, social and design in the field of information and technology. Our work shows the commitment we’ve shown over the years of mastering skills and working hand-in-hand with clients to maximize the investment in their online business efforts.
               </p>
               <Row spacingX={3} className="about_vision_and_mission mt-4 pt-3">
                 <Col md={6} className=" pe-4">
@@ -83,7 +78,7 @@ const HomeAbout = () => {
               </Row>
               <ReusableButton
                 buttonText="READ MORE"
-                handleMouseMove={()=> router.push("/about-us")}
+                handleMouseMove={() => router.push("/about-us")}
                 btnRef={btnRef}
                 additionalClasses="your-custom-classes"
               />

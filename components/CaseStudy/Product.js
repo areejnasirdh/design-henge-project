@@ -106,75 +106,79 @@ function Product() {
 
   return (
     <div id="case-study-products" className="projects pt-14 pb-6">
-        <div className="flex flex-col space-y-20 mx-auto max-w-[120rem] my-5">
-          {/* first case study */}
-          {cases &&
-            cases.map((item, i) => {
-              return (
-                <div
-                key={i}
-                  style={{
-                    overflow: "hidden",
-                  }}
-                  className={`flex-col md:flex-row w-full flex justify-between items-center
-                   ${ i % 2 === 0
-                    ? ""
-                    : "md:flex-row-reverse"}
-                 ` }
-                >
-                  <motion.img
-                    src={item.image}
-                    width={700}
-                    height={700}
-                    alt=""
-                    className={`object-contain md:object-cover w-[100%] md:w-[50%] pr-3 overflow-hidden ${i % 2 === 0? "lg:ml-[-20px]": "lg:mr-[-25px]"}`}
-                    initial={{
-                      opacity: 0,
-                      scale: 1,
-                      x: i % 2 === 0 ? 400 : -400,
-                    }}
-                    whileInView={{ opacity: 1, scale: 1, x: 0 }}
-                    transition={{ duration: 0.6 }}
-                  />
+      <div className="flex flex-col space-y-20 mx-auto max-w-[120rem] my-5">
+        {/* first case study */}
+        {cases &&
+          cases.map((item, i) => {
+            return (
+              <motion.div
+              initial={{ y: 100, opacity: 0 }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{
+                duration: "0.7",
+              }}
+              key={i}
+              style={{
+                overflow: "hidden",
+              }}
+              className={`flex-col md:flex-row w-full flex justify-between items-center
+               ${i % 2 === 0
+                  ? ""
+                  : "md:flex-row-reverse"}
+             ` }
+            >
+              <motion.img
+                src={item.image}
+                width={700}
+                height={700}
+                alt=""
+                className={`object-contain md:object-cover w-[100%] md:w-[50%] pr-3 overflow-hidden ${i % 2 === 0 ? "lg:ml-[-25px]" : "lg:mr-[-35px]"}`}
+              // initial={{
+              //   opacity: 0,
+              //   scale: 1,
+              //   x: i % 2 === 0 ? 400 : -400,
+              // }}
+              // whileInView={{ opacity: 1, scale: 1, x: 0 }}
+              // transition={{ duration: 0.6 }}
+              />
 
-                  <motion.div
-                    initial={{
-                      opacity: 0,
-                      scale: 1,
-                      x: i % 2 === 0 ? -400 : 400,
-                    }}
-                    whileInView={{ opacity: 1, scale: 1, x: 0 }}
-                    transition={{ duration: 0.6 }}
-                    className={`flex flex-col space-y-4 md:space-y-2 lg:space-y-4 overflow-hidden md:w-[50%] mx-5 mt-4 ${
-                      i % 2 === 0
-                        ? "px-3 md:pl-0 ml-10 w-full"
-                        : "pr-3 md:pr-0 pl-[15px] md:pl-[60px] 2xl:pl-28 w-full"
-                    }`}
-                  >
-                    <h1 className="text-blue-primary text-8xl md:text-4xl lg:text-6xl xl:text-9xl font-bebas stroke">
-                      0{i + 1}
-                    </h1>
-                    <h2 className="font-semibold uppercase text-3xl md:text-2xl lg:text-[44px] 2xl:text-5xl font-bebas">
-                      {item.heading}
-                    </h2>
-                    <p className="font-light xl:w-4/5 text-[15px]">
-                      {item.description}
-                    </p>
+              <motion.div
+                // initial={{
+                //   opacity: 0,
+                //   scale: 1,
+                //   x: i % 2 === 0 ? -400 : 400,
+                // }}
+                // whileInView={{ opacity: 1, scale: 1, x: 0 }}
+                // transition={{ duration: 0.6 }}
+                className={`flex flex-col space-y-4 pb-4 md:space-y-2 lg:space-y-4 overflow-hidden md:w-[50%] mx-5 mt-4 ${i % 2 === 0
+                    ? "px-3 md:pl-0 ml-10 w-full"
+                    : "pr-3 md:pr-0 pl-[15px] md:pl-[60px] 2xl:pl-28 w-full"
+                  }`}
+              >
+                <h1 className="text-blue-primary text-8xl md:text-4xl lg:text-6xl xl:text-9xl font-bebas stroke">
+                  0{i + 1}
+                </h1>
+                <h2 className="font-semibold uppercase text-3xl md:text-2xl lg:text-[44px] 2xl:text-5xl font-bebas">
+                  {item.heading}
+                </h2>
+                <p className="font-light xl:w-4/5 text-[15px]">
+                  {item.description}
+                </p>
 
-                    <ReusableButton
-                      buttonText="SEE CASE STUDY"
-                      handleMouseMove={handleMouseMovebutton}
-                      btnRef={btnRef}
-                      additionalClasses="your-custom-classes"
-                      type="button"
-                      onClick={() => router.push(item.link)}
-                    />
-                  </motion.div>
-                </div>
-              );
-            })}
-        </div>
+                <ReusableButton
+                  buttonText="SEE CASE STUDY"
+                  handleMouseMove={handleMouseMovebutton}
+                  btnRef={btnRef}
+                  additionalClasses="your-custom-classes"
+                  type="button"
+                  onClick={() => router.push(item.link)}
+                />
+              </motion.div>
+            </motion.div>
+            );
+          })}
       </div>
+    </div>
   );
 }
 

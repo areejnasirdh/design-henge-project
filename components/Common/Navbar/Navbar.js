@@ -21,6 +21,7 @@ import MenuBtn from "../../../public/images/menu-btn.png";
 import ReusableButton from "../Banner/hoverbuttonclass";
 import { usePathname } from 'next/navigation'
 import { useRouter } from "next/navigation";
+import animatedImage from "../../../public/images/2Design-Henge-UI-sircle.gif"
 
 const Navbr = () => {
   const router = useRouter();
@@ -78,60 +79,48 @@ const Navbr = () => {
                 >
                   <Link
                     href="/"
-                    className={pathname === "/" ? "nav-active relative p-4" : ""}
+                    className={`nav-item relative ${pathname === "/" ? "nav-active" : ""}`}
                   // onMouseEnter={() => handleMouseLeave()}
                   >
                     Home
-                    {pathname === "/" && <SVGimage />}
+                    <Image src={animatedImage} className=" h-full absolute nav-hover-image"  resizeMode="contain" />
                   </Link>
+
                   <Link
                     href="/about-us"
-                    className={
-                      pathname === "/about-us" ? "nav-active relative p-4" : ""
-                    }
+                    className={`nav-item relative ${pathname === "/about-us" ? "nav-active" : ""}`}
                   // onMouseEnter={() => handleMouseLeave()}
                   >
                     About Us
-                    {pathname === "/about-us" && <SVGimage />}
+                    <Image src={animatedImage} className="w-full h-full absolute  nav-hover-image " />
                   </Link>
 
                   <Link
                     href="/services"
-                    // onMouseEnter={() => handleMouseLeave()}
-                    className={
-                      pathname === "/services" ? "nav-active relative p-4" : ""
-                    }
+                    className={`nav-item relative ${pathname === "/services" ? "nav-active" : ""}`}
+                  // onMouseEnter={() => handleMouseLeave()}
                   >
                     Services
-                    {pathname === "/services" && <SVGimage />}
+                    <Image src={animatedImage} className="w-full h-full absolute  nav-hover-image " />
                   </Link>
+
                   <Link
                     href="/case-study"
                     // onMouseEnter={() => handleMouseLeave()}
                     className={
-                      (pathname === "/case-study" || pathname === "/case-study/Zego" || pathname === "/case-study/Victek" || pathname === "/case-study/yummegurlo" || pathname === "/case-study/BookLover" || pathname === "/case-study/DreamShot" || pathname === "/case-study/orange-county" || pathname === "/case-study/Power_atm" || pathname === "/case-study/Speakable") ? "nav-active relative p-4" : ""
+                      (pathname === "/case-study" || pathname === "/case-study/Zego" || pathname === "/case-study/Victek" || pathname === "/case-study/yummegurlo" || pathname === "/case-study/BookLover" || pathname === "/case-study/DreamShot" || pathname === "/case-study/orange-county" || pathname === "/case-study/Power_atm" || pathname === "/case-study/Speakable") ? "nav-active relative nav-item" : "relative nav-item"
                     }
                   >
                     Case study
-                    {pathname === "/case-study" && <SVGimage />}
-                    {pathname === "/case-study/Victek" && <SVGimage />}
-                    {pathname === "/case-study/yummegurlo" && <SVGimage />}
-                    {pathname === "/case-study/Zego" && <SVGimage />}
-                    {pathname === "/case-study/BookLover" && <SVGimage />}
-                    {pathname === "/case-study/DreamShot" && <SVGimage />}
-                    {pathname === "/case-study/orange-county" && <SVGimage />}
-                    {pathname === "/case-study/Power_atm" && <SVGimage />}
-                    {pathname === "/case-study/Speakable" && <SVGimage />}
+                    <Image src={animatedImage} className="w-full h-full absolute  nav-hover-image " />
                   </Link>
                   <Link
                     href="/contact-us"
                     // onMouseEnter={() => handleMouseLeave()}
-                    className={
-                      pathname === "/contact-us" ? "nav-active relative p-4" : ""
-                    }
+                    className={`nav-item relative ${pathname === "/contact-us" ? "nav-active" : ""}`}
                   >
                     Contact Us
-                    {pathname === "/contact-us" && <SVGimage />}
+                     <Image src={animatedImage} className="w-full h-full absolute  nav-hover-image " />
                   </Link>
                   <Link
                     href="/contact-us"
