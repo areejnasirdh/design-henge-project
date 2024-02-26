@@ -1,18 +1,19 @@
 import React from "react";
 import Navbar from "@/components/Common/Navbar/Navbar";
 import ContactBanner from "@/components/ContactUs/Banner";
-import ContactDemand from "@/components/ContactUs/InfoSection";
-import Contactform from "@/components/ContactUs/form";
+import Socials from "@/components/Home/Socials";
+import Location from "@/components/ContactUs/Location";
+
 
 const page = () => {
   return (
     <div>
-      <div className="case_study_main yummy_gurlo home_main">
+      <div className="contact-us-page">
         <Navbar />
         <ContactBanner />
       </div>
-      <ContactDemand />
-      <Contactform />
+      <Socials />
+      <Location />
     </div>
   );
 };

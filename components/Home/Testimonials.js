@@ -6,6 +6,7 @@ import Slider from "react-slick";
 import Testimonial from "./Testimonial";
 import { CustomNextArrow, CustomPrevArrow } from "./CustomSliderArrows";
 import { Container } from "react-bootstrap";
+import { usePathname } from "next/navigation";
 
 const settings = {
   dots: false,
@@ -52,43 +53,32 @@ const testimonials = [
 ];
 
 function Testimonials() {
-  return (
-    <div className="testimonials py-[100px]">
-      <Container fluid className="max-w-[1200px]">
+  const pathname = usePathname();
+  const route = pathname.split("/");
+  return <>
+    {!route.includes("contact-us") && (
+      <div className="testimonials py-[100px]">
+        <Container fluid className="max-w-[1200px]">
 
-      <div className="relative overflow-hidden flex flex-col justify-center  mx-auto max-w-[90rem] space-y-3 ">
-        {/* <div className=" flex flex-col text-center">
-          <h1 className="lg:col-start-3 lg:col-end-5 whitespace-nowrap font-bebas text-6xl lg:text-7xl xl:text-[5rem] 2xl:text-8xl font-outline-white-1 text-blue-primary stroke1">
-            WHAT THEY SAY
-          </h1>
-
-          <div className="flex justify-center items-center ">
-            <div className="border-t-4 border-red-primary w-5 lg:w-10"></div>
-            <p className="font-light text-[14px]">
-              A variety of creative capabilities under one roof
-            </p>
+          <div className="relative overflow-hidden flex flex-col justify-center  mx-auto max-w-[90rem] space-y-3 ">
+            <div className="testimonial_slider mt-7 ">
+              <Slider {...settings}>
+                {testimonials.map(({ testimonial, name, position }, idx) => (
+                  <>
+                    <Testimonial
+                      key={idx}
+                      testimonial={testimonial}
+                      name={name}
+                      position={position}
+                    />
+                  </>
+                ))}
+              </Slider>
+            </div>
           </div>
-        </div> */}
-
-        <div className="testimonial_slider mt-7 ">
-          <Slider {...settings}>
-            {testimonials.map(({ testimonial, name, position }, idx) => (
-              <>
-                <Testimonial
-                  key={idx}
-                  testimonial={testimonial}
-                  name={name}
-                  position={position}
-                />
-              </>
-            ))}
-          </Slider>
-        </div>
-      </div>
-      </Container>
-
-    </div>
-  );
+        </Container>
+      </div>)}
+  </>
 }
 
 export default Testimonials;

@@ -6,6 +6,22 @@
   background-position: top;
   padding-bottom: 20px;
 }
+.aftereffect::after{
+  content: "";
+  height: 80%;
+  width: 1px;
+  right: -5%;
+  top: 10%;
+  bottom: 10%;
+  position: absolute;
+  background-color: rgb(223, 220, 220);
+}
+
+@media (max-width: 767px){
+  .aftereffect::after{
+    content: none;
+  }
+}
 
 .banner_section_main {
   padding: 55px 0px;
@@ -101,7 +117,7 @@ h1.font-bebas.uppercase {
 }
 
 .home_about_main h4,
-.home_blog_main h4 {
+.home_blog_main h4, .location-container h4 {
   font-size: 64px;
   font-family: "Bebas Neue";
   /* font-weight: 600; */

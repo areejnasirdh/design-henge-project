@@ -1,3 +1,44 @@
+.contact-us-page .contact_banner_section_main .home_contact_form h3{
+  font-size: 42px !important;
+}
+
+.contact-us-page .contact_banner_section_main .home_contact_form .input{
+  border-bottom: 2px solid gray !important;
+  position: relative !important;
+}
+.contact-us-page .contact_banner_section_main .home_contact_form input{
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px;
+  border: none !important;
+}
+.contact_banner_section_main .home_contact_form .input::after, .contact_banner_section_main .home_contact_form .input::after{
+  content: "" !important;
+  position: absolute !important;
+  bottom: -2px !important;
+  left: 0 !important;
+  width: 120px !important;
+  height: 2px !important;
+  background-color: #FD022C !important;
+}
+
+.contact-us-page .contact_banner_section_main .home_contact_form label{
+ color:  gray !important;
+}
+
+.contact-us-page .contact_banner_section_main .home_contact_form input::placeholder {
+  color: gray !important;
+}
+
+.contact-us-page{
+  width: 100vw;
+  max-width: 100%;
+  background-image: url("../images/main_banner_bg.jpg");
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 20px;
+}
+
 .contact_banner_section_main {
   padding: 0px 0px 40px 0px;
 }
@@ -90,7 +131,7 @@
 }
 
 .home_about_main h4,
-.home_blog_main h4 {
+.home_blog_main h4, .location-container h4 {
   font-size: 90px;
   text-align: center;
   font-family: "Bebas Neue";
@@ -523,7 +564,7 @@
   }
 
   .home_about_main h4,
-  .home_blog_main h4, .who_we_are_main h4 {
+  .home_blog_main h4, .who_we_are_main h4, .location-container h4 {
     font-size: 42px;
     padding-top: 0px;
   }
