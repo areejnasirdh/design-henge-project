@@ -11,7 +11,7 @@ import {
   Dropdown,
   NavLink,
 } from "react-bootstrap";
-import Logo from "../../../public/images/logo.png";
+import Logo from "../../../public/images/logo.gif";
 import Link from "next/link";
 import Image from "next/image";
 // import { useRouter } from "next/router";
@@ -64,8 +64,8 @@ const Navbr = () => {
         <section className="nav_section">
           <Navbar collapseOnSelect expand="lg" className="navbar_main hidden lg:block">
             <Container fluid className="container-width-2">
-              <Navbar.Brand href="/">
-                <Image src={Logo} alt="logo" width={70} height={"auto"} />
+              <Navbar.Brand href="/" className="h-[90px]">
+                <Image src={Logo} alt="logo" className="w-full h-full object-contain" />
               </Navbar.Brand>
               <Navbar.Toggle
                 aria-controls="basic-navbar-nav"

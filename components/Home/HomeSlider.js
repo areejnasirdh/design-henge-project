@@ -5,7 +5,7 @@ import Slider from "react-slick";
 const SliderContent = [
   {
     icon: "/images/service-logo-designing.png",
-    title: "LOGO DESIGNING",
+    title: "DESIGNING",
     subtext: "We fuse creativity with strategic insight to craft distinctive visual identities that reflect your brand's essence."
   },
   {
