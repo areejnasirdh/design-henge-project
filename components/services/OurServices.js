@@ -1,71 +1,69 @@
 "use client";
-import Image from "next/image";
-import React, { useState } from "react";
+import { useState } from "react";
+import { IoIosArrowRoundForward } from "react-icons/io";
+import Image1 from "../../public/images/services/branding-and-identity.jpg";
+import Image2 from "../../public/images/services/website-design-development.jpg";
+import Image3 from "../../public/images/services/web3-design.jpg";
+import Image4 from "../../public/images/services/ecommerce.jpg";
+import Image5 from "../../public/images/services/mobile-app-development.jpg";
+import Image6 from "../../public/images/services/digital-marketing.jpg";
+import Image7 from "../../public/images/services/2d-3d.gif";
+import DefaultBg from "../../public/images/services-bg.png";
 import { Col, Container, Row } from "react-bootstrap";
-import Service1 from "../../public/images/services/web-development.png";
-import Service2 from "../../public/images/services/logo-design.png";
 
 const OurServices = () => {
-  const [selected, setSelected] = useState(0);
 
+  const [selected, setSelected] = useState(0);
   const services = [
-    {
-      image: Service1,
-      heading: "Web Development",
-      desc: "Web development is the work involved in developing",
-    },
-    {
-      image: Service2,
-      heading: "Digital Marketing",
-      desc: "Web development is the work involved in developing",
-    },
-    {
-      image: Service1,
-      heading: "Branding & Illustration",
-      desc: "Web development is the work involved in developing",
-    },
-    {
-      image: Service1,
-      heading: "App Development",
-      desc: "Web development is the work involved in developing",
-    },
-    {
-      image: Service1,
-      heading: "Solution Trainings",
-      desc: "Web development is the work involved in developing",
-    },
-    {
-      image: Service1,
-      heading: "Seo & Optimization",
-      desc: "Web development is the work involved in developing",
-    },
+      {
+          image: Image1,
+          heading: "Branding & Identity",
+      },
+      {
+          image: Image2,
+          heading: "Website Design & Development",
+      },
+      {
+          image: Image6,
+          heading: "Digital Marketing",
+      },
+      {
+          image: Image5,
+          heading: "Mobile App Development",
+      },
+      {
+          image: Image7,
+          heading: "Custom 2D/3D Animation",
+      },
+      {
+          image: Image4,
+          heading: "eCommerce Experiences",
+      },
+      {
+          image: Image3,
+          heading: "Web3 Experience Design",
+      },
+
   ];
-  return (
-    <div className="our_services_main">
+
+  return<div className="our_services_main" style={{ backgroundImage: `url(${services[selected]?.image?.src})` }}>
       <Container fluid className="container-width-2">
-        <Row className="align-items-center">
-          <Col md={5}>
-            <Image src={services[selected].image} />
-          </Col>
-          <Col md={7}>
-            {services.map((s,i) => (
-              <div className="services" onClick={()=>setSelected(i)}>
-                <Row className="items-center">
-                  <Col md={5} className="d-flex gap-4 ">
-                    <h4>0{i+1}</h4>
-                    <h4>{s.heading}</h4>
-                  </Col>
-                  <Col md={7}>
-                    <p>{s.desc}</p>
-                  </Col>
-                </Row>
-              </div>
-            ))}
-          </Col>
-        </Row>
+          <Row className="align-items-center">
+              <Col md={12} onMouseLeave={() => setSelected(0)}>
+                  {services.map((s, i) => {
+                      return <div className="services mt-2" key={i} onMouseEnter={() => setSelected(i)}>
+                          <Row className="items-center">
+                              <Col md={12} className="d-flex">
+                                  <h4 className={`flex justify-between items-center`}>{s.heading}  <IoIosArrowRoundForward className="ml-4" /></h4>
+                              </Col>
+                          </Row>
+                      </div>
+                  }
+                  )}
+              </Col>
+          </Row>
       </Container>
-    </div>
-  );
+  </div>
 };
 
 export default OurServices;

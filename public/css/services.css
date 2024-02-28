@@ -101,31 +101,39 @@
 }
 
 .our_services_main {
-  background-image: url("../images/services-bg.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: top;
-  width: 100vw;
-  max-width: 100%;
-  /* padding: 70px 0px; */
-}
-
-.our_services_main img {
-  width: 440px;
+  background-position: center right;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .our_services_main .services {
-  border-bottom: 1px solid white;
   padding: 30px 0px;
-  color: white;
   cursor: pointer !important;
 }
 
 .our_services_main .services h4 {
-  color: white;
-  font-weight: 600;
-  font-size: 28px;
+  color: black;
   font-family: "Bebas Neue Bold";
+  font-size: 35px;
+  transition: all 0.5s;
+}
+
+.our_services_main .services h4 svg{
+  opacity: 0;
+  transition: all 0.5s;
+  transform: scaleX(1.5)
+}
+
+.our_services_main .services:hover h4{
+  transform: translateX(20px);
+}
+
+.our_services_main .services:hover  h4 svg{
+  opacity: 1;
 }
 
 .our_services_main .services p {
@@ -152,6 +160,13 @@
   margin-top: 20px;
   padding: 10px 10px !important;
   font-size: 15px !important;
+}
+
+@media (max-width: 500px){
+  .our_services_main{
+    background-image: none !important;
+    background-color: rgb(209, 209, 209);
+  }
 }
 
 @media (max-width: 767px) {
