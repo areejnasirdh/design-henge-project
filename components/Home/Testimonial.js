@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Logo from "../../public/images/logo.png";
 
-function Testimonial({ testimonial, name, position }) {
+function Testimonial({ testimonial, name, position, img }) {
   const [stars] = useState(Array(4).fill(""));
 
   return (
@@ -47,25 +47,28 @@ function Testimonial({ testimonial, name, position }) {
         </p>
         <div className="flex mt-5 w-full justify-between items-center">
           <div className="flex items-center">
-          <div className="bg-black md:w-[95px] md:h-[95px] w-[70px] h-[70px] rounded-full relative">
-            <div className="bg-white w-[98%] h-[98%] rounded-full overflow-hidden absolute left-[-4px] top-[-3px]">
+            <div className="w-[80px] h-full rounded-full">
+              {/* <div className="bg-white w-[98%] h-[98%] rounded-full overflow-hidden absolute left-[-4px] top-[-3px]"> */}
               <Image
-                src="/images/testimonial-img.png"
+                src={`/images/${img}`}
                 width={100}
                 height={100}
                 alt=""
-                className="object-contain max-w-none h-full"
+                className="object-cover w-full h-full"
               />
-            </div>
+              {/* </div> */}
             </div>
             <div className="ml-4">
-              <p className="mt-1 text-lg md:text-4xl font-bebas font-medium flex items-center">{name}</p>
+              <p className="mt-1 text-lg md:text-4xl font-bebas font-medium flex items-center">
+                {name}
+              </p>
               <div className="flex space-x-2 items-center">
                 <div className="border-t-2 border-red-primary w-6"></div>
-                <p className="text-black text-xs md:text-sm font-light">{position}</p>
+                <p className="text-black text-xs md:text-sm font-light">
+                  {position}
+                </p>
               </div>
             </div>
-
           </div>
           <div className="hidden md:block">
             <Image src={Logo} alt="logo" width={70} height={"auto"} />
