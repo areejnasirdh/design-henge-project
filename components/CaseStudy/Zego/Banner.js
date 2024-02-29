@@ -34,10 +34,9 @@ const Banner = () => {
           delay: "0.5",
         }}
       >
-        Speakable changes lives every day by empowering people with disabilities
-        and disadvantaging conditions to increase their independence and reach
-        their potential through job training and employment at Speakable and in
-        the community.
+        Design Henge, a leading design agency renowned for its expertise in
+        branding and UI/UX design, collaborated with ZEGO to establish a
+        compelling brand identity and create an intuitive user experience.
       </motion.p>
     </BannerSection>
   );

@@ -14,7 +14,7 @@ const Banner = () => {
           delay: "0.3",
         }}
       >
-        CASE
+        POWER ATM LLC
       </motion.h1>
       <motion.h1
         initial={{ y: 200, opacity: 0 }}
@@ -24,7 +24,7 @@ const Banner = () => {
           delay: "0.4",
         }}
       >
-        STUDY
+        CASE STUDY
       </motion.h1>
       <motion.p
         initial={{ y: 200, opacity: 0 }}
@@ -34,10 +34,10 @@ const Banner = () => {
           delay: "0.5",
         }}
       >
-        Speakable changes lives every day by empowering people with disabilities
-        and disadvantaging conditions to increase their independence and reach
-        their potential through job training and employment at Speakable and in
-        the community.
+        Through collaborative efforts, Design Henge facilitated the creation of
+        a captivating logo, sleek business cards, and a user-friendly website
+        tailored to POWER ATM LLC's unique needs. This comprehensive approach
+        ensured a seamless brand experience.
       </motion.p>
     </BannerSection>
   );

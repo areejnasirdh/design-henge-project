@@ -34,10 +34,9 @@ const Banner = () => {
           delay: "0.5",
         }}
       >
-        Speakable changes lives every day by empowering people with disabilities
-        and disadvantaging conditions to increase their independence and reach
-        their potential through job training and employment at Speakable and in
-        the community.
+        Dreamshot reached out to Design Henge, a leading agency known for its
+        cutting-edge UI/UX design and website development services. We created a
+        website for them that would resonate with the target audience.
       </motion.p>
     </BannerSection>
   );

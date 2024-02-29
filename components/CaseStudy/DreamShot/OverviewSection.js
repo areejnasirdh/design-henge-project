@@ -21,23 +21,23 @@ const Overview = () => {
   return (
     <OverviewSection logo={orangeCounty} services_list={services_list}>
       <h5>
-        DreamShot empowers people with disabilities and other barriers through
-        job training and employment at Speakable and in the community.
+        Dreamshot engaged Design Henge for a captivating website resonating with
+        their audience, leveraging cutting-edge UI/UX design and development
+        expertise.
       </h5>
       <p>
-        Design Henge Interactive worked with Goodwill’s team to help them in
-        their mission of continuing to amplify the voice of individuals with
-        disabilities, providing independence and access for all. Speakable is
-        known for being an advocate and defender of those who are going through
-        difficult times.
+        Design Henge meticulously crafted DreamShot's digital presence through a
+        comprehensive approach. By dissecting and understanding DreamShot's
+        ethos, audience, and market dynamics, a strategic blueprint was forged.
+        Leveraging DreamShot's distinctiveness, Design Henge conceptualized a
+        visually captivating design imbued with creativity and professionalism.
       </p>
       <p>
-        To further their objectives, Speakable hired Design Henge Interactive to
-        support their business with web design expertise and occasional
-        consulting related to digital marketing services. As the web design
-        agency of Speakable’s choice, ongoing web support and maintenance, as
-        well as on-page SEO and management of their $10,000 monthly Google Ads
-        Grant, was managed by the Design henge team.
+        User-centricity remained paramount, reflected in intuitive navigation
+        and clear calls-to-action. Interactive elements like sliders and
+        parallax effects were deftly woven in, enhancing engagement. Ensuring
+        universal accessibility, the website was developed responsively,
+        guaranteeing a seamless user experience across diverse devices.
       </p>
     </OverviewSection>
   );

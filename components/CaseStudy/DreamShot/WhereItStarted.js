@@ -6,7 +6,8 @@ const WhereItStarted = () => {
   return (
     <WhereItStartedSection
       Img={Started}
-      text="After discussing business goals and objectives, we crafted mock ups and wireframes for different website sections. Each section had to achieve a specific business goal. This early planning is always an essential step, enabling a rapid and meaningful return on investment once the website launches. An intuitive and convenient user experience is a must for any website development project."
+      heading="THE OUTCOME"
+      text="Through collaboration with Design Henge, DreamShot successfully transformed its online presence, redefining commercial photography with a visually striking website and intuitive UI by combining creativity with strategic design principles."
     />
   );
 };

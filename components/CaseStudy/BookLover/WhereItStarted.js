@@ -6,7 +6,8 @@ const WhereItStarted = () => {
   return (
     <WhereItStartedSection
       Img={Started}
-      text="After discussing business goals and objectives, we crafted mock ups and wireframes for different website sections. Each section had to achieve a specific business goal. This early planning is always an essential step, enabling a rapid and meaningful return on investment once the website launches. An intuitive and convenient user experience is a must for any website development project."
+      heading="THE OUTCOME"
+      text="Through collaborative efforts with Design Henge, The Book Lover emerged as a captivating destination for literary enthusiasts worldwide, from the logo's inception to the development of a seamless digital experience."
     />
   );
 };

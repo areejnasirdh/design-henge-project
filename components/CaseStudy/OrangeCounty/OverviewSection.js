@@ -21,31 +21,26 @@ const Overview = () => {
   return (
     <OverviewSection logo={orangeCounty} services_list={services_list}>
       <h5>
-      We provide eating disorder treatment via online and in-person therapy. 
-We provide therapy to adults and adolescents (14 years and older) of all body sizes, genders, sexual 
-orientations, abilities, ethnicities, races, and religions. Our specialties include eating disorder treatment, 
-online eating disorder therapy, eating disorder support, and treatment for anxiety, depression, and mood 
-disorders which frequently co-occur with eating disorders. Contact us to schedule your free 15-minute phone 
-consultation for eating disorder treatment, or online eating disorder therapy in California. 
-
+        Orange County Eating Disorder Therapist Group x Design Henge: A Synergy
+        in Eating Disorder Content Management that Enhanced Engagement
       </h5>
       <p>
-      We provide eating disorder treatment via online and in-person therapy. 
-We provide therapy to adults and adolescents (14 years and older) of all body sizes, genders, sexual 
-orientations, abilities, ethnicities, races, and religions. Our specialties include eating disorder treatment, 
-online eating disorder therapy, eating disorder support, and treatment for anxiety, depression, and mood 
-disorders which frequently co-occur with eating disorders. Contact us to schedule your free 15-minute phone 
-consultation for eating disorder treatment, or online eating disorder therapy in California. 
-
+        Tasked with raising awareness about eating disorders and providing vital
+        support, the client sought Design Henge's expertise to develop a
+        website, design a logo, and create engaging blog content.
       </p>
       <p>
-      We provide eating disorder treatment via online and in-person therapy. 
-We provide therapy to adults and adolescents (14 years and older) of all body sizes, genders, sexual 
-orientations, abilities, ethnicities, races, and religions. Our specialties include eating disorder treatment, 
-online eating disorder therapy, eating disorder support, and treatment for anxiety, depression, and mood 
-disorders which frequently co-occur with eating disorders. Contact us to schedule your free 15-minute phone 
-consultation for eating disorder treatment, or online eating disorder therapy in California. 
-
+        Tasked with raising awareness about eating disorders and providing
+        support, Design Henge developed a website, logo, and engaging blog
+        content. The blog posts, blending clinical knowledge with creative
+        storytelling, resonated with audiences, offering insights and
+        encouragement.
+      </p>
+      <p>
+        The website, user-friendly and responsive, provided educational
+        resources and support avenues. The logo, symbolizing hope and
+        resilience, visually represented the cause. As a result, increased
+        website traffic and engagement were observed.
       </p>
     </OverviewSection>
   );

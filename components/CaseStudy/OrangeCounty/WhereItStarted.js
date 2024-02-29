@@ -6,7 +6,8 @@ const WhereItStarted = () => {
   return (
     <WhereItStartedSection
       Img={Started}
-      text="After discussing business goals and objectives, we crafted mock ups and wireframes for different website sections. Each section had to achieve a specific business goal. This early planning is always an essential step, enabling a rapid and meaningful return on investment once the website launches. An intuitive and convenient user experience is a must for any website development project."
+      heading="THE OUTCOME"
+      text="This case study illustrates how collaborative marketing and design, leveraging diverse expertise, drove a 75% increase in engagement and quadrupled awareness of critical issues like eating disorders, demonstrating the profound impact of strategic partnerships in achieving business objectives. Multiple blog pieces have achieved top rankings on Google's first page, as a result."
     />
   );
 };

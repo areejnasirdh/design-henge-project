@@ -34,10 +34,10 @@ const Banner = () => {
           delay: "0.5",
         }}
       >
-        Speakable changes lives every day by empowering people with disabilities
-        and disadvantaging conditions to increase their independence and reach
-        their potential through job training and employment at Speakable and in
-        the community.
+        We collaborated with The Book Lover to establish a compelling brand
+        identity and develop a seamless digital experience. From crafting the
+        logo to designing products, UI, and web development, Design Henge played
+        a pivotal role.
       </motion.p>
     </BannerSection>
   );

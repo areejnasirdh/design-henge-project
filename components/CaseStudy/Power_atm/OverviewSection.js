@@ -21,23 +21,22 @@ const Overview = () => {
   return (
     <OverviewSection logo={poweratm} services_list={services_list}>
       <h5>
-        Zego empowers people with disabilities and other barriers through job
-        training and employment at Zego and in the community.
+        Transforming Brand Image: Design Henge Collaborates with Power ATM LLC
+        to Create Compelling Visual Identity Across Platforms for Enhanced
+        Market Impact
       </h5>
       <p>
-        Design Henge Interactive worked with Goodwill's team to help them in
-        their mission of continuing to amplify the voice of individuals with
-        disabilities, providing independence and access for all. Speakable is
-        known for being an advocate and defender of those who are going through
-        difficult times.
+        In partnership with Power ATM LLC, Design Henge presented a modern,
+        unique and captivating logo redesign that reflected the company's
+        commitment to excellence and innovation. Sleek and professional business
+        cards were meticulously crafted to leave a lasting impression, ensuring
+        brand consistency across all communication materials.
       </p>
       <p>
-        To further their objectives, Speakable hired Design Henge Interactive to
-        support their business with web design expertise and occasional
-        consulting related to digital marketing services. As the web design
-        agency of Speakable's choice, ongoing web support and maintenance, as
-        well as on-page SEO and management of their $10,000 monthly Google Ads
-        Grant, was managed by the Design henge team.
+        Design Henge then developed a user-friendly website, showcasing Power
+        ATM LLC's services and expertise, enhancing credibility and market
+        visibility. Together, these efforts solidified Power ATM LLC's position
+        as a trusted leader in the ATM industry.
       </p>
     </OverviewSection>
   );

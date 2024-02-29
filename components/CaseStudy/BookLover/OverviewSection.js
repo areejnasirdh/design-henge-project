@@ -21,23 +21,23 @@ const Overview = () => {
   return (
     <OverviewSection logo={booklover} services_list={services_list}>
       <h5>
-        The Book Lover empowers people with disabilities and other barriers
-        through job training and employment at Speakable and in the community.
+        Design Henge and The Book Lover collaborate to shape brand identity,
+        product design, UI, and web development for a seamless digital
+        experience.
       </h5>
       <p>
-        Design Henge Interactive worked with Goodwill’s team to help them in
-        their mission of continuing to amplify the voice of individuals with
-        disabilities, providing independence and access for all. Speakable is
-        known for being an advocate and defender of those who are going through
-        difficult times.
+        Drawing inspiration from literature, Design Henge crafted a timeless
+        logo for The Book Lover. Elegant typography evokes classic book covers,
+        symbolizing storytelling's essence. Meticulously curated merchandise
+        features iconic book quotes. Whimsical mugs and stylish t-shirts invite
+        customers to embrace literature in daily life.
       </p>
       <p>
-        To further their objectives, Speakable hired Design Henge Interactive to
-        support their business with web design expertise and occasional
-        consulting related to digital marketing services. As the web design
-        agency of Speakable’s choice, ongoing web support and maintenance, as
-        well as on-page SEO and management of their $10,000 monthly Google Ads
-        Grant, was managed by the Design henge team.
+        We prioritized a user-friendly interface for the digital storefront,
+        integrating clean layouts, intuitive navigation, and vibrant visuals.
+        The web development team ensured smooth functionality and optimal
+        performance, crafting a seamless shopping experience across devices for
+        The Book Lover's platform.
       </p>
     </OverviewSection>
   );

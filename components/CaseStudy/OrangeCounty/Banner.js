@@ -14,7 +14,7 @@ const Banner = () => {
           delay: "0.3",
         }}
       >
-        CASE
+        ORANGE COUNTY EATING DISORDER
       </motion.h1>
       <motion.h1
         initial={{ y: 200, opacity: 0 }}
@@ -24,7 +24,7 @@ const Banner = () => {
           delay: "0.4",
         }}
       >
-        STUDY
+        CASE STUDY
       </motion.h1>
       <motion.p
         initial={{ y: 200, opacity: 0 }}
@@ -34,10 +34,11 @@ const Banner = () => {
           delay: "0.5",
         }}
       >
-        Speakable changes lives every day by empowering people with disabilities
-        and disadvantaging conditions to increase their independence and reach
-        their potential through job training and employment at Speakable and in
-        the community.
+        Orange county eating disorder is a therapist group who aim to address
+        eating disorder issues of individuals. They faced challenges in
+        expanding their audience reach and wanted to establish their online
+        presence. They sought assistance in refining their entire digital
+        footprint.
       </motion.p>
     </BannerSection>
   );

@@ -27,9 +27,9 @@ function CaseStudy() {
     },
     {
       image: "/images/caseStudy/Case-study-section-3.webp",
-      heading: "Orange County",
+      heading: "Orange County Eating Disorder",
       description:
-        "Design Henge provided comprehensive content marketing services to an OCEATING. Through targeted content creation and strategic dissemination, we raised awareness and fostered engagement within the community, amplifying the group's impact and support network.",
+        "A successful collaboration between Orange County Eating Disorder & Design Henge, to develop website, logo design, and create engaging blog content to enhance the providers online presence. The key was to address the challenge of raising awareness about eating disorders while providing valuable resources to those in need, the client sought our expertise.",
       link: "/case-study/orange-county",
     },
   ]);

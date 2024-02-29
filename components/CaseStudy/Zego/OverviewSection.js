@@ -21,23 +21,23 @@ const Overview = () => {
   return (
     <OverviewSection logo={booklover} services_list={services_list}>
       <h5>
-        Zego empowers people with disabilities and other barriers through job
-        training and employment at Zego and in the community.
+        Design Henge collaborates with ZEGO, an AI company, crafting its logo
+        and UI to propel automation, AI implementation, and outsourced team
+        optimization.
       </h5>
       <p>
-        Design Henge Interactive worked with Goodwill's team to help them in
-        their mission of continuing to amplify the voice of individuals with
-        disabilities, providing independence and access for all. Speakable is
-        known for being an advocate and defender of those who are going through
-        difficult times.
+        Design Henge crafted a logo embodying ZEGO's futuristic vision,
+        featuring sleek, geometric elements symbolizing efficiency and
+        innovation, alongside bold typography conveying confidence. Leveraging
+        ZEGO's core values, a cohesive brand identity resonating with the
+        audience was developed, emphasizing innovation and efficiency.
       </p>
       <p>
-        To further their objectives, Speakable hired Design Henge Interactive to
-        support their business with web design expertise and occasional
-        consulting related to digital marketing services. As the web design
-        agency of Speakable's choice, ongoing web support and maintenance, as
-        well as on-page SEO and management of their $10,000 monthly Google Ads
-        Grant, was managed by the Design henge team.
+        The user interface design prioritized simplicity and clarity, aiding in
+        the comprehension of complex AI concepts. Through iterative feedback
+        loops, Design Henge ensured alignment with ZEGO's objectives, resulting
+        in a user-friendly platform facilitating seamless interaction and
+        engagement with ZEGO's innovative solutions.
       </p>
     </OverviewSection>
   );

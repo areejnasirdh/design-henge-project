@@ -30,37 +30,37 @@ function Product() {
     },
     {
       image: "/images/caseStudy/Case-study-section-3.webp",
-      heading: "Orange County",
+      heading: "Orange County Eating Disorder",
       description:
-        "Design Henge collaborated with Yumme Girl O Skin, a culinary startup, to develop a logo embodying their brand identity. A vibrant and contemporary logo was crafted through meticulous research, creative exploration, and iterative feedback, reflecting the brand's passion for authentic flavors and culinary artistry.",
+        "A successful collaboration between Orange County Eating Disorder & Design Henge, to develop website, logo design, and create engaging blog content to enhance the providers online presence. The key was to address the challenge of raising awareness about eating disorders while providing valuable resources to those in need, the client sought our expertise.",
       link: "/case-study/orange-county",
     },
     {
       image: "/images/caseStudy/Case-study-section-4.webp",
       heading: "Dream Shot",
       description:
-        "Design Henge collaborated with Yumme Girl O Skin, a culinary startup, to develop a logo embodying their brand identity. A vibrant and contemporary logo was crafted through meticulous research, creative exploration, and iterative feedback, reflecting the brand's passion for authentic flavors and culinary artistry.",
+        "A dynamic commercial photo studio based in a bustling metropolitan area, renowned for its innovative approach to photography. Unlike traditional studios, DreamShot specializes in capturing unique moments with a twist, blending creativity with professionalism to deliver exceptional results but needed an online presence to put out there services.",
       link: "/case-study/DreamShot",
     },
     {
       image: "/images/caseStudy/Case-study-section-5.webp",
       heading: "Book Lover",
       description:
-        "Design Henge collaborated with Yumme Girl O Skin, a culinary startup, to develop a logo embodying their brand identity. A vibrant and contemporary logo was crafted through meticulous research, creative exploration, and iterative feedback, reflecting the brand's passion for authentic flavors and culinary artistry.",
+        "A burgeoning brand dedicated to celebrating the love of literature through curated merchandise. From mugs and t-shirts to wine glasses, each product with meaningful quotes, sourced from beloved books. They reached out to Design Henge to help them establish their brand from scratch.",
       link: "/case-study/BookLover",
     },
     {
       image: "/images/caseStudy/case-study-section-6.webp",
       heading: "Zego",
       description:
-        "Design Henge collaborated with Yumme Girl O Skin, a culinary startup, to develop a logo embodying their brand identity. A vibrant and contemporary logo was crafted through meticulous research, creative exploration, and iterative feedback, reflecting the brand's passion for authentic flavors and culinary artistry.",
+        "ZEGO is an emerging AI company focused on empowering clients to identify opportunities for increased efficiencies through automation, AI integration, and leveraging outsourced teams. With a commitment to innovation and optimization, ZEGO aims to revolutionize business operations across various industries.",
       link: "/case-study/Zego",
     },
     {
       image: "/images/caseStudy/case-study-section-7.webp",
-      heading: "Power Atm",
+      heading: "POWER ATM LLC",
       description:
-        "Design Henge collaborated with Yumme Girl O Skin, a culinary startup, to develop a logo embodying their brand identity. A vibrant and contemporary logo was crafted through meticulous research, creative exploration, and iterative feedback, reflecting the brand's passion for authentic flavors and culinary artistry.",
+        "Power ATM LLC recognized the importance of a cohesive visual presence across all touchpoints. Looking to enhance their professionalism, reach and market visibility, they enlisted the expertise of Design Henge.",
       link: "/case-study/Power_atm",
     },
     {

@@ -6,7 +6,8 @@ const WhereItStarted = () => {
   return (
     <WhereItStartedSection
       Img={Started}
-      text="After discussing business goals and objectives, we crafted mock ups and wireframes for different website sections. Each section had to achieve a specific business goal. This early planning is always an essential step, enabling a rapid and meaningful return on investment once the website launches. An intuitive and convenient user experience is a must for any website development project."
+      heading="THE OUTCOME"
+      text="The comprehensive approach to brand transformation resulted in improved market visibility, enhanced professionalism, and increased client trust, paving the way for continued success and growth in the competitive market landscape."
     />
   );
 };

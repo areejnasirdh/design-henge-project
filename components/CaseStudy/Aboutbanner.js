@@ -47,7 +47,7 @@ const AboutBanner = () => {
                 delay: "0.5",
               }}
             >
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+              Experience how the fusion of expertise of our experts from diverse disciplines has drived meaningful engagement.
             </motion.p>
             <Link href={"#case-study-products"}>
               <ReusableButton
