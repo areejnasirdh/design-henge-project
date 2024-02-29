@@ -11,7 +11,7 @@ const blogData = [
       "The Ultimate Guide to Scaling Your Small Business: Tips from Top Entrepreneurs",
     intro:
       "Starting a small business is like planting a seed in your backyard. At first, it demands your utmost care and attention to sprout. But the real challenge lies in nurturing it to grow beyond its humble beginnings, reaching towards the sky. That's what scaling your small business is all about – transforming that tiny seed into a towering tree. But how does one achieve such growth? Let’s delve into the wisdom of top entrepreneurs to guide you on this exciting journey.",
-    img: "first-blog.png",
+    img: "first-blog.jpg",
     subHeading: [
       {
         title: "Understanding Scaling: A Prelude to Growth",
@@ -109,7 +109,7 @@ const blogData = [
     title: "Breaking the Mold: Innovative Strategies for Startup Success",
     intro:
       "In the vibrant world of startups, where every idea battles for attention and market share, breaking the mold isn't just an option—it's a necessity. Success in this arena demands more than just a groundbreaking idea; it requires innovative strategies that propel your startup beyond conventional boundaries. This article explores unique approaches that promise to elevate your startup from just another name in the industry to a standout success story.",
-    img: "second-blog.png",
+    img: "second-blog.jpg",
     subHeading: [
       {
         title: "Embracing the Power of Disruption",
@@ -190,7 +190,7 @@ const blogData = [
     title: "The Branding Blueprint: Secrets to Unlocking Explosive Growth",
     intro:
       "In the bustling marketplace of today, where competition is fierce and consumer attention spans are shorter than ever, a strong brand can be your most powerful asset. Branding is not just about a logo or a catchy slogan; it’s about creating a unique identity that resonates with your audience, setting you apart from the competition. This blueprint guides you through the essential steps to crafting a brand that not only stands out but also fosters explosive growth.",
-    img: "third-blog.png",
+    img: "third-blog.jpg",
     subHeading: [
       {
         title: "The Essence of Brand Identity",

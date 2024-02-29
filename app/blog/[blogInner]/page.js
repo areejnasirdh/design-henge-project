@@ -1,10 +1,5 @@
 "use client";
-
 import Image from "next/image";
-import BlogImage from "../../../public/images/Blog_Inner/blog-Image.png";
-import Section2Image1 from "../../../public/images/Blog_Inner/section2-img-1.png";
-import Section2Image2 from "../../../public/images/Blog_Inner/section2-img-2.png";
-import Section3Image from "../../../public/images/Blog_Inner/section3-img.png";
 import Aurthor from "../../../public/images/Blog_Inner/aurthor.png";
 import Navbar from "@/components/Common/Navbar/Navbar";
 import blogData from "../../utils/blogMockData";
@@ -15,8 +10,6 @@ import Head from "next/head";
 const BlogInner = () => {
   const params = useParams();
   const { blogInner } = params;
-
-  console.log(blogData, "datasss");
   return (
     <>
       <Head>

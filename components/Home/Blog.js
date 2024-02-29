@@ -2,25 +2,24 @@ import Image from "next/image";
 import React from "react";
 import BlogCard from "./BlogCard";
 import { Container } from "react-bootstrap";
-import FirstBlog from "../../public/images/first-blog.png";
 
 const blogData = [
   {
     id: 0,
     desc: "The Ultimate Guide to Scaling Your Small Business: Tips from Top Entrepreneurs",
-    img: "first-blog.png",
+    img: "first-blog.jpg",
     date: "18 Jan 2022",
   },
   {
     id: 1,
     desc: "Breaking the Mold: Innovative Strategies for Startup Success",
-    img: "second-blog.png",
+    img: "second-blog.jpg",
     date: "18 Jan 2022",
   },
   {
     id: 2,
     desc: "The Branding Blueprint: Secrets to Unlocking Explosive Growth",
-    img: "third-blog.png",
+    img: "third-blog.jpg",
     date: "18 Jan 2022",
   },
 ];
