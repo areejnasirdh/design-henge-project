@@ -1,8 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import Logo from "../../public/images/logo.png";
 
-function Testimonial({ testimonial, name, position, img }) {
+function Testimonial({ testimonial, name, position, img, logo }) {
   const [stars] = useState(Array(4).fill(""));
 
   return (
@@ -70,8 +69,8 @@ function Testimonial({ testimonial, name, position, img }) {
               </div>
             </div>
           </div>
-          <div className="hidden md:block">
-            <Image src={Logo} alt="logo" width={70} height={"auto"} />
+          <div className="hidden md:block w-[100px] h-[50px]">
+            <Image src={`/images/${logo}`} alt="logo" width={100} height={100} className="w-full h-full object-contain" />
           </div>
         </div>
       </blockquote>

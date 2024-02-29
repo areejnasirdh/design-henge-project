@@ -108,7 +108,7 @@ function CaseStudy() {
                     width={700}
                     height={700}
                     alt=""
-                    className={`object-contain md:object-cover w-[100%] md:w-[50%] pr-3 overflow-hidden ${i % 2 === 0 ? "lg:ml-[-25px]" : "lg:mr-[-35px]"}`}
+                    className={`object-contain md:object-cover w-[100%] md:w-[50%] pr-3 overflow-hidden ${i % 2 === 0 ? "lg:ml-[-10px]" : "lg:mr-[-20px]"}`}
                   // initial={{
                   //   opacity: 0,
                   //   scale: 1,
