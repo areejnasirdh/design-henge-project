@@ -14,6 +14,14 @@
     margin-top: 20px;
 }
 
+.blog-inner .subheading {
+    font-size: 35px !important;
+    color: black !important;
+    font-family: "Bebas Neue" !important;
+    margin-top: 20px !important;
+    max-width: 700px !important;
+}
+
 .blog-inner h1 {
     font-size: 40px;
     color: black;
@@ -28,6 +36,10 @@
     font-weight: 300;
     padding-top: 20px;
     font-family: "Montserrat";
+}
+
+.blog-inner ul {
+    padding: revert !important;
 }
 
 .blog-inner ul li {
@@ -123,6 +135,9 @@
     .blog-inner h2{
         font-size: 20px;
     }
+    .blog-inner .subheading{
+        font-size: 25px !important;
+    }
 }
 @media (max-width: 490px){
     .blog-inner h2{
@@ -130,5 +145,8 @@
     }
     .blog-inner h1{
         font-size: 28px;
+    }
+    .blog-inner .subheading{
+        font-size: 22px !important;
     }
 }

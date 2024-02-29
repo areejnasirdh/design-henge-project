@@ -4,9 +4,9 @@ import React, { useRef } from "react";
 import ReusableButton from "../Common/Banner/hoverbuttonclass";
 import { useRouter } from "next/navigation";
 
-function BlogCard({ title, desc, img }) {
+function BlogCard({ desc, img, id, date }) {
   const btnRef = useRef(null);
-  const router = useRouter()
+  const router = useRouter();
 
   const handleMouseMove = (e) => {
     const x = e.pageX - btnRef.current.offsetLeft;
@@ -25,27 +25,29 @@ function BlogCard({ title, desc, img }) {
   };
 
   return (
-    <div className="flex-flex-col space-y-8 blog_card">
-      <Image
-        src={`/images/${img}.png`}
-        width={700}
-        height={700}
-        alt=""
-        className="object-contain w-full"
-      />
+    <div className="flex-flex-col space-y-8 blog_card mb-4">
+      <div className="w-full h-[200px] bg-[#edbf33] relative border-2 border-black">
+        <div className="w-full h-[200px] bg-white absolute right-2 bottom-2 border-2 border-black">
+          <Image
+            src={`/images/${img}`}
+            width={700}
+            height={700}
+            alt=""
+            className="object-cover w-full h-full"
+          />
+        </div>
+      </div>
 
       <div className="flex-flex-col space-y-4">
-        <h1 className="font-bebas uppercase">
-          {title}
-        </h1>
-        <p className="text-sm md:text-xs lg:text-sm font-light">{desc}</p>
+        <h4 className="font-[400] text-[20px] hover:text-[#0097d9]">{desc}</h4>
+        <p className="text-[12px] text-gray-500 mt-2 font-light">{date}</p>
       </div>
 
       <ReusableButton
-        buttonText="READ MORE"
+        buttonText="READ FULL BLOG"
         handleMouseMove={handleMouseMovebutton}
         btnRef={btnRef}
-        onClick={() => router.push("/blog-inner")}
+        onClick={() => router.push(`/blog/${id}`)}
         additionalClasses="your-custom-classes"
       />
     </div>
