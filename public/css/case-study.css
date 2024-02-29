@@ -33,11 +33,11 @@
 }
 
 .case_study_main.dreamshot {
-  background-image: url("../images/Dreamshot/banner.png");
+  background-image: url("../images/Dreamshot/banner.webp");
 }
 
 .case_study_main.Booklover {
-  background-image: url("../images/Booklover/banner.png");
+  background-image: url("../images/Booklover/banner.webp");
 }
 
 .case_study_main.Zego {
@@ -91,7 +91,7 @@
   color: white;
   padding-top: 15px !important;
   line-height: 1.5;
-  max-width: 600px;
+  max-width: 460px;
 }
 
 .overview_main {

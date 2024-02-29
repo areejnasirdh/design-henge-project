@@ -1,7 +1,7 @@
 import React from "react";
-import orange from "../../../public/images/Dreamshot/logo.png";
-import Color from "../../../public/images/Dreamshot/Colorpallete.png";
-import Font from "../../../public/images/Dreamshot/font.png";
+import orange from "../../../public/images/Dreamshot/logo.webp";
+import Color from "../../../public/images/Dreamshot/Colorpallete.webp";
+import Font from "../../../public/images/Dreamshot/font.webp";
 import DesignTheme from "../Layout/DesignTheme";
 
 const dreamshot = () => {

@@ -19,19 +19,14 @@ const WhoWeAre = () => {
             </Col>
             <Col md={6} lg={4} className="lg:pt-md-5 lg:px-4 md:px-2 px-0 content">
               <h6>
-                We At Qreate Are A Team Of Enthusiasts Who Love To Ideate And
-                Create For You.
+              The Team at Design Henge Prides Itself As The Frontrunners Of Innovation, Creativity And Growth!
               </h6>
               <p className='mt-3'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit
-                diam ullamcorper urna sit quisque tincidunt hendrerit mattis.
-                Dictum lectus magnis phasellus dictumst eu, enim, at id non.
-                Metus diam quis interdum morbi mi velit commodo, malesuada.
-                Velit lacinia donec aliquam nunc volutpat.
+              From our humble beginnings our agency has grown to serve thousands of global companies. With active clients spanning Canada, UK, Australia, New Zealand and the United States, we've become a trusted partner for businesses of all sizes and industries.
               </p>
               <div className='mt-[50px]'>
                 <h5>MISSION</h5>
-                <p className='mt-3'>Design Henge's mission is to provide the endless opportunities with a pinch of innovation, a twist of creativity and a dash of passion.</p>
+                <p className='mt-3'>Our mission is to prioritize a strategy-first approach to deliver tangible results. Our team is dedicated to not only generating new business but also long-term success.</p>
               </div>
             </Col>
           </Row>

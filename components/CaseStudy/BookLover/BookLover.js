@@ -1,7 +1,7 @@
 import React from "react";
-import orange from "../../../public/images/Booklover/Logo.png";
-import Color from "../../../public/images/Booklover/Colorpalletepng.png";
-import Font from "../../../public/images/Booklover/font.png";
+import orange from "../../../public/images/Booklover/Logo.webp";
+import Color from "../../../public/images/Booklover/Colorpalletepng.webp";
+import Font from "../../../public/images/Booklover/font.webp";
 import DesignTheme from "../Layout/DesignTheme";
 
 const dreamshot = () => {

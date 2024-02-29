@@ -6,7 +6,7 @@ const SocialMediaDesign = ({ img }) => {
   return (
     <div className="social_media_main">
       <Container fluid className="container-width-2">
-        <h2 className="text-center pt-5">
+        <h2 className="text-center py-5">
           SOCIAL MEDIA POST
         </h2>
         <Image src={img} />

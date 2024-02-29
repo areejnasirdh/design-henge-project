@@ -1,6 +1,6 @@
 
 import React from "react";
-import VisualWebsite from "../../../public/images/Dreamshot/virtualdesign.png";
+import VisualWebsite from "../../../public/images/Dreamshot/virtualdesign.webp";
 import VisualDesign from "../Layout/VisualDesign";
 const VisualWebsiteDesign = () => {
   return <VisualDesign img={VisualWebsite} />;

@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import TopRated from "../../public/images/seo-blog.png"
-import Clutch from "../../public/images/clutch.png"
+import TopRated from "../../public/images/seo-blog.png";
+import Clutch from "../../public/images/clutch.png";
 import Image from "next/image";
-import Acheivement from "../../public/images/acheivement-1.png"
+import Acheivement from "../../public/images/acheivement-1.png";
 
 const Acheivements = () => {
   return (
@@ -29,30 +29,26 @@ const Acheivements = () => {
             <div className="acheivement_box">
               <Row>
                 <Col md={6}>
-                  <h5>
-                    A Digital Agency with a <br /> Commitment to Excellence
-                  </h5>
+                  <h5>A Digital Agency with a Commitment to Excellence</h5>
                   <p className="pt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex
+                    Design Henge has consistently earned recognition as a
+                    reputed agency. We continuously refine our processes to
+                    maintain our position as the preferred full-service agency
+                    that does it all for our clients.
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, 
+                    Our commitment to excellence drives us to continually
+                    deliver exceptional results.
                   </p>
                 </Col>
                 <Col md={6}>
-                    <div className="d-flex justify-content-center align-items-center gap-4 mb-2">
-                        <Image src={Clutch}/>
-                        <Image src={TopRated}/>
-
-                    </div>
-                    <div>
-                        <Image src={Acheivement}/>
-                    </div>
+                  <div className="d-flex justify-content-center align-items-center gap-4 mb-2">
+                    <Image src={Clutch} />
+                    <Image src={TopRated} />
+                  </div>
+                  <div>
+                    <Image src={Acheivement} />
+                  </div>
                 </Col>
               </Row>
             </div>

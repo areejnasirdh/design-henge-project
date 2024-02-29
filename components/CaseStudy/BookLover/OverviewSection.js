@@ -1,5 +1,5 @@
 import React from "react";
-import booklover from "../../../public/images/Booklover/Logo.png";
+import booklover from "../../../public/images/Booklover/Logo.webp";
 import OverviewSection from "../Layout/OverviewSection";
 
 const Overview = () => {

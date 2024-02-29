@@ -1,5 +1,5 @@
 import React from "react";
-import orangeCounty from "../../../public/images/Dreamshot/logo.png";
+import orangeCounty from "../../../public/images/Dreamshot/logo.webp";
 import OverviewSection from "../Layout/OverviewSection";
 
 const Overview = () => {
