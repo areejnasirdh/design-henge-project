@@ -15,14 +15,14 @@ function CaseStudy() {
     {
       image: "/images/caseStudy/Case-study-section-1.webp",
       heading: "YUMME GIRL O SKIN",
-      description:"Design Henge partnered with Yumme Girl O Skin, a dynamic skincare startup, to create a logo that captures their unique brand essence. Through extensive research, creative exploration, and iterative feedback, we crafted a vibrant and contemporary logo that reflects their passion for authentic artistry.",
+      description:"Design Henge collaborated with Yumme Girl Skin O to craft a cohesive and engaging brand identity cross logo design, product labeling, website design, and social media presence.",
       link: "/case-study/yummegurlo",
     },
     {
       image: "/images/caseStudy/Case-study-section-2.webp",
       heading: "Speakable",
       description:
-        "Speakable and Design Henge worked together to create a responsive website that met all of their requirements. Thanks to our tight collaboration and diligent planning, we were able to create an intuitive platform that highlights their services and skills in a captivating way, guaranteeing that their audience will have an engaging online experience.",
+        "Design Henge, collaborated with Speakable, a language learning platform, to overhaul its user interface (UI) design for their dashboards. By combining our expertise in visual communication with Speakable's innovative language learning approach, the partnership aimed to create an intuitive and engaging user experience.",
       link: "/case-study/Speakable",
     },
     {

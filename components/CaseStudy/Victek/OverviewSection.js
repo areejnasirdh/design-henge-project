@@ -21,16 +21,23 @@ const Overview = () => {
   return (
     <OverviewSection logo={vicket} services_list={services_list}>
       <h5>
-        Vic-Tek empowers people with disabilities and other barriers
-        through job training and employment at Vic-Tek and in the
-        community.
+        VIC-TEK x Design Henge: Revitalizing Branding to Reflect Modernization.
+        Creativity and Strategic Repositioning for Professional Excellence,
+        Growth and Market Success
       </h5>
       <p>
-        Design Henge Interactive worked with Goodwill’s team to help them in their mission of continuing to amplify the voice of individuals with disabilities, providing independence and access for all. Speakable is known for being an advocate and defender of those who are going through difficult times.
-
+        Design Henge played a pivotal role in VIC-TEK's comprehensive brand
+        overhaul, seamlessly blending creativity with strategic expertise across
+        various fronts. From crafting a contemporary logo rooted in the
+        company's heritage to developing cohesive template designs and a
+        user-friendly website interface, each element was meticulously tailored
+        to reflect VIC-TEK's professionalism and commitment to excellence.
       </p>
       <p>
-        To further their objectives, Speakable hired Design Henge Interactive to support their business with web design expertise and occasional consulting related to digital marketing services. As the web design agency of Speakable’s choice, ongoing web support and maintenance, as well as on-page SEO and management of their $10,000 monthly Google Ads Grant, was managed by the Design henge team.
+        The incorporation of visually compelling social media posts and
+        effective SEO optimization further amplified VIC-TEK's online presence,
+        driving engagement and bolstering brand visibility in the digital
+        landscape.
       </p>
     </OverviewSection>
   );

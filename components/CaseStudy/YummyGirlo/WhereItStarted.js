@@ -6,13 +6,8 @@ const WhereItStarted = () => {
   return (
     <WhereItStartedSection
       Img={Started}
-      text="After discussing business goals and objectives, we crafted mock
-    ups and wireframes for different website sections. Each section
-    had to achieve a specific business goal. This early planning is
-    always an essential step, enabling a rapid and meaningful return
-    on investment once the website launches. An intuitive and
-    convenient user experience is a must for any website development
-    project."
+      heading="THE OUTCOME"
+      text="Following the implementation of Design Henge's branding solutions, Yumme Girl Skin O experienced market visibility and consumer engagement. The cohesive brand identity resonated with consumers, leading to increased brand recognition. "
     />
     // <div className="where_it_started_main">
     //   <Container fluid className="container-width-2">

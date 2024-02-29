@@ -18,14 +18,14 @@ function Product() {
       image: "/images/caseStudy/Case-study-section-1.webp",
       heading: "Yumme Girl O Skin",
       description:
-        "Design Henge collaborated with Yumme Girl O Skin, a culinary startup, to develop a logo embodying their brand identity. A vibrant and contemporary logo was crafted through meticulous research, creative exploration, and iterative feedback, reflecting the brand's passion for authentic flavors and culinary artistry.",
+        "Design Henge collaborated with Yumme Girl Skin O to craft a cohesive and engaging brand identity cross logo design, product labeling, website design, and social media presence.",
       link: "/case-study/yummegurlo",
     },
     {
       image: "/images/caseStudy/Case-study-section-2.webp",
       heading: "Speakable",
       description:
-        "Design Henge collaborated with Yumme Girl O Skin, a culinary startup, to develop a logo embodying their brand identity. A vibrant and contemporary logo was crafted through meticulous research, creative exploration, and iterative feedback, reflecting the brand's passion for authentic flavors and culinary artistry.",
+        "Design Henge, collaborated with Speakable, a language learning platform, to overhaul its user interface (UI) design for their dashboards. By combining our expertise in visual communication with Speakable's innovative language learning approach, the partnership aimed to create an intuitive and engaging user experience.",
       link: "/case-study/Speakable",
     },
     {
@@ -67,7 +67,7 @@ function Product() {
       image: "/images/caseStudy/case-study-section-8.webp",
       heading: "Victek",
       description:
-        "Design Henge collaborated with Yumme Girl O Skin, a culinary startup, to develop a logo embodying their brand identity. A vibrant and contemporary logo was crafted through meticulous research, creative exploration, and iterative feedback, reflecting the brand's passion for authentic flavors and culinary artistry.",
+        "A Montreal based cutting-edge technology firm specializing in innovative solutions for businesses needed a branding revamp. While collaborating with Design Henge the focus was to provide a full-suite of services that reflected their legacy.",
       link: "/case-study/Victek",
     },
   ]);

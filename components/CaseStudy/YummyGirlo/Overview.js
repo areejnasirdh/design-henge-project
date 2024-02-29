@@ -31,9 +31,8 @@ const Overview = () => {
         whileInView={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
       >
-        The Book Lover empowers people with disabilities and other barriers
-        through job training and employment at Speakable and in the
-        community.
+        Yumme Girl Skin O x Design Henge: Using Emotion, Personality and a
+        Vision for Branding, Elevating Product Appeal and Recognition
       </motion.h5>
       <motion.p
         initial={{
@@ -44,7 +43,10 @@ const Overview = () => {
         whileInView={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
       >
-        Design Henge Interactive worked with Goodwill’s team to help them in their mission of continuing to amplify the voice of individuals with disabilities, providing independence and access for all. Speakable is known for being an advocate and defender of those who are going through difficult times.
+        Design Henge embarked on an immersive branding journey with Yumme Girl
+        Skin O, crafting a narrative that intertwined nostalgia and hygiene.
+        From logo design to website development, each element was meticulously
+        curated to enhance storytelling and drive consumer engagement.
       </motion.p>
       <motion.p
         initial={{
@@ -55,7 +57,11 @@ const Overview = () => {
         whileInView={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
       >
-        To further their objectives, Speakable hired Design Henge Interactive to support their business with web design expertise and occasional consulting related to digital marketing services. As the web design agency of Speakable’s choice, ongoing web support and maintenance, as well as on-page SEO and management of their $10,000 monthly Google Ads Grant, was managed by the Design henge team.
+        Through strategic social media initiatives, Design Henge amplified Yumme
+        Girl Skin O's narrative, fostering increased visibility and unwavering
+        brand loyalty. As a result of this collaborative effort, Yumme Girl Skin
+        O achieved remarkable market success, solidifying its position as a
+        beloved brand.
       </motion.p>
     </OverviewSection>
   );

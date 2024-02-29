@@ -14,7 +14,7 @@ const Banner = () => {
           delay: "0.3",
         }}
       >
-        CASE
+        VIC-TEK
       </motion.h1>
       <motion.h1
         initial={{ y: 200, opacity: 0 }}
@@ -24,7 +24,7 @@ const Banner = () => {
           delay: "0.4",
         }}
       >
-        STUDY
+        CASE STUDY
       </motion.h1>
       <motion.p
         initial={{ y: 200, opacity: 0 }}
@@ -34,10 +34,7 @@ const Banner = () => {
           delay: "0.5",
         }}
       >
-        Speakable changes lives every day by empowering people with disabilities
-        and disadvantaging conditions to increase their independence and reach
-        their potential through job training and employment at Speakable and in
-        the community.
+        VIC-TEK sought to modernize its branding to reflect its professional services. By leveraging creative expertise across logo design, branding, UI design, website development, social media, and SEO optimization, VIC-TEK successfully repositioned itself.
       </motion.p>
     </BannerSection>
   );

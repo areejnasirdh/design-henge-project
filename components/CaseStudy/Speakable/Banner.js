@@ -14,7 +14,7 @@ const Banner = () => {
           delay: "0.3",
         }}
       >
-        CASE
+        SPEAKABLE
       </motion.h1>
       <motion.h1
         initial={{ y: 200, opacity: 0 }}
@@ -24,7 +24,7 @@ const Banner = () => {
           delay: "0.4",
         }}
       >
-        STUDY
+        CASE STUDY
       </motion.h1>
       <motion.p
         initial={{ y: 200, opacity: 0 }}
@@ -34,10 +34,10 @@ const Banner = () => {
           delay: "0.5",
         }}
       >
-        Speakable changes lives every day by empowering people with disabilities
-        and disadvantaging conditions to increase their independence and reach
-        their potential through job training and employment at Speakable and in
-        the community.
+        Speakable recognized the need to enhance its dashboards' UI to better
+        align with its mission of improving language learning outcomes. The
+        existing interface lacked intuitive navigation and visual appeal,
+        hindering users' engagement and usability.
       </motion.p>
     </BannerSection>
   );

@@ -6,7 +6,8 @@ const WhereItStarted = () => {
   return (
     <WhereItStartedSection
       Img={Started}
-      text="After discussing business goals and objectives, we crafted mock ups and wireframes for different website sections. Each section had to achieve a specific business goal. This early planning is always an essential step, enabling a rapid and meaningful return on investment once the website launches. An intuitive and convenient user experience is a must for any website development project."
+      heading="THE OUTCOME"
+      text="Following the implementation of Design Henge's UI redesign, Speakable witnessed significant improvements in user engagement, satisfaction, and learning outcomes. Key metrics, including user retention rates, time spent on platform, and completion rates of learning activities, showed marked improvement, indicating the success of the UI transformation."
     />
   );
 };

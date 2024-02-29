@@ -21,23 +21,23 @@ const Overview = () => {
   return (
     <OverviewSection logo={Speakable} services_list={services_list}>
       <h5>
-        Speakable empowers people with disabilities and other barriers through
-        job training and employment at Speakable and in the community.
+        Speakable x Design Henge: Joint Forces to Empower Individuals with
+        Seamless Job Training and Employment Opportunities through Tailored
+        Solutions
       </h5>
       <p>
-        Design Henge Interactive worked with Goodwill's team to help them in
-        their mission of continuing to amplify the voice of individuals with
-        disabilities, providing independence and access for all. Speakable is
-        known for being an advocate and defender of those who are going through
-        difficult times.
+        Speakable collaborated with Design Hengel's team to advance their
+        mission of amplifying the voices of individuals with disabilities.
+        Speakable, known for advocating for those facing adversity, sought to
+        enhance their digital presence by enlisting Design Henge Interactive's
+        expertise specifically for UI design.
       </p>
       <p>
-        o further their objectives, Speakable hired Design Henge Interactive to
-        support their business with web design expertise and occasional
-        consulting related to digital marketing services. As the web design
-        agency of Speakable's choice, ongoing web support and maintenance, as
-        well as on-page SEO and management of their $10,000 monthly Google Ads
-        Grant, was managed by the Design henge team.
+        As Speakable's chosen UI design partner, Design Henge Interactive
+        provided tailored solutions to improve user experience and accessibility
+        on their platform, reinforcing Speakable's commitment to advocacy and
+        empowerment. The partnership between Speakable and Design Henge
+        exemplifies the transformative power of UI design.
       </p>
     </OverviewSection>
   );
