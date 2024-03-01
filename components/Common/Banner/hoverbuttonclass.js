@@ -7,9 +7,11 @@ const ReusableButton = ({
   buttonText,
   additionalClasses,
   onClick,
+  type
 }) => {
   return (
     <motion.button
+    type={type}
       initial={{ y: 200, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{

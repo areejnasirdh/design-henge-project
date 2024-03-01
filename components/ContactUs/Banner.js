@@ -1,11 +1,43 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import BannerSection from "../CaseStudy/Layout/BannerSection";
 import { motion } from "framer-motion";
 import { Col, Container, Row } from "react-bootstrap";
 import ReusableButton from "../Common/Banner/hoverbuttonclass";
+import axios from "axios";
 
 const ContactBanner = () => {
+
+  const [contactDetails,setContactDetails]=useState({
+    name:"",
+    email:"",
+    phone:"",
+    message:"",
+  })
+
+  const handleEmail = async (e,data) => {
+    e.preventDefault();
+    await axios.post("/api/send-email",data);
+
+  };
+
+  const handleChange=(name)=>(e)=>{
+    console.log(name,e.target.value)
+    setContactDetails((prev)=>{return {...prev,[name]:e.target.value}})
+  }
+
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    handleEmail(e,contactDetails);
+
+    setContactDetails({
+      name:"",
+      email:"",
+      phone:"",
+      message:""
+    })
+  }
   return (
 
     <div className="contact_banner_section_main">
@@ -54,34 +86,34 @@ const ContactBanner = () => {
               <div className="home_contact_form w-full md:w-[29rem] px-6 py-6 lg:pl-10 lg:pr-10 lg:py-10 flex justify-center">
                 <div>
                   <h3>Book a Free Consultation</h3>
-                  <form className="pt-4 pb-3">
+                  <form className="pt-4 pb-3" onSubmit={handleSubmit}>
                     <Row className="gx-5 gy-3">
                       <Col md={12} className="d-flex flex-col">
                         <div className="input">
-                          <input placeholder="Full Name" />
+                          <input placeholder="Full Name" required value={contactDetails.name} onChange={handleChange("name")}/>
                         </div>
                       </Col>
                       <Col md={12} className="d-flex flex-col">
                         <div className="input">
-                          <input placeholder="Email" />
+                          <input placeholder="Email" required value={contactDetails.email} onChange={handleChange("email")}/>
                         </div>
                       </Col>
                       <Col md={12} className="d-flex flex-col py-2">
                         <div className="input">
-                          <input placeholder="Phone Number" />
+                          <input placeholder="Phone Number" required value={contactDetails.phone} onChange={handleChange("phone")}/>
                         </div>
                       </Col>
                       <Col md={12} className="d-flex flex-col py-2">
                         <label>Message</label>
                         <div className="input">
-                          <textarea className="relative h-[50px] px-2 box-border w-full" />
+                          <textarea className="relative h-[50px] px-2 box-border w-full outline-none" required value={contactDetails.message} onChange={handleChange("message")}/>
                         </div>
                       </Col>
                       <div className="flex justify-center">
                         <ReusableButton
-                          buttonText="G
-                            ET IT TOUCH"
-                          onClick={() => { }}
+                        type="submit"
+                          buttonText="GET IT TOUCH"
+                          // onClick={() => { }}
                           additionalClasses="your-custom-classes"
                         />
                       </div>

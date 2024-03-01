@@ -1,12 +1,12 @@
 "use client";
 import { useState } from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import Image1 from "../../public/images/services/branding-and-identity.jpg";
-import Image2 from "../../public/images/services/website-design-development.jpg";
-import Image3 from "../../public/images/services/web3-design.jpg";
-import Image4 from "../../public/images/services/ecommerce.jpg";
-import Image5 from "../../public/images/services/mobile-app-development.jpg";
-import Image6 from "../../public/images/services/digital-marketing.jpg";
+import Image1 from "../../public/images/services/branding-and-identity.webp";
+import Image2 from "../../public/images/services/website-design-development.webp";
+import Image3 from "../../public/images/services/web3-design.webp";
+import Image4 from "../../public/images/services/ecommerce.webp";
+import Image5 from "../../public/images/services/mobile-app-development.webp";
+import Image6 from "../../public/images/services/digital-marketing.webp";
 import Image7 from "../../public/images/services/2d-3d.gif";
 import DefaultBg from "../../public/images/services-bg.png";
 import { Col, Container, Row } from "react-bootstrap";
