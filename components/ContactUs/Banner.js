@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import BannerSection from "../CaseStudy/Layout/BannerSection";
 import { motion } from "framer-motion";
 import { Col, Container, Row } from "react-bootstrap";
@@ -7,39 +7,49 @@ import ReusableButton from "../Common/Banner/hoverbuttonclass";
 import axios from "axios";
 
 const ContactBanner = () => {
+  const [contactDetails, setContactDetails] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+  const [toast, setToast] = useState(false);
 
-  const [contactDetails,setContactDetails]=useState({
-    name:"",
-    email:"",
-    phone:"",
-    message:"",
-  })
-
-  const handleEmail = async (e,data) => {
+  const handleEmail = async (e, data) => {
     e.preventDefault();
-    await axios.post("/api/send-email",data);
-
+    await axios.post("/api/send-email", data);
   };
 
-  const handleChange=(name)=>(e)=>{
-    console.log(name,e.target.value)
-    setContactDetails((prev)=>{return {...prev,[name]:e.target.value}})
-  }
-
+  const handleChange = (name) => (e) => {
+    console.log(name, e.target.value);
+    setContactDetails((prev) => {
+      return { ...prev, [name]: e.target.value };
+    });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    handleEmail(e,contactDetails);
+    handleEmail(e, contactDetails);
 
     setContactDetails({
-      name:"",
-      email:"",
-      phone:"",
-      message:""
-    })
-  }
-  return (
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+    });
 
+    setTimeout(() => {
+      setToast(true);
+    }, 2000);
+  };
+
+  useEffect(() => {
+    setTimeout(() => {
+      setToast(false);
+    }, 2000);
+  }, [toast]);
+
+  return (
     <div className="contact_banner_section_main">
       <Container fluid className="container-width-2">
         <Row>
@@ -75,7 +85,9 @@ const ContactBanner = () => {
                 delay: "0.4",
               }}
             >
-              We'll contact you within a couple of hours to schedule a meeting to discuss your goals. We'll contact you within a couple of hours to schedule a meeting to discuss your goals.
+              We'll contact you within a couple of hours to schedule a meeting
+              to discuss your goals. We'll contact you within a couple of hours
+              to schedule a meeting to discuss your goals.
             </motion.p>
           </Col>
           <Col
@@ -90,33 +102,58 @@ const ContactBanner = () => {
                     <Row className="gx-5 gy-3">
                       <Col md={12} className="d-flex flex-col">
                         <div className="input">
-                          <input placeholder="Full Name" required value={contactDetails.name} onChange={handleChange("name")}/>
+                          <input
+                            placeholder="Full Name"
+                            required
+                            value={contactDetails.name}
+                            onChange={handleChange("name")}
+                          />
                         </div>
                       </Col>
                       <Col md={12} className="d-flex flex-col">
                         <div className="input">
-                          <input placeholder="Email" required value={contactDetails.email} onChange={handleChange("email")}/>
+                          <input
+                            placeholder="Email"
+                            required
+                            value={contactDetails.email}
+                            onChange={handleChange("email")}
+                          />
                         </div>
                       </Col>
                       <Col md={12} className="d-flex flex-col py-2">
                         <div className="input">
-                          <input placeholder="Phone Number" required value={contactDetails.phone} onChange={handleChange("phone")}/>
+                          <input
+                            placeholder="Phone Number"
+                            required
+                            value={contactDetails.phone}
+                            onChange={handleChange("phone")}
+                          />
                         </div>
                       </Col>
                       <Col md={12} className="d-flex flex-col py-2">
                         <label>Message</label>
                         <div className="input">
-                          <textarea className="relative h-[50px] px-2 box-border w-full outline-none" required value={contactDetails.message} onChange={handleChange("message")}/>
+                          <textarea
+                            className="relative h-[50px] px-2 box-border w-full outline-none"
+                            required
+                            value={contactDetails.message}
+                            onChange={handleChange("message")}
+                          />
                         </div>
+                        {toast && (
+                          <h2 className={`transition-all ${toast ? "opacity-100": "opacity-0"} text-white mt-2 text-xs bg-green-500 py-2 text-center`}>
+                            Form Submitted
+                          </h2>
+                        )}
                       </Col>
                       <div className="flex justify-center">
                         <ReusableButton
-                        type="submit"
+                          type="submit"
                           buttonText="GET IT TOUCH"
-                          // onClick={() => { }}
                           additionalClasses="your-custom-classes"
                         />
                       </div>
+                      {/* <ToastContainer /> */}
                     </Row>
                   </form>
                 </div>
