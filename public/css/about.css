@@ -250,13 +250,13 @@
 @media (max-width: 439px){
   .acheivements_main h1 {
     padding-top: 30px;
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
-@media (max-width: 321px){
+/* @media (max-width: 321px){
   .acheivements_main h1 {
     padding-top: 30px;
     font-size: 30px;
   }
-}
+} */

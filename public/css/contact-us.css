@@ -556,6 +556,13 @@
     height: auto;
     margin-top: 32px;
   }
+  .contact_banner_section_main button {
+    width: 100%;
+  }
+
+  .contact_banner_section_main button span {
+    margin: auto;
+  }
 
   .home_contact_form h3 {
     line-height: unset;

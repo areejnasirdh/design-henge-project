@@ -89,7 +89,7 @@ const Banner = ({ heading, subHeading, text, img, navigate }) => {
             </motion.button> */}
             <Link href={navigate}>
               <ReusableButton
-                buttonText="READ MORE"
+                buttonText="START A PROJECT"
               // onClick={(e) => { e.preventDefault(); router.push(navigate) }}
               // btnRef={{}}
               // onMouseMove={() => { }}

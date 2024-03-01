@@ -52,7 +52,7 @@ const testimonials = [
   {
     testimonial:
       "I can't recommend Design Henge enough for their Social Media Marketing! From start to finish of our project, they were communicative, responsive, and dedicated.",
-    name: "- Ali K.",
+    name: "- Gorgio K.",
     position: "Social Media Manager",
     img: "testimonial-3.png",
     logo: "testi-logo-3.png"

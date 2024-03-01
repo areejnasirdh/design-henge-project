@@ -17,7 +17,7 @@ const page = () => {
           content="Meta descrip: Design Henge aims to help startups and organizations recognize their potential and leverage optimum, highly customized solutions for business growth and ROI."
         />
       </Head>
-      <div className="home_main">
+      <div className="home_main about-us">
         <Navbar />
         <AboutBanner />
       </div>

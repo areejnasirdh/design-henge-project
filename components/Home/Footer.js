@@ -28,12 +28,12 @@ export default function Footer() {
               >
               <img src="/images/insta-icon.png" className="w-full h-full" />
             </a>
-              <a
+              {/* <a
                 href="https://twitter.com/designaligators"
                 className="text-xs font-medium text-white"
               >
               <img src="/images/tw-icon.png" className="w-full h-full" />
-            </a>
+            </a> */}
               <a
                 href="https://www.linkedin.com/company/design-henge/"
                 className="text-xs font-medium text-white"
@@ -128,12 +128,15 @@ export default function Footer() {
               info@designhenge.com
             </p>
             <hr />
-            <button
+            {/* <button
               className="block rounded-sm uppercase mt-3 bg-white px-6 py-2 font-medium text-black transition hover:bg-red-primary hover:text-white subscribe-home-button"
               type="submit"
             >
               Subscribe
-            </button>
+            </button> */}
+            <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas">
+                Email us
+              </p>
           </div>
           <div className="min-w-[250px] max-w-[300px] mr-4 mt-4">
             <div className="flex items-center">
@@ -207,7 +210,7 @@ export default function Footer() {
         </div>
       </Container>
       <div className="w-full py-4 tracking-widest text-lg border-t border-white font-medium text-white font-bebas uppercase text-center">
-        &copy; 2023 design henge. all rights reserved.
+        &copy; 2024 design henge. all rights reserved.
       </div>
     </footer>
   );

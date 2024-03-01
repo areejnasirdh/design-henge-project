@@ -34,7 +34,7 @@ const BlogInner = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h2>January 11, 2024</h2>
+                <h2>{blogData[blogInner]?.date}</h2>
                 <h1>{blogData[blogInner]?.title}</h1>
                 <p>{blogData[blogInner]?.intro}</p>
                 {blogData[blogInner]?.subHeading?.map((v, i) => (

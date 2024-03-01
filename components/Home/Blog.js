@@ -14,13 +14,13 @@ const blogData = [
     id: 1,
     desc: "Breaking the Mold: Innovative Strategies for Startup Success",
     img: "second-blog.jpg",
-    date: "18 Jan 2022",
+    date: "20 Sep 2022",
   },
   {
     id: 2,
     desc: "The Branding Blueprint: Secrets to Unlocking Explosive Growth",
     img: "third-blog.jpg",
-    date: "18 Jan 2022",
+    date: "4 Mar 2022",
   },
 ];
 
@@ -35,7 +35,7 @@ function Blog() {
           >
             <div className="d-flex flex-column align-items-center">
               <h3>BLOG</h3>
-              <h4>LATEST ARTICLES</h4>
+              <h4>TECH INSIGHTS</h4>
             </div>
           </div>
         </Container>

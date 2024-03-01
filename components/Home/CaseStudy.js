@@ -12,12 +12,12 @@ function CaseStudy() {
   const btnRef3 = useRef(null);
   const router = useRouter();
   const [cases, setcases] = useState([
-    {
-      image: "/images/caseStudy/Case-study-section-1.webp",
-      heading: "YUMME GIRL O SKIN",
-      description:"Design Henge collaborated with Yumme Girl Skin O to craft a cohesive and engaging brand identity cross logo design, product labeling, website design, and social media presence.",
-      link: "/case-study/yummegurlo",
-    },
+    // {
+    //   image: "/images/caseStudy/Case-study-section-1.webp",
+    //   heading: "YUMME GIRL O SKIN",
+    //   description:"Design Henge collaborated with Yumme Girl Skin O to craft a cohesive and engaging brand identity cross logo design, product labeling, website design, and social media presence.",
+    //   link: "/case-study/yummegurlo",
+    // },
     {
       image: "/images/caseStudy/Case-study-section-2.webp",
       heading: "Speakable",
@@ -31,6 +31,13 @@ function CaseStudy() {
       description:
         "A successful collaboration between Orange County Eating Disorder & Design Henge, to develop website, logo design, and create engaging blog content to enhance the providers online presence. The key was to address the challenge of raising awareness about eating disorders while providing valuable resources to those in need, the client sought our expertise.",
       link: "/case-study/orange-county",
+    },
+    {
+      image: "/images/caseStudy/case-study-section-6.webp",
+      heading: "Zego",
+      description:
+        "ZEGO is an emerging AI company focused on empowering clients to identify opportunities for increased efficiencies through automation, AI integration, and leveraging outsourced teams. With a commitment to innovation and optimization, ZEGO aims to revolutionize business operations across various industries.",
+      link: "/case-study/Zego",
     },
   ]);
 

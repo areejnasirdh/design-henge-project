@@ -502,11 +502,25 @@ h1.font-bebas.uppercase {
     font-size: 10px;
   }
 
-  .banner_section_main img {
+  .banner_section_main button {
     width: 100%;
+
+  }
+  .banner_section_main button span{
+    margin: auto;
+    
+  }
+
+  .about-us>.banner_section_main img{
+    display: block !important;
+  }
+
+  .banner_section_main img {
+    /* width: 100%;
     height: auto;
     margin-top: 32px;
-    margin-left: 0px;
+    margin-left: 0px; */
+    display: none;
   }
 
   .home_about_main h4 {

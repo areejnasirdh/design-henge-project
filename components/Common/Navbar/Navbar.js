@@ -129,7 +129,7 @@ const Navbr = () => {
                   //   router.pathname === "/contact-us" ? "nav-active" : ""
                   // }
                   >
-                    +1 (347) 571-1105
+                    +1 (917) 310-1802
                   </Link>
                   <ReusableButton
                     buttonText="GET IT TOUCH"
