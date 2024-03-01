@@ -1,5 +1,5 @@
 import React from "react";
-import poweratm from "../../../public/images/power_atm/logo.png";
+import poweratm from "../../../public/images/power_atm/logo.webp";
 import OverviewSection from "../Layout/OverviewSection";
 
 const Overview = () => {

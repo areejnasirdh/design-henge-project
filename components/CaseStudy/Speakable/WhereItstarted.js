@@ -1,5 +1,5 @@
 import React from "react";
-import Started from "../../../public/images/Speakable/speakable-WhereItstarted.png";
+import Started from "../../../public/images/Speakable/speakable-WhereItstarted.webp";
 import WhereItStartedSection from "../Layout/WhereItStartedSection";
 
 const WhereItStarted = () => {

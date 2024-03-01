@@ -1,5 +1,5 @@
 import React from "react";
-import Speakable from "../../../public/images/Speakable/speakable-logo.png";
+import Speakable from "../../../public/images/Speakable/speakable-logo.webp";
 import OverviewSection from "../Layout/OverviewSection";
 
 const Overview = () => {

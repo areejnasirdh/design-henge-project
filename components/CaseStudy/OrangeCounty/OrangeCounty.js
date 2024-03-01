@@ -1,7 +1,7 @@
 import React from "react";
-import orange from "../../../public/images/orangeCounty/orange-county-logo.png";
-import Color from "../../../public/images/orangeCounty/Orange-county-color-pallete.png";
-import Font from "../../../public/images/orangeCounty/Orange-county-font.png";
+import orange from "../../../public/images/orangeCounty/orange-county-logo.webp";
+import Color from "../../../public/images/orangeCounty/Orange-county-color-pallete.webp";
+import Font from "../../../public/images/orangeCounty/Orange-county-font.webp";
 import DesignTheme from "../Layout/DesignTheme";
 
 const OrangeCounty = () => {

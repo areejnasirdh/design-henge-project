@@ -1,7 +1,7 @@
 import React from "react";
-import orange from "../../../public/images/power_atm/logo.png";
-import Color from "../../../public/images/power_atm/color-pallete.png";
-import Font from "../../../public/images/power_atm/font.png";
+import orange from "../../../public/images/power_atm/logo.webp";
+import Color from "../../../public/images/power_atm/color-pallete.webp";
+import Font from "../../../public/images/power_atm/font.webp";
 import DesignTheme from "../Layout/DesignTheme";
 
 const PowerAtm = () => {

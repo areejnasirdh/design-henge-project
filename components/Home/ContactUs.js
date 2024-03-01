@@ -82,7 +82,7 @@ function ContactUs() {
                         </Col>
                         <Col md={6} className="d-flex flex-col">
                           {/* <label>Surname</label> */}
-                          <input placeholder="Sir Name" />
+                          <input placeholder="Last Name" />
                         </Col>
                         <Col md={12} className="d-flex flex-col py-2">
                           <input placeholder="Phone Number" />

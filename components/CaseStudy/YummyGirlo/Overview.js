@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Yummy from "../../../public/images/yummygurlo/yummy-girlo.png";
+import Yummy from "../../../public/images/yummygurlo/yummy-girlo.webp";
 import OverviewSection from "../Layout/OverviewSection";
 import { motion } from "framer-motion";
 

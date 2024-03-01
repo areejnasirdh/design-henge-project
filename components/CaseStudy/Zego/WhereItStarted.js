@@ -1,5 +1,5 @@
 import React from "react";
-import Started from "../../../public/images/Zego/whereitStarted.png";
+import Started from "../../../public/images/Zego/whereitStarted.webp";
 import WhereItStartedSection from "../Layout/WhereItStartedSection";
 
 const WhereItStarted = () => {

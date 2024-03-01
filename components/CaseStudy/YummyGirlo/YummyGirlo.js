@@ -1,7 +1,7 @@
 import React from "react";
-import Yummy from "../../../public/images/yummygurlo/yummy-girlo.png";
-import Color from "../../../public/images/yummygurlo/colors.png";
-import Font from "../../../public/images/yummygurlo/font.png";
+import Yummy from "../../../public/images/yummygurlo/yummy-girlo.webp";
+import Color from "../../../public/images/yummygurlo/colors.webp";
+import Font from "../../../public/images/yummygurlo/font.webp";
 import DesignTheme from "../Layout/DesignTheme";
 
 const YummyGirlo = () => {

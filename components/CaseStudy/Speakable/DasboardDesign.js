@@ -1,6 +1,6 @@
 
 import React from "react";
-import Label1 from "../../../public/images/Speakable/Design-Henge-UI-Case-Studys-speakable.png";
+import Label1 from "../../../public/images/Speakable/Design-Henge-UI-Case-Studys-speakable.webp";
 import LabelDesign from "../Layout/DasboardDesign";
 
 const DasboardDesign = () => {

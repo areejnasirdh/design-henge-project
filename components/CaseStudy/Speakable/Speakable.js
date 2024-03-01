@@ -1,7 +1,7 @@
 import React from "react";
-import orange from "../../../public/images/Speakable/speakable-logo.png";
-import Color from "../../../public/images/Speakable/speakable-color-pallete.png";
-import Font from "../../../public/images/Speakable/speakable-font.png";
+import orange from "../../../public/images/Speakable/speakable-logo.webp";
+import Color from "../../../public/images/Speakable/speakable-color-pallete.webp";
+import Font from "../../../public/images/Speakable/speakable-font.webp";
 import DesignTheme from "../Layout/DesignTheme";
 
 const Speakable = () => {

@@ -1,14 +1,22 @@
-import React from 'react';
+import React from "react";
 import Navbar from "@/components/Common/Navbar/Navbar";
-import AboutBanner from '@/components/About/AboutBanner';
-import WhoWeAre from '@/components/About/WhoWeAre';
-import Acheivements from '@/components/About/Acheivements';
-import Projects from '@/components/About/Projects';
-import Socials from '@/components/Home/Socials';
+import AboutBanner from "@/components/About/AboutBanner";
+import WhoWeAre from "@/components/About/WhoWeAre";
+import Acheivements from "@/components/About/Acheivements";
+import Projects from "@/components/About/Projects";
+import Socials from "@/components/Home/Socials";
+import Head from "next/head";
 
 const page = () => {
   return (
     <div>
+      <Head>
+        <title>About Us</title>
+        <meta
+          name="description"
+          content="Meta descrip: Design Henge aims to help startups and organizations recognize their potential and leverage optimum, highly customized solutions for business growth and ROI."
+        />
+      </Head>
       <div className="home_main">
         <Navbar />
         <AboutBanner />
@@ -18,7 +26,7 @@ const page = () => {
       <Acheivements />
       <Projects />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

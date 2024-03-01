@@ -1,7 +1,7 @@
 
 import React from 'react'
-import Label1 from "../../../public/images/yummygurlo/label-1.png"
-import Label2 from "../../../public/images/yummygurlo/label-2.png"
+import Label1 from "../../../public/images/yummygurlo/label-1.webp"
+import Label2 from "../../../public/images/yummygurlo/label-2.webp"
 import LabelDesign from '../Layout/LabelDesign'
 
 const Label = () => {

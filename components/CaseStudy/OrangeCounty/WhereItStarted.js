@@ -1,5 +1,5 @@
 import React from "react";
-import Started from "../../../public/images/orangeCounty/orange-county-WhereItStarted.png";
+import Started from "../../../public/images/orangeCounty/orange-county-WhereItStarted.webp";
 import WhereItStartedSection from "../Layout/WhereItStartedSection";
 
 const WhereItStarted = () => {

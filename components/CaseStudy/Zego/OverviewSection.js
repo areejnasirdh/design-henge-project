@@ -1,5 +1,5 @@
 import React from "react";
-import booklover from "../../../public/images/Zego/logo.png";
+import booklover from "../../../public/images/Zego/logo.webp";
 import OverviewSection from "../Layout/OverviewSection";
 
 const Overview = () => {

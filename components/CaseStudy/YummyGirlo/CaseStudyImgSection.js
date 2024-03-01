@@ -1,6 +1,6 @@
 
 import React from "react";
-import CaseStudyImg2 from "../../../public/images/yummygurlo/case-study-img2.png";
+import CaseStudyImg2 from "../../../public/images/yummygurlo/case-study-img2.webp";
 import ImageSection1 from "../Layout/ImageSection1";
 
 const CaseStudyImgSection = () => {

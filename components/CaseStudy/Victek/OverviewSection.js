@@ -1,5 +1,5 @@
 import React from "react";
-import vicket from "../../../public/images/vickek/logo.png";
+import vicket from "../../../public/images/vickek/logo.webp";
 import OverviewSection from "../Layout/OverviewSection";
 
 const Overview = () => {

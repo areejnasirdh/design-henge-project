@@ -1,7 +1,7 @@
 import React from "react";
-import orange from "../../../public/images/Zego/logo.png";
-import Color from "../../../public/images/Zego/Colorpallete.png";
-import Font from "../../../public/images/Zego/font.png";
+import orange from "../../../public/images/Zego/logo.webp";
+import Color from "../../../public/images/Zego/Colorpallete.webp";
+import Font from "../../../public/images/Zego/font.webp";
 import DesignTheme from "../Layout/DesignTheme";
 
 const Zego = () => {

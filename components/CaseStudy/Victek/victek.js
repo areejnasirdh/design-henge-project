@@ -1,7 +1,7 @@
 import React from "react";
-import orange from "../../../public/images/vickek/logo.png";
-import Color from "../../../public/images/vickek/color-pallete.png";
-import Font from "../../../public/images/vickek/font.png";
+import orange from "../../../public/images/vickek/logo.webp";
+import Color from "../../../public/images/vickek/color-pallete.webp";
+import Font from "../../../public/images/vickek/font.webp";
 import DesignTheme from "../Layout/DesignTheme";
 
 const vicket = () => {

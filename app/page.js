@@ -15,6 +15,7 @@ import Services from "@/components/Home/Services";
 import Testimonials from "@/components/Home/Testimonials";
 import Clients from "@/components/Home/Clients";
 import AOS from "aos";
+import Head from "next/head";
 
 export default function Home() {
   // useEffect(() => {
@@ -36,6 +37,13 @@ export default function Home() {
   // }, []);
   return (
     <div>
+      <Head>
+        <title>Design Henge: Propel your brands towards success</title>
+        <meta
+          name="description"
+          content="Design Henge is a digital marketing and branding agency based in Illinois passionately creating impactful work for clients globally."
+        />
+      </Head>
       <div className="home_main">
         <Navbar />
         <BannerSection />

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { Container } from "react-bootstrap";
 
@@ -9,19 +10,34 @@ export default function Footer() {
         <div className="footer-main mx-auto max-w-[90rem] px-0 pb-6 pt-10 md:pt-5 sm:px-6 lg:px-0 flex flex-wrap lg:justify-between">
           <div className="max-w-[20%] min-w-[185px] mr-4 mt-4">
             <a href="/" className="text-xs font-medium text-white">
-              <img src='/images/Footer-logo.png' />
+              <img src="/images/Footer-logo.png" />
             </a>
             <div className="w-full h-[50px] flex justify-between mt-4">
-            <a href="https://www.facebook.com/DesignHenge?mibextid=ZbWKwL" className="text-xs font-medium text-white">
-              <img src="/images/facebook-icon.png" className="w-full h-full" />
+              <a
+                href="https://www.facebook.com/DesignHenge?mibextid=ZbWKwL"
+                className="text-xs font-medium text-white"
+              >
+                <img
+                  src="/images/facebook-icon.png"
+                  className="w-full h-full"
+                />
             </a>
-            <a href="https://www.instagram.com/designhengeco?igsh=MXh1Zmt6ZXNsaGdzZQ==" className="text-xs font-medium text-white">
+              <a
+                href="https://www.instagram.com/designhengeco?igsh=MXh1Zmt6ZXNsaGdzZQ=="
+                className="text-xs font-medium text-white"
+              >
               <img src="/images/insta-icon.png" className="w-full h-full" />
             </a>
-            <a href="https://twitter.com/designaligators" className="text-xs font-medium text-white">
+              <a
+                href="https://twitter.com/designaligators"
+                className="text-xs font-medium text-white"
+              >
               <img src="/images/tw-icon.png" className="w-full h-full" />
             </a>
-            <a href="https://www.linkedin.com/company/design-henge/" className="text-xs font-medium text-white">
+              <a
+                href="https://www.linkedin.com/company/design-henge/"
+                className="text-xs font-medium text-white"
+              >
               <img src="/images/linked-icon.png" className="w-full h-full" />
             </a>
             </div>
@@ -99,7 +115,8 @@ export default function Footer() {
               style={{ fontSize: "15px" }}
               className="text-gray-200 text-sm leading-7 font-light"
             >
-              Support@designhenge.com <br />(021) 34661461
+              Support@designhenge.com <br />
+              (021) 34661461
             </p>
             <p className="text-[30px] md:text-[35px] font-light text-white font-bebas">
               get all the updates
@@ -118,14 +135,17 @@ export default function Footer() {
               Subscribe
             </button>
           </div>
-          <div className="min-w-[250px] mr-4 mt-4">
+          <div className="min-w-[250px] max-w-[300px] mr-4 mt-4">
             <div className="flex items-center">
               <Image src="/images/footer-America-flag.png" width={20} height={10} className="h-[30px] w-[40px] mt-[-5px]" />
               <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas uppercase ml-2">
                 Headquarters
               </p>
             </div>
-            <p className="text-gray-200 font-light leading-7 text-sm">2259 W. Rosemont Ave. Apt. 1 <br />Chicago, IL 60659, USA</p>
+            <Link href="https://maps.app.goo.gl/dsFesYtGXHp4iT3f8" className="text-gray-200 font-light leading-7 text-sm">
+              2259 W. Rosemont Ave. Apt. 1 <br />
+              Chicago, IL 60659, USA
+            </Link>
 
             <div className="flex items-center mt-3">
               <Image src="/images/footer-pakistan-flag.png" width={20} height={10} className="h-[30px] w-[40px] mt-[-5px]" />
@@ -133,7 +153,10 @@ export default function Footer() {
                 production team
               </p>
             </div>
-            <p className="text-gray-200 font-light w-[250px]">Saadabad Cooperative Housing Society, 4, Block 4 Gulistan-e-Johar, Karachi, Karachi City, Sindh 75290</p>
+            <Link  href="https://maps.app.goo.gl/gptisda4XykBm9Ks7" className="text-gray-200 font-light w-[250px]">
+              Saadabad Cooperative Housing Society, 4, Block 4 Gulistan-e-Johar,
+              Karachi, Karachi City, Sindh 75290
+            </Link>
           </div>
         </div>
       </Container>
@@ -184,9 +207,8 @@ export default function Footer() {
         </div>
       </Container>
       <div className="w-full py-4 tracking-widest text-lg border-t border-white font-medium text-white font-bebas uppercase text-center">
-        &copy;  2023 design henge. all rights reserved.
+        &copy; 2023 design henge. all rights reserved.
       </div>
     </footer>
-
   );
 }
