@@ -26,9 +26,9 @@ function ContactUs() {
 
   const [contactDetails, setContactDetails] = useState({
     name: "",
-    lastname: "",
     email: "",
     phone: "",
+    lastname: "",
   });
   const [toast, setToast] = useState(false);
 
@@ -50,9 +50,9 @@ function ContactUs() {
 
     setContactDetails({
       name: "",
-      lastname: "",
       email: "",
       phone: "",
+      lastname: "",
     });
 
     setTimeout(() => {
@@ -120,24 +120,29 @@ function ContactUs() {
                         <Col md={6} className="d-flex flex-col">
                           {/* <label>Name</label> */}
                           <input placeholder="Name" value={contactDetails.name}
-                            onChange={handleChange("name")} required/>
+                            onChange={handleChange("name")} required />
                         </Col>
                         <Col md={6} className="d-flex flex-col">
                           {/* <label>Surname</label> */}
                           <input placeholder="Last Name" value={contactDetails.lastname}
-                            onChange={handleChange("lastname")} required/>
+                            onChange={handleChange("lastname")} required />
                         </Col>
                         <Col md={12} className="d-flex flex-col py-2">
                           <input placeholder="Phone Number" value={contactDetails.phone}
-                            onChange={handleChange("phone")} required/>
+                            onChange={handleChange("phone")} required />
                         </Col>
                         <Col md={12} className="d-flex flex-col">
                           <input placeholder="Email" value={contactDetails.email}
-                            onChange={handleChange("email")} required/>
+                            onChange={handleChange("email")} required />
+                          {toast && (
+                            <h2 className={`transition-all ${toast ? "opacity-100" : "opacity-100"} text-white mt-2 text-xs bg-green-500 py-2 text-center`}>
+                              Form Submitted
+                            </h2>
+                          )}
                         </Col>
                         <Col>
                           <ReusableButton
-                            buttonText="GET IT TOUCH"
+                            buttonText="GET IN TOUCH"
                             // handleMouseMove={handleMouseMovebutton}
                             // btnRef={btnRef}
                             type="submit"

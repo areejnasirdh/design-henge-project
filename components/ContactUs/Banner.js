@@ -6,7 +6,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import ReusableButton from "../Common/Banner/hoverbuttonclass";
 import axios from "axios";
 
-const ContactBanner = () => {
+const ContactBanner = () =>  {
   const [contactDetails, setContactDetails] = useState({
     name: "",
     email: "",
@@ -151,7 +151,7 @@ const ContactBanner = () => {
                       <div className="flex justify-center">
                         <ReusableButton
                           type="submit"
-                          buttonText="GET IT TOUCH"
+                          buttonText="GET IN TOUCH"
                           additionalClasses="your-custom-classes"
                         />
                       </div>
