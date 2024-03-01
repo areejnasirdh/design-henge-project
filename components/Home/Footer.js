@@ -12,7 +12,7 @@ export default function Footer() {
             <a href="/" className="text-xs font-medium text-white">
               <img src="/images/Footer-logo.png" />
             </a>
-            <div className="w-full h-[50px] flex justify-between mt-4">
+            <div className="w-full h-[40px] flex justify-between mt-4">
               <a
                 href="https://www.facebook.com/DesignHenge?mibextid=ZbWKwL"
                 className="text-xs font-medium text-white"
@@ -23,7 +23,7 @@ export default function Footer() {
                 />
             </a>
               <a
-                href="https://www.instagram.com/designhengeco?igsh=MXh1Zmt6ZXNsaGdzZQ=="
+                href="https://www.instagram.com/designhengeco/"
                 className="text-xs font-medium text-white"
               >
               <img src="/images/insta-icon.png" className="w-full h-full" />

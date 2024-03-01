@@ -54,7 +54,8 @@ const ContactBanner = () => {
       <Container fluid className="container-width-2">
         <Row>
           <Col
-            md={7}
+            lg={7}
+            md={5}
             className="pt-5 pt-md-0 d-flex flex-col justify-content-center"
           >
             <motion.h1
@@ -91,10 +92,11 @@ const ContactBanner = () => {
             </motion.p>
           </Col>
           <Col
-            md={5}
+            lg={5}
+            md={7}
             className="d-flex justify-content-center align-items-center mt-4"
           >
-            <div className="d-flex justify-end py-3">
+            <div className="d-flex justify-end py-3 w-full">
               <div className="home_contact_form w-full md:w-[29rem] px-6 py-6 lg:pl-10 lg:pr-10 lg:py-10 flex justify-center">
                 <div>
                   <h3>Book a Free Consultation</h3>

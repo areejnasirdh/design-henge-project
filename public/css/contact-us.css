@@ -362,6 +362,11 @@
   font-family: "Montserrat";
   font-size: 12px;
   font-weight: 300;
+  overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 3; 
+   -webkit-box-orient: vertical;
 }
 
 .HomeSlider .slick-current .SliderCard {
@@ -714,7 +719,7 @@
   } */
 
   .contact_banner_section_main h1:nth-child(2) {
-    font-size: 50px;
+    font-size: 40px;
   }
   .clients_main h4, .home_about_main h4, .home_blog_main h4, .who_we_are_main h4{
     font-size: 55px;

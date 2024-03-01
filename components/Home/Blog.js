@@ -34,8 +34,8 @@ function Blog() {
             className="pt-0 flex flex-col space-y-7 mx-auto max-w-[90rem] "
           >
             <div className="d-flex flex-column align-items-center">
-              <h3>BLOG</h3>
-              <h4>TECH INSIGHTS</h4>
+              {/* <h3>BLOG</h3> */}
+              <h3>TECH INSIGHTS</h3>
             </div>
           </div>
         </Container>
