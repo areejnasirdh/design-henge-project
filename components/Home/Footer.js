@@ -116,7 +116,7 @@ export default function Footer() {
               className="text-gray-200 text-sm leading-7 font-light"
             >
               Support@designhenge.com <br />
-              (021) 34661461
+              +1 (917) 310-1802
             </p>
             {/* <p className="text-[30px] md:text-[35px] font-light text-white font-bebas">
               get all the updates

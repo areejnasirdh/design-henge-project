@@ -130,7 +130,7 @@
 
 .home_about_main h3,
 .home_blog_main h3, .blog-main h3 {
-  font-size: 70px;
+  font-size: 65px;
   font-family: "Zurich XBlk BT";
 
   font-weight: 800;
@@ -151,7 +151,7 @@
 
 .home_about_main h4,
 .home_blog_main h4, .location-container h4 {
-  font-size: 90px;
+  font-size: 85px;
   text-align: center;
   font-family: "Bebas Neue";
   /* font-weight: 600; */
