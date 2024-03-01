@@ -64,7 +64,7 @@ const Navbr = () => {
         <section className="nav_section">
           <Navbar collapseOnSelect expand="lg" className="navbar_main hidden lg:block">
             <Container fluid className="container-width-2">
-              <Navbar.Brand href="/" className="h-[90px]">
+              <Navbar.Brand href="/" className="h-[80px]">
                 <Image src={Logo} alt="logo" className="w-full h-full object-contain" />
               </Navbar.Brand>
               <Navbar.Toggle

@@ -1,12 +1,13 @@
 "use client";
 // import Box from "@mui/material/Box";
 // import TextField from "@mui/material/TextField";
-import React, { useRef } from "react";
+import React, { useEffect, useState } from "react";
 import InfoCard from "./InfoCard";
 import { Col, Container, Row } from "react-bootstrap";
 import ReusableButton from "../Common/Banner/hoverbuttonclass";
 import NumberCounter from "@/app/utils/numbercounter";
 import { usePathname } from "next/navigation";
+import axios from "axios";
 
 const InformationDH = [
   { img: "done", number: "10+", information: "Projects Done", symbol: "+" },
@@ -20,10 +21,50 @@ const InformationDH = [
 ];
 
 function ContactUs() {
-
-  const btnRef = useRef(null);
   const pathname = usePathname();
   const route = pathname.split("/");
+
+  const [contactDetails, setContactDetails] = useState({
+    name: "",
+    lastname: "",
+    email: "",
+    phone: "",
+  });
+  const [toast, setToast] = useState(false);
+
+  const handleEmail = async (e, data) => {
+    e.preventDefault();
+    await axios.post("/api/send-email", data);
+  };
+
+  const handleChange = (name) => (e) => {
+    console.log(name, e.target.value);
+    setContactDetails((prev) => {
+      return { ...prev, [name]: e.target.value };
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    handleEmail(e, contactDetails);
+
+    setContactDetails({
+      name: "",
+      lastname: "",
+      email: "",
+      phone: "",
+    });
+
+    setTimeout(() => {
+      setToast(true);
+    }, 2000);
+  };
+
+  useEffect(() => {
+    setTimeout(() => {
+      setToast(false);
+    }, 2000);
+  }, [toast]);
 
   // const handleMouseMove = (e) => {
   //   const x = e.pageX - btnRef.current.offsetLeft;
@@ -74,28 +115,32 @@ function ContactUs() {
                 <div className="home_contact_form w-full md:w-[29rem] px-6 py-6 lg:pl-10 lg:pr-10 lg:py-10 flex justify-center">
                   <div >
                     <h3>LET'S GET STARTED WITH YOUR BRAND!</h3>
-                    <form className="pt-4 pb-3">
+                    <form className="pt-4 pb-3" onSubmit={handleSubmit}>
                       <Row className="gx-5 gy-3">
                         <Col md={6} className="d-flex flex-col">
                           {/* <label>Name</label> */}
-                          <input placeholder="Name" />
+                          <input placeholder="Name" value={contactDetails.name}
+                            onChange={handleChange("name")} required/>
                         </Col>
                         <Col md={6} className="d-flex flex-col">
                           {/* <label>Surname</label> */}
-                          <input placeholder="Last Name" />
+                          <input placeholder="Last Name" value={contactDetails.lastname}
+                            onChange={handleChange("lastname")} required/>
                         </Col>
                         <Col md={12} className="d-flex flex-col py-2">
-                          <input placeholder="Phone Number" />
+                          <input placeholder="Phone Number" value={contactDetails.phone}
+                            onChange={handleChange("phone")} required/>
                         </Col>
                         <Col md={12} className="d-flex flex-col">
-                          <input placeholder="Email" />
+                          <input placeholder="Email" value={contactDetails.email}
+                            onChange={handleChange("email")} required/>
                         </Col>
                         <Col>
                           <ReusableButton
                             buttonText="GET IT TOUCH"
                             // handleMouseMove={handleMouseMovebutton}
                             // btnRef={btnRef}
-                            onClick={()=> {}}
+                            type="submit"
                             additionalClasses="your-custom-classes"
                           />
                         </Col>

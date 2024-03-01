@@ -141,7 +141,7 @@ const ContactBanner = () => {
                           />
                         </div>
                         {toast && (
-                          <h2 className={`transition-all ${toast ? "opacity-100": "opacity-0"} text-white mt-2 text-xs bg-green-500 py-2 text-center`}>
+                          <h2 className={`transition-all ${toast ? "opacity-100" : "opacity-0"} text-white mt-2 text-xs bg-green-500 py-2 text-center`}>
                             Form Submitted
                           </h2>
                         )}
