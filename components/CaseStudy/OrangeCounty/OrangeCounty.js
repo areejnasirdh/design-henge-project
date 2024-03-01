@@ -1,7 +1,7 @@
 import React from "react";
 import orange from "../../../public/images/orangeCounty/orange-county-logo.webp";
-import Color from "../../../public/images/orangeCounty/Orange-county-color-pallete.webp";
-import Font from "../../../public/images/orangeCounty/Orange-county-font.webp";
+import Color from "../../../public/images/orangeCounty/orange-county-color-pallete.webp";
+import Font from "../../../public/images/orangeCounty/orange-county-font.webp";
 import DesignTheme from "../Layout/DesignTheme";
 
 const OrangeCounty = () => {

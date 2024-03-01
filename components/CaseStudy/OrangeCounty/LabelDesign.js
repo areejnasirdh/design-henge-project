@@ -1,6 +1,6 @@
 
 import React from 'react'
-import Label1 from "../../../public/images/orangeCounty/Orange-county-label.webp"
+import Label1 from "../../../public/images/orangeCounty/orange-county-label.webp"
 import LabelDesign from '../Layout/LabelDesign'
 
 const Label = () => {
