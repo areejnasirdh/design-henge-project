@@ -41,9 +41,9 @@ export default function Footer() {
                 <img src="/images/linked-icon.png" className="w-full h-full" />
               </a>
             </div>
-            <a href="/services" className="text-xs font-medium text-white">
+            {/* <a href="/services" className="text-xs font-medium text-white">
               <img src="/images/Footer-reviews.png" className="mt-4 w-full" />
-            </a>
+            </a> */}
           </div>
           <div className="max-w-[200px] min-w-[150px] mr-4 mt-4">
             <div className="mt-0">
