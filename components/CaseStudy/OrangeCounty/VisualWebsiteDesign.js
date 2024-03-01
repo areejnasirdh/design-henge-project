@@ -6,4 +6,5 @@ const VisualWebsiteDesign = () => {
   return <VisualDesign img={VisualWebsite} />;
 };
 
+// ..
 export default VisualWebsiteDesign;
