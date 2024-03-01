@@ -21,13 +21,13 @@ export default function Footer() {
                   src="/images/facebook-icon.png"
                   className="w-full h-full"
                 />
-            </a>
+              </a>
               <a
                 href="https://www.instagram.com/designhengeco/"
                 className="text-xs font-medium text-white"
               >
-              <img src="/images/insta-icon.png" className="w-full h-full" />
-            </a>
+                <img src="/images/insta-icon.png" className="w-full h-full" />
+              </a>
               {/* <a
                 href="https://twitter.com/designaligators"
                 className="text-xs font-medium text-white"
@@ -38,8 +38,8 @@ export default function Footer() {
                 href="https://www.linkedin.com/company/design-henge/"
                 className="text-xs font-medium text-white"
               >
-              <img src="/images/linked-icon.png" className="w-full h-full" />
-            </a>
+                <img src="/images/linked-icon.png" className="w-full h-full" />
+              </a>
             </div>
             <a href="/services" className="text-xs font-medium text-white">
               <img src="/images/Footer-reviews.png" className="mt-4 w-full" />
@@ -118,8 +118,19 @@ export default function Footer() {
               Support@designhenge.com <br />
               (021) 34661461
             </p>
-            <p className="text-[30px] md:text-[35px] font-light text-white font-bebas">
+            {/* <p className="text-[30px] md:text-[35px] font-light text-white font-bebas">
               get all the updates
+            </p> */}
+
+            {/* <hr /> */}
+            {/* <button
+              className="block rounded-sm uppercase mt-3 bg-white px-6 py-2 font-medium text-black transition hover:bg-red-primary hover:text-white subscribe-home-button"
+              type="submit"
+            >
+              Subscribe
+            </button> */}
+            <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas mt-2">
+              Email us
             </p>
             <p
               style={{ fontSize: "15px" }}
@@ -127,16 +138,6 @@ export default function Footer() {
             >
               info@designhenge.com
             </p>
-            <hr />
-            {/* <button
-              className="block rounded-sm uppercase mt-3 bg-white px-6 py-2 font-medium text-black transition hover:bg-red-primary hover:text-white subscribe-home-button"
-              type="submit"
-            >
-              Subscribe
-            </button> */}
-            <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas">
-                Email us
-              </p>
           </div>
           <div className="min-w-[250px] max-w-[300px] mr-4 mt-4">
             <div className="flex items-center">
@@ -156,7 +157,7 @@ export default function Footer() {
                 production team
               </p>
             </div>
-            <Link  href="https://maps.app.goo.gl/gptisda4XykBm9Ks7" className="text-gray-200 font-light w-[250px]">
+            <Link href="https://maps.app.goo.gl/gptisda4XykBm9Ks7" className="text-gray-200 font-light w-[250px]">
               Saadabad Cooperative Housing Society, 4, Block 4 Gulistan-e-Johar,
               Karachi, Karachi City, Sindh 75290
             </Link>
