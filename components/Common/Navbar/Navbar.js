@@ -123,7 +123,7 @@ const Navbr = () => {
                      <Image src={animatedImage} className="w-full h-full absolute  nav-hover-image " />
                   </Link>
                   <Link
-                    href="/contact-us"
+                    href={`tel:19173101802`}
                   // onMouseEnter={() => handleMouseLeave()}
                   // className={
                   //   router.pathname === "/contact-us" ? "nav-active" : ""
