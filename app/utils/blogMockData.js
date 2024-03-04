@@ -1,7 +1,7 @@
 const blogData = [
   {
     id: 0,
-    date: "18 Jan 2022",
+    date: "18 Jan 2023",
     meta: [
       {
         title: "Scale Up Success: Your Small Business Growth Blueprint",
@@ -101,7 +101,7 @@ const blogData = [
   },
   {
     id: 1,
-    date: "20 Sep 2022",
+    date: "20 Sep 2023",
     meta: [
       {
         title: "Innovative Startup Strategies for Breakthrough Success",
@@ -183,7 +183,7 @@ const blogData = [
   },
   {
     id: 2,
-    date: "4 Mar 2022",
+    date: "4 Mar 2023",
     meta: [
       {
         title: "Unlock Explosive Growth with Our Branding Blueprint",

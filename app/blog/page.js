@@ -15,19 +15,19 @@ const Blog = () => {
       id: 0,
       desc: "The Ultimate Guide to Scaling Your Small Business: Tips from Top Entrepreneurs",
       img: "first-blog.jpg",
-      date: "18 Jan 2022",
+      date: "18 Jan 2023",
     },
     {
       id: 1,
       desc: "Breaking the Mold: Innovative Strategies for Startup Success",
       img: "second-blog.jpg",
-      ate: "20 Sep 2022",
+      ate: "20 Sep 2023",
     },
     {
       id: 2,
       desc: "The Branding Blueprint: Secrets to Unlocking Explosive Growth",
       img: "third-blog.jpg",
-      date: "4 Mar 2022",
+      date: "4 Mar 2023",
     },
   ];
 
