@@ -27,9 +27,9 @@ const AboutBanner = () => {
                 delay: "0.3",
               }}
             >
-              OUR CASE STUDY
+              READ OUR
             </motion.h1>
-            {/* <motion.h1
+            <motion.h1
               initial={{ y: 200, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{
@@ -37,8 +37,8 @@ const AboutBanner = () => {
                 delay: "0.4",
               }}
             >
-            
-            </motion.h1> */}
+            CASE STUDIES
+            </motion.h1>
             <motion.p
               initial={{ y: 200, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -49,13 +49,13 @@ const AboutBanner = () => {
             >
               Experience how the fusion of expertise of our experts from diverse disciplines has drived meaningful engagement.
             </motion.p>
-            <Link href={"#case-study-products"}>
+            {/* <Link href={"#case-study-products"}>
               <ReusableButton
                 buttonText="READ MORE"
               // additionalClasses="your-custom-classes"
               // onClick={() => router.push("#case-study-products")}
               />
-            </Link>
+            </Link> */}
             {/* <div className="contact_banner_heading_line">
               <motion.hr
                 initial={{ y: 200, opacity: 0 }}

@@ -6,12 +6,16 @@ const Overview = () => {
   const services_list = [
     "Custom Graphics",
     "UX/UI Design",
-    "Custom WordPress Development",
-    "Career Form Module",
-    "SEO Optimized",
-    "Web Hosting",
+    "Content Writing",
+    "Market Research",
+    "Competitor Analysis",
+
+    // "Career Form Module",
+    // "SEO Optimized",
+    // "Web Hosting",
     "SSL Certificate",
-    "Website Optimization",
+    "QA and Testing",
+    // "Website Optimization",
     "Event Integration",
     "Shop Module Integration",
     "Custom Calendar Module",
@@ -19,7 +23,7 @@ const Overview = () => {
     "Gallery Module",
   ];
   return (
-    <OverviewSection logo={Speakable} services_list={services_list}>
+    <OverviewSection logo={Speakable} services_list={services_list} client="Speakable" industry="Job Training and Employment">
       <h5>
         Speakable x Design Henge: Joint Forces to Empower Individuals with
         Seamless Job Training and Employment Opportunities through Tailored

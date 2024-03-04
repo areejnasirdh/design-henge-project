@@ -7,19 +7,20 @@ const Overview = () => {
     "Custom Graphics",
     "UX/UI Design",
     "Custom WordPress Development",
-    "Career Form Module",
+    "Website Content",
     "SEO Optimized",
     "Web Hosting",
     "SSL Certificate",
     "Website Optimization",
     "Event Integration",
-    "Shop Module Integration",
-    "Custom Calendar Module",
+    // "Shop Module Integration",
+    // "Custom Calendar Module",
     "Lead Form Module",
-    "Gallery Module",
+    "Blog Writing",
+    "Market Research"
   ];
   return (
-    <OverviewSection logo={orangeCounty} services_list={services_list}>
+    <OverviewSection logo={orangeCounty} services_list={services_list} client="Orange County Eating Disorder Therapist Group" industry="Eating Disorder Therapist">
       <h5>
         Orange County Eating Disorder Therapist Group x Design Henge: A Synergy
         in Eating Disorder Content Management that Enhanced Engagement

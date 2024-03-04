@@ -7,19 +7,24 @@ const Overview = () => {
     "Custom Graphics",
     "UX/UI Design",
     "Custom WordPress Development",
-    "Career Form Module",
+    // "Career Form Module",
     "SEO Optimized",
     "Web Hosting",
     "SSL Certificate",
     "Website Optimization",
     "Event Integration",
     "Shop Module Integration",
-    "Custom Calendar Module",
-    "Lead Form Module",
-    "Gallery Module",
+    // "Custom Calendar Module",
+    // "Lead Form Module",
+    // "Gallery Module",
+
+    "Blog Writing",
+    "Market Research",
+    "Website Content",
+    "Competitor Analysis",
   ];
   return (
-    <OverviewSection logo={poweratm} services_list={services_list}>
+    <OverviewSection logo={poweratm} services_list={services_list} client="Power Atm" industry="Multi-curency Atm">
       <h5>
         Transforming Brand Image: Design Henge Collaborates with Power ATM LLC
         to Create Compelling Visual Identity Across Platforms for Enhanced

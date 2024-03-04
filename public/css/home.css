@@ -24,7 +24,7 @@
 }
 
 .banner_section_main {
-  padding: 55px 0px;
+  padding: 0px;
 }
 
 .banner_section_main h1 {
@@ -504,7 +504,6 @@ h1.font-bebas.uppercase {
 
   .banner_section_main button {
     width: 100%;
-
   }
   .banner_section_main button span{
     margin: auto;
@@ -520,7 +519,7 @@ h1.font-bebas.uppercase {
     height: auto;
     margin-top: 32px;
     margin-left: 0px; */
-    display: none;
+    /* display: none; */
   }
 
   .home_about_main h4 {

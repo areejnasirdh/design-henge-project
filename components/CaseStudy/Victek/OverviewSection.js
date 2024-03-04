@@ -19,7 +19,7 @@ const Overview = () => {
     "Gallery Module",
   ];
   return (
-    <OverviewSection logo={vicket} services_list={services_list}>
+    <OverviewSection logo={vicket} services_list={services_list} client="VIC-TEK" industry="POS Solution">
       <h5>
         VIC-TEK x Design Henge: Revitalizing Branding to Reflect Modernization.
         Creativity and Strategic Repositioning for Professional Excellence,

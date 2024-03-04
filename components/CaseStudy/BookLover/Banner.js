@@ -14,7 +14,7 @@ const Banner = () => {
           delay: "0.3",
         }}
       >
-        CASE
+        BOOK LOVER
       </motion.h1>
       <motion.h1
         initial={{ y: 200, opacity: 0 }}
@@ -24,7 +24,7 @@ const Banner = () => {
           delay: "0.4",
         }}
       >
-        STUDY
+       CASE STUDY
       </motion.h1>
       <motion.p
         initial={{ y: 200, opacity: 0 }}

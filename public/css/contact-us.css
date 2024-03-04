@@ -86,7 +86,7 @@
   color: white;
   padding-top: 15px !important;
   line-height: 1.5;
-  max-width: 600px;
+  max-width: 460px;
 }
 
 .contact_banner_section_main button {
@@ -629,6 +629,13 @@
   .home_about_details h6 {
     color: #0097d9;
     font-size: 20px;
+    text-align: center;
+  }
+  .home_about_details p{
+    text-align: center;
+  }
+  .about_vision_and_mission h5{
+    text-align: center;
   }
 
   .home_services_main>div h1 {

@@ -5,7 +5,7 @@ import React from "react";
 import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-const OverviewSection = ({ logo, services_list, children }) => {
+const OverviewSection = ({ logo, services_list, children, client, industry }) => {
   const pathname = usePathname();
   console.log(pathname.split("/"));
   const isOrangeCountyPage = pathname.split("/").includes("orange-county");
@@ -33,11 +33,11 @@ const OverviewSection = ({ logo, services_list, children }) => {
             <Col md={4}>
               <div className="pb-3">
                 <h6>Client</h6>
-                <p>Speakable</p>
+                <p>{client}</p>
               </div>
               <div className="pb-3">
                 <h6>Industry</h6>
-                <p>Auto-graded speaking activities</p>
+                <p>{industry}</p>
               </div>
               <div>
                 <h6>Services We Provided</h6>

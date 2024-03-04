@@ -7,19 +7,24 @@ const Overview = () => {
     "Custom Graphics",
     "UX/UI Design",
     "Custom WordPress Development",
-    "Career Form Module",
+    // "Career Form Module",
     "SEO Optimized",
     "Web Hosting",
     "SSL Certificate",
     "Website Optimization",
-    "Event Integration",
+    // "Event Integration",
     "Shop Module Integration",
-    "Custom Calendar Module",
-    "Lead Form Module",
+    // "Custom Calendar Module",
+    // "Lead Form Module",
     "Gallery Module",
+
+    "Blog Writing",
+    "Market Research",
+    "Website Content",
+    "Competitor Analysis",
   ];
   return (
-    <OverviewSection logo={booklover} services_list={services_list}>
+    <OverviewSection logo={booklover} services_list={services_list} client="Book Lover" industry="Online Books and Merch">
       <h5>
         Design Henge and The Book Lover collaborate to shape brand identity,
         product design, UI, and web development for a seamless digital

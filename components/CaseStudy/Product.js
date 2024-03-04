@@ -14,13 +14,13 @@ function Product() {
   const btnRef3 = useRef(null);
   const router = useRouter();
   const [cases, setcases] = useState([
-    {
-      image: "/images/caseStudy/Case-study-section-1.webp",
-      heading: "Yumme Girl O Skin",
-      description:
-        "Design Henge collaborated with Yumme Girl Skin O to craft a cohesive and engaging brand identity cross logo design, product labeling, website design, and social media presence.",
-      link: "/case-study/yummegurlo",
-    },
+    // {
+    //   image: "/images/caseStudy/Case-study-section-1.webp",
+    //   heading: "Yumme Girl O Skin",
+    //   description:
+    //     "Design Henge collaborated with Yumme Girl Skin O to craft a cohesive and engaging brand identity cross logo design, product labeling, website design, and social media presence.",
+    //   link: "/case-study/yummegurlo",
+    // },
     {
       image: "/images/caseStudy/Case-study-section-2.webp",
       heading: "Speakable",
@@ -36,6 +36,13 @@ function Product() {
       link: "/case-study/orange-county",
     },
     {
+      image: "/images/caseStudy/case-study-section-6.webp",
+      heading: "Zego",
+      description:
+        "ZEGO is an emerging AI company focused on empowering clients to identify opportunities for increased efficiencies through automation, AI integration, and leveraging outsourced teams. With a commitment to innovation and optimization, ZEGO aims to revolutionize business operations across various industries.",
+      link: "/case-study/Zego",
+    },
+    {
       image: "/images/caseStudy/Case-study-section-4.webp",
       heading: "Dream Shot",
       description:
@@ -48,13 +55,6 @@ function Product() {
       description:
         "A burgeoning brand dedicated to celebrating the love of literature through curated merchandise. From mugs and t-shirts to wine glasses, each product with meaningful quotes, sourced from beloved books. They reached out to Design Henge to help them establish their brand from scratch.",
       link: "/case-study/BookLover",
-    },
-    {
-      image: "/images/caseStudy/case-study-section-6.webp",
-      heading: "Zego",
-      description:
-        "ZEGO is an emerging AI company focused on empowering clients to identify opportunities for increased efficiencies through automation, AI integration, and leveraging outsourced teams. With a commitment to innovation and optimization, ZEGO aims to revolutionize business operations across various industries.",
-      link: "/case-study/Zego",
     },
     {
       image: "/images/caseStudy/case-study-section-7.webp",
