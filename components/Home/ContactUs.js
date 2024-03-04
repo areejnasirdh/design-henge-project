@@ -26,9 +26,9 @@ function ContactUs() {
 
   const [contactDetails, setContactDetails] = useState({
     name: "",
-    lastname: "",
     email: "",
     phone: "",
+    message: "",
   });
   const [toast, setToast] = useState(false);
 
@@ -52,7 +52,7 @@ function ContactUs() {
       name: "",
       email: "",
       phone: "",
-      lastname: "",
+      message: "",
     });
 
     setTimeout(() => {
@@ -113,29 +113,55 @@ function ContactUs() {
               {/* form */}
               <div className="d-flex justify-end lg:w-[40%] md:w-[50%]">
                 <div className="home_contact_form w-full md:w-[29rem] px-6 py-6 lg:pl-10 lg:pr-10 lg:py-10 flex justify-center">
-                  <div >
+                  <div>
                     <h3>LET'S GET STARTED WITH YOUR BRAND!</h3>
                     <form className="pt-4 pb-3" onSubmit={handleSubmit}>
                       <Row className="gx-5 gy-3">
-                        <Col md={6} className="d-flex flex-col">
+                        <Col md={12} className="d-flex flex-col">
                           {/* <label>Name</label> */}
-                          <input placeholder="Name" value={contactDetails.name}
-                            onChange={handleChange("name")} required />
+                          <input
+                            placeholder="Name"
+                            value={contactDetails.name}
+                            onChange={handleChange("name")}
+                            required
+                          />
                         </Col>
-                        <Col md={6} className="d-flex flex-col">
-                          {/* <label>Surname</label> */}
-                          <input placeholder="Last Name" value={contactDetails.lastname}
-                            onChange={handleChange("lastname")} required />
-                        </Col>
+
                         <Col md={12} className="d-flex flex-col py-2">
-                          <input placeholder="Phone Number" value={contactDetails.phone} type="number"
-                            onChange={handleChange("phone")} required />
+                          <input
+                            placeholder="Phone Number"
+                            value={contactDetails.phone}
+                            type="number"
+                            onChange={handleChange("phone")}
+                            required
+                          />
                         </Col>
                         <Col md={12} className="d-flex flex-col">
-                          <input placeholder="Email" value={contactDetails.email}
-                            onChange={handleChange("email")} required type="email" />
+                          <input
+                            placeholder="Email"
+                            value={contactDetails.email}
+                            onChange={handleChange("email")}
+                            required
+                            type="email"
+                          />
+                        </Col>
+
+                        <Col md={12} className="d-flex flex-col py-2">
+                          <label className="text-[#525151]">Message</label>
+                          <div className="input">
+                            <textarea
+                              className="relative h-[50px] px-2 box-border w-full outline-none"
+                              required
+                              value={contactDetails.message}
+                              onChange={handleChange("message")}
+                            />
+                          </div>
                           {toast && (
-                            <h2 className={`transition-all ${toast ? "opacity-100" : "opacity-100"} text-white mt-2 text-xs bg-green-500 py-2 text-center`}>
+                            <h2
+                              className={`transition-all ${
+                                toast ? "opacity-100" : "opacity-0"
+                              } text-white mt-2 text-xs bg-green-500 py-2 text-center`}
+                            >
                               Form Submitted
                             </h2>
                           )}
@@ -158,8 +184,7 @@ function ContactUs() {
           </Container>
         </div>
       ) : (
-        <>
-        </>
+        <></>
       )}
     </>
   );
