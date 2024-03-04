@@ -21,15 +21,8 @@ const BlogInner = () => {
 
   useEffect(()=> {
     handlefilter()
-  }, [data])
+  }, [])
 
-
-  console.log(data[0], "data")
-  // useEffect(() => {
-   
-  //   // setData(filterDatas);
-  //   console.log(filterDatas, "data");
-  // }, []);
   return (
     <>
       <Head>
