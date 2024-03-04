@@ -148,7 +148,7 @@ function ContactUs() {
 
                         <Col md={12} className="d-flex flex-col py-2">
                           <label className="text-[#525151]">Message</label>
-                          <div className="input">
+                          <div className="input border-b border-b-gray-500">
                             <textarea
                               className="relative h-[50px] px-2 box-border w-full outline-none"
                               required
