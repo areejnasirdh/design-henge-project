@@ -26,9 +26,9 @@ function ContactUs() {
 
   const [contactDetails, setContactDetails] = useState({
     name: "",
+    lastname: "",
     email: "",
     phone: "",
-    lastname: "",
   });
   const [toast, setToast] = useState(false);
 
