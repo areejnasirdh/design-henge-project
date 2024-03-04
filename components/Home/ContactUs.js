@@ -128,12 +128,12 @@ function ContactUs() {
                             onChange={handleChange("lastname")} required />
                         </Col>
                         <Col md={12} className="d-flex flex-col py-2">
-                          <input placeholder="Phone Number" value={contactDetails.phone}
+                          <input placeholder="Phone Number" value={contactDetails.phone} type="number"
                             onChange={handleChange("phone")} required />
                         </Col>
                         <Col md={12} className="d-flex flex-col">
                           <input placeholder="Email" value={contactDetails.email}
-                            onChange={handleChange("email")} required />
+                            onChange={handleChange("email")} required type="email" />
                           {toast && (
                             <h2 className={`transition-all ${toast ? "opacity-100" : "opacity-100"} text-white mt-2 text-xs bg-green-500 py-2 text-center`}>
                               Form Submitted

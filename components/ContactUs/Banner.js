@@ -6,7 +6,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import ReusableButton from "../Common/Banner/hoverbuttonclass";
 import axios from "axios";
 
-const ContactBanner = () =>  {
+const ContactBanner = () => {
   const [contactDetails, setContactDetails] = useState({
     name: "",
     email: "",
@@ -115,6 +115,7 @@ const ContactBanner = () =>  {
                       <Col md={12} className="d-flex flex-col">
                         <div className="input">
                           <input
+                            type="email"
                             placeholder="Email"
                             required
                             value={contactDetails.email}
@@ -125,6 +126,7 @@ const ContactBanner = () =>  {
                       <Col md={12} className="d-flex flex-col py-2">
                         <div className="input">
                           <input
+                            type="number"
                             placeholder="Phone Number"
                             required
                             value={contactDetails.phone}
@@ -143,7 +145,11 @@ const ContactBanner = () =>  {
                           />
                         </div>
                         {toast && (
-                          <h2 className={`transition-all ${toast ? "opacity-100" : "opacity-0"} text-white mt-2 text-xs bg-green-500 py-2 text-center`}>
+                          <h2
+                            className={`transition-all ${
+                              toast ? "opacity-100" : "opacity-0"
+                            } text-white mt-2 text-xs bg-green-500 py-2 text-center`}
+                          >
                             Form Submitted
                           </h2>
                         )}
