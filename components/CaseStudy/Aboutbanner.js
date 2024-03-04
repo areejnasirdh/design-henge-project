@@ -10,7 +10,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 const AboutBanner = () => {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <div className="contact_banner_section_main">
       <Container fluid className="container-width-2">
@@ -37,7 +37,7 @@ const AboutBanner = () => {
                 delay: "0.4",
               }}
             >
-            CASE STUDIES
+              CASE STUDIES
             </motion.h1>
             <motion.p
               initial={{ y: 200, opacity: 0 }}
@@ -47,7 +47,10 @@ const AboutBanner = () => {
                 delay: "0.5",
               }}
             >
-              Experience how the fusion of expertise of our experts from diverse disciplines has drived meaningful engagement.
+              Discover the impact of our multidisciplinary experts' fusion,
+              driving meaningful engagement through their combined expertise.
+              Experience the synergy that transforms ideas into impactful
+              realities.
             </motion.p>
             {/* <Link href={"#case-study-products"}>
               <ReusableButton

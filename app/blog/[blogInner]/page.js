@@ -6,14 +6,34 @@ import blogData from "../../utils/blogMockData";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import Head from "next/head";
+import { useEffect, useState } from "react";
 
 const BlogInner = () => {
   const params = useParams();
   const { blogInner } = params;
+  const [data, setData] = useState([]);
+
+  const handlefilter = () => {
+    const decodedSlug = decodeURIComponent(blogInner);
+    const filterDatas = blogData.filter((e) => e?.title === decodedSlug);
+    setData(filterDatas)
+  }
+
+  useEffect(()=> {
+    handlefilter()
+  }, [data])
+
+
+  console.log(data[0], "data")
+  // useEffect(() => {
+   
+  //   // setData(filterDatas);
+  //   console.log(filterDatas, "data");
+  // }, []);
   return (
     <>
       <Head>
-        {blogData[blogInner]?.meta?.map((v, i) => {
+        {data[0]?.meta?.map((v, i) => {
           <>
             <title key={i}>{v.title}</title>
             <meta name="description" content={v.desc} />
@@ -28,16 +48,16 @@ const BlogInner = () => {
               <div className=" w-full lg:w-[65%] ">
                 <div className="w-full h-[400px]">
                   <Image
-                    src={`/images/${blogData[blogInner]?.img}`}
+                    src={`/images/${data[0]?.img}`}
                     width={100}
                     height={100}
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h2>{blogData[blogInner]?.date}</h2>
-                <h1>{blogData[blogInner]?.title}</h1>
-                <p>{blogData[blogInner]?.intro}</p>
-                {blogData[blogInner]?.subHeading?.map((v, i) => (
+                <h2>{data[0]?.date}</h2>
+                <h1>{data[0]?.title}</h1>
+                <p>{data[0]?.intro}</p>
+                {data[0]?.subHeading?.map((v, i) => (
                   <>
                     <h2 className="subheading" key={i}>
                       {v?.title}
@@ -53,7 +73,7 @@ const BlogInner = () => {
                   <div className="w-8 h-[3px] bg-red-500 mr-2 "></div>
                 </div>
                 <ul>
-                  {blogData[blogInner]?.FAQs?.map((v, i) => (
+                  {data[0]?.FAQs?.map((v, i) => (
                     <>
                       <h3 className="mt-4" key={i}>
                         {v.title}
@@ -73,11 +93,11 @@ const BlogInner = () => {
                 <hr className="my-10" />
               </div>
               <div className="md:mt-4 lg:mt-0 w-full lg:w-[30%]">
-                <input
+                {/* <input
                   className="w-full bg-gray-100 px-4 py-3"
                   placeholder="Search"
-                />
-                <div className="w-full bg-gray-100 p-4 mt-4">
+                /> */}
+                {/* <div className="w-full bg-gray-100 p-4 mt-4">
                   <h3>About Aurthor</h3>
                   <div className="d-flex align-items-center mt-1">
                     <div className="w-8 h-[3px] bg-red-500 mr-2 "></div>
@@ -94,8 +114,8 @@ const BlogInner = () => {
                     augue duis est, nulla turpis. Pellentesque elementum amet,
                     augue duis est, nulla turpis.
                   </p>
-                </div>
-                <div className="w-full bg-white p-4 mt-4">
+                </div> */}
+                <div className="w-full bg-white">
                   <h3>Recent post</h3>
                   <div className="d-flex align-items-center mt-1">
                     <div className="w-8 h-[3px] bg-red-500 mr-2 "></div>
@@ -103,23 +123,23 @@ const BlogInner = () => {
                   {blogData?.map((v, i) => {
                     return (
                       <>
-                      <div className="w-full mt-4 flex items-center" key={i}>
-                        <div className="h-[100px] w-[100px]">
-                          <Image
-                            src={`/images/${v?.img}`}
-                            width={100}
-                            height={100}
-                            className="w-full h-full object-cover"
-                          />
+                        <div className="w-full mt-4 flex items-center" key={i}>
+                          <div className="h-[100px] w-[100px]">
+                            <Image
+                              src={`/images/${v?.img}`}
+                              width={100}
+                              height={100}
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                          <div className="w-[60%] ml-2">
+                            <h4 className="max-w-[200px]">{v?.title}</h4>
+                            <h4 className="text-red-500 mt-2">
+                              JANUARY 21, 2023
+                            </h4>
+                          </div>
                         </div>
-                        <div className="w-[60%] ml-2">
-                          <h4 className="max-w-[200px]">{v?.title}</h4>
-                          <h4 className="text-red-500 mt-2">
-                            JANUARY 21, 2023
-                          </h4>
-                        </div>
-                      </div>
-                    <hr />
+                        <hr />
                       </>
                     );
                   })}

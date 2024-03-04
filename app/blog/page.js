@@ -2,13 +2,15 @@
 import ReusableButton from "@/components/Common/Banner/hoverbuttonclass";
 import Navbar from "@/components/Common/Navbar/Navbar";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoSearchOutline } from "react-icons/io5";
 import { useRouter } from "next/navigation";
 
 const Blog = () => {
   const [loadCard, setloadCard] = useState(9);
   const router = useRouter();
+  const [serachValue, setSerachValue] = useState("");
+  const [filterData, setFilterData] = useState([]);
 
   const blogData = [
     {
@@ -21,7 +23,7 @@ const Blog = () => {
       id: 1,
       desc: "Breaking the Mold: Innovative Strategies for Startup Success",
       img: "second-blog.jpg",
-      ate: "20 Sep 2023",
+      date: "20 Sep 2023",
     },
     {
       id: 2,
@@ -30,6 +32,18 @@ const Blog = () => {
       date: "4 Mar 2023",
     },
   ];
+
+  useEffect(() => {
+    let result;
+    if (blogData != null) {
+      result = blogData.filter((e) => e.desc.toLowerCase().includes(serachValue.toLowerCase()));
+      setFilterData(result)
+    }
+  }, [serachValue]);
+
+  const handleChange= (e)=> {
+      setSerachValue(e.target.value);
+  }
 
   return (
     <div className="blog-main">
@@ -42,18 +56,19 @@ const Blog = () => {
           <div className="bg-[#edbf33] min-w-[250px] w-[60%] h-10 relative border-2 border-black">
             <div className="bg-white px-1 h-10 absolute bottom-2 right-2 w-full border-2 border-black flex justify-between">
               <input
+                onChange={(e) => handleChange(e)}
                 placeholder="Search blog here..."
                 className="w-[90%] h-full px-4 text-sm outline-none focus:outline-none"
               />
-              <IoSearchOutline className="h-full px-1 min-w-[30px] cursor-pointer" />
+              <IoSearchOutline
+                className="h-full px-1 min-w-[30px] cursor-pointer"
+              />
             </div>
           </div>
         </div>
         <div className="w-full py-10">
           <div className="grid gap-20 md:grid-cols-3 md:gap-6 lg:gap-10 xl:gap-20">
-            {blogData
-              .splice(0, loadCard)
-              .map(({ desc, img, date, id }, idx) => (
+            {filterData.map(({ desc, img, date, id }, idx) => (
                 <div className="flex-flex-col space-y-8 blog_card mb-4">
                   <div className="w-full h-[200px] bg-[#edbf33] relative border-2 border-black">
                     <div className="w-full h-[200px] bg-white absolute right-2 bottom-2 border-2 border-black">
@@ -78,7 +93,7 @@ const Blog = () => {
 
                   <ReusableButton
                     buttonText="READ FULL BLOG"
-                    onClick={() => router.push(`/blog/${id}`)}
+                    onClick={() => router.push(`/blog/${desc}`)}
                     additionalClasses="your-custom-classes"
                   />
                 </div>
@@ -86,7 +101,7 @@ const Blog = () => {
           </div>
         </div>
 
-        <div
+        {/* <div
           className={`down-arrows h-[80px] mb-4 cursor-pointer ${
             loadCard === 24 || blogData?.length < 3 ? "hidden" : "block"
           }`}
@@ -95,7 +110,7 @@ const Blog = () => {
           <div class="scroll-arrow m-auto"></div>
           <div class="scroll-arrow m-auto"></div>
           <div class="scroll-arrow m-auto"></div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

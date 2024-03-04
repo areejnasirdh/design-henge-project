@@ -1,6 +1,8 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { Container } from "react-bootstrap";
 
 export default function Footer() {
@@ -41,6 +43,9 @@ export default function Footer() {
                 <img src="/images/linked-icon.png" className="w-full h-full" />
               </a>
             </div>
+
+            {/* <ReviewWidget /> */}
+            
             {/* <a href="/services" className="text-xs font-medium text-white">
               <img src="/images/Footer-reviews.png" className="mt-4 w-full" />
             </a> */}
@@ -216,3 +221,38 @@ export default function Footer() {
     </footer>
   );
 }
+
+// const ReviewWidget = () => {
+//   useEffect(() => {
+//     const loadWidget = () => {
+//       const script = document.createElement('script');
+//       script.src = 'https://grwapi.net/widget.min.js';
+//       script.async = true;
+//       document.body.appendChild(script);
+  
+//       script.onload = () => {
+//         if (window.GRW && window.GRW.init) {
+//           const widgetConfig = {
+//             dataUUID: '9b7b5d76-4338-411b-836b-7c91a0e61120',
+//             template: 10,
+//             lang: 'en',
+//             theme: 'dark',
+//           };
+//           window.GRW.init(widgetConfig);
+//         } else {
+//           console.error('Review widget initialization failed.');
+//         }
+//       };
+  
+//       return () => {
+//         document.body.removeChild(script);
+//       };
+//     };
+  
+//     // Wait for the entire document to load before initializing the widget
+//     window.onload = loadWidget;
+  
+//   }, []);
+
+//   return <div className="review-widget_net"></div>;
+// };

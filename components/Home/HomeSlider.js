@@ -51,10 +51,10 @@ export default class HomeSlider extends Component {
     }
   }
 
-  handleSlideChange = (currentSlide) => {
-    const { title } = SliderContent[currentSlide];
-    this.props.onSlideChange(title);
-  };
+  // handleSlideChange = (currentSlide) => {
+  //   const { title } = SliderContent[currentSlide];
+  //   this.props.onSlideChange(title);
+  // };
 
   render() {
     var settings = {
@@ -82,8 +82,8 @@ export default class HomeSlider extends Component {
 
       <Slider
         {...settings}
-        afterChange={this.handleSlideChange}
-        ref={(slider) => (this.slider = slider)}
+        // afterChange={this.handleSlideChange}
+        // ref={(slider) => (this.slider = slider)}
         >
         {SliderContent.map((slider) => (
           <Card key={slider.title} icon={slider.icon} title={slider.title} subtext={slider.subtext} />

@@ -47,7 +47,7 @@ function BlogCard({ desc, img, id, date }) {
         buttonText="READ FULL BLOG"
         handleMouseMove={handleMouseMovebutton}
         btnRef={btnRef}
-        onClick={() => router.push(`/blog/${id}`)}
+        onClick={() => router.push(`/blog/${desc}`)}
         additionalClasses="your-custom-classes"
       />
     </div>
