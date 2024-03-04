@@ -11,7 +11,7 @@ function Services() {
   const [currentSlide, setCurrentSlide] = useState("LOGO DESIGNING");
 
   const handleSlideChange = (title) => {
-    console.log("Current slide title:", title);
+    // console.log("Current slide title:", title);
     setCurrentSlide(title);
   };
 

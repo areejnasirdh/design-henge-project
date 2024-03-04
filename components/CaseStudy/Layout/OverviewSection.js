@@ -7,7 +7,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const OverviewSection = ({ logo, services_list, children, client, industry }) => {
   const pathname = usePathname();
-  console.log(pathname.split("/"));
+  // console.log(pathname.split("/"));
   const isOrangeCountyPage = pathname.split("/").includes("orange-county");
   return (
     <div className="case_study_overview">

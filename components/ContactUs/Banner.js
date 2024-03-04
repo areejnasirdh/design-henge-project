@@ -17,11 +17,15 @@ const ContactBanner = () => {
 
   const handleEmail = async (e, data) => {
     e.preventDefault();
-    await axios.post("/api/send-email", data);
+    await axios.post("/api/send-email", data).then(()=>{
+      setToast(true);
+    }).catch((error)=>{
+      console.log(error, "error")
+    });
   };
 
   const handleChange = (name) => (e) => {
-    console.log(name, e.target.value);
+    // console.log(name, e.target.value);
     setContactDetails((prev) => {
       return { ...prev, [name]: e.target.value };
     });
@@ -37,10 +41,6 @@ const ContactBanner = () => {
       phone: "",
       message: "",
     });
-
-    setTimeout(() => {
-      setToast(true);
-    }, 2000);
   };
 
   useEffect(() => {

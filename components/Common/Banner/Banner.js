@@ -14,7 +14,7 @@ const Banner = ({ heading, subHeading, text, img, navigate }) => {
   let route = pathname.split("/");
   const router = useRouter()
 
-  console.log(route);
+  // console.log(route);
   if (route[route.length - 1] == "") {
     route = false;
   }
