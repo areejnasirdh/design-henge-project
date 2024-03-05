@@ -1,9 +1,9 @@
-"use client"
-
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React from "react";
 import { Container } from "react-bootstrap";
+import ReviewWidget from "./ReviewWidget";
 
 export default function Footer() {
   return (
@@ -30,12 +30,6 @@ export default function Footer() {
               >
                 <img src="/images/insta-icon.png" className="w-full h-full" />
               </a>
-              {/* <a
-                href="https://twitter.com/designaligators"
-                className="text-xs font-medium text-white"
-              >
-              <img src="/images/tw-icon.png" className="w-full h-full" />
-            </a> */}
               <a
                 href="https://www.linkedin.com/company/design-henge/"
                 className="text-xs font-medium text-white"
@@ -43,12 +37,7 @@ export default function Footer() {
                 <img src="/images/linked-icon.png" className="w-full h-full" />
               </a>
             </div>
-
-            {/* <ReviewWidget /> */}
-            
-            {/* <a href="/services" className="text-xs font-medium text-white">
-              <img src="/images/Footer-reviews.png" className="mt-4 w-full" />
-            </a> */}
+            <ReviewWidget />
           </div>
           <div className="max-w-[200px] min-w-[150px] mr-4 mt-4">
             <div className="mt-0">
@@ -127,17 +116,6 @@ export default function Footer() {
               className=" text-sm leading-7 font-light">
               <Link  href={`tel:19173101802`} className="text-gray-200"> +1 (917) 310-1802</Link>
             </p>
-            {/* <p className="text-[30px] md:text-[35px] font-light text-white font-bebas">
-              get all the updates
-            </p> */}
-
-            {/* <hr /> */}
-            {/* <button
-              className="block rounded-sm uppercase mt-3 bg-white px-6 py-2 font-medium text-black transition hover:bg-red-primary hover:text-white subscribe-home-button"
-              type="submit"
-            >
-              Subscribe
-            </button> */}
             <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas mt-2">
               Email us
             </p>
@@ -150,23 +128,39 @@ export default function Footer() {
           </div>
           <div className="min-w-[250px] max-w-[300px] mr-4 mt-4">
             <div className="flex items-center">
-              <Image src="/images/footer-America-flag.png" width={20} height={10} className="h-[30px] w-[40px] mt-[-5px]" />
+              <Image
+                src="/images/footer-America-flag.png"
+                width={20}
+                height={10}
+                className="h-[30px] w-[40px] mt-[-5px]"
+              />
               <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas uppercase ml-2">
                 Headquarters
               </p>
             </div>
-            <Link href="https://maps.app.goo.gl/dsFesYtGXHp4iT3f8" className="text-gray-200 font-light leading-7 text-sm">
+            <Link
+              href="https://maps.app.goo.gl/dsFesYtGXHp4iT3f8"
+              className="text-gray-200 font-light leading-7 text-sm"
+            >
               2259 W. Rosemont Ave. Apt. 1 <br />
               Chicago, IL 60659, USA
             </Link>
 
             <div className="flex items-center mt-3">
-              <Image src="/images/footer-pakistan-flag.png" width={20} height={10} className="h-[30px] w-[40px] mt-[-5px]" />
+              <Image
+                src="/images/footer-pakistan-flag.png"
+                width={20}
+                height={10}
+                className="h-[30px] w-[40px] mt-[-5px]"
+              />
               <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas uppercase ml-2">
                 production team
               </p>
             </div>
-            <Link href="https://maps.app.goo.gl/gptisda4XykBm9Ks7" className="text-gray-200 font-light w-[250px]">
+            <Link
+              href="https://maps.app.goo.gl/gptisda4XykBm9Ks7"
+              className="text-gray-200 font-light w-[250px]"
+            >
               Saadabad Cooperative Housing Society, 4, Block 4 Gulistan-e-Johar,
               Karachi, Karachi City, Sindh 75290
             </Link>
@@ -225,38 +219,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-// const ReviewWidget = () => {
-//   useEffect(() => {
-//     const loadWidget = () => {
-//       const script = document.createElement('script');
-//       script.src = 'https://grwapi.net/widget.min.js';
-//       script.async = true;
-//       document.body.appendChild(script);
-  
-//       script.onload = () => {
-//         if (window.GRW && window.GRW.init) {
-//           const widgetConfig = {
-//             dataUUID: '9b7b5d76-4338-411b-836b-7c91a0e61120',
-//             template: 10,
-//             lang: 'en',
-//             theme: 'dark',
-//           };
-//           window.GRW.init(widgetConfig);
-//         } else {
-//           console.error('Review widget initialization failed.');
-//         }
-//       };
-  
-//       return () => {
-//         document.body.removeChild(script);
-//       };
-//     };
-  
-//     // Wait for the entire document to load before initializing the widget
-//     window.onload = loadWidget;
-  
-//   }, []);
-
-//   return <div className="review-widget_net"></div>;
-// };
