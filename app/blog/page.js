@@ -69,7 +69,7 @@ const Blog = () => {
         <div className="w-full py-10">
           <div className="grid gap-20 md:grid-cols-3 md:gap-6 lg:gap-10 xl:gap-20">
             {filterData.map(({ desc, img, date, id }, idx) => (
-                <div className="flex-flex-col space-y-8 blog_card mb-4">
+                <div className="flex-flex-col space-y-8 blog_card mb-4" key={idx}>
                   <div className="w-full h-[200px] bg-[#edbf33] relative border-2 border-black">
                     <div className="w-full h-[200px] bg-white absolute right-2 bottom-2 border-2 border-black">
                       <Image

@@ -57,7 +57,7 @@ const HomeAbout = () => {
               <p>
                 We helps brands create meaningful and personalized customer experiences for web, social and design in the field of information and technology. Our work shows the commitment we’ve shown over the years of mastering skills and working hand-in-hand with clients to maximize the investment in their online business efforts.
               </p>
-              <Row spacingX={3} className="about_vision_and_mission mt-4 pt-3">
+              <Row spacingx={3} className="about_vision_and_mission mt-4 pt-3">
                 <Col md={6} className=" pe-4">
                   <h5>VISION</h5>
                   <p>

@@ -87,7 +87,7 @@ function Testimonials() {
             <div className="testimonial_slider mt-7 ">
               <Slider {...settings}>
                 {testimonials.map(({ testimonial, name, position, img, logo }, idx) => (
-                  <>
+                  <div key={idx}>
                     <Testimonial
                       key={idx}
                       testimonial={testimonial}
@@ -96,7 +96,7 @@ function Testimonials() {
                       img={img}
                       logo={logo}
                     />
-                  </>
+                  </div>
                 ))}
               </Slider>
             </div>

@@ -82,7 +82,7 @@ const Navbr = () => {
                     className={`nav-item relative ${pathname === "/" ? "nav-active" : ""}`}
                   >
                     Home
-                    <Image src={animatedImage} className=" h-full absolute nav-hover-image"  resizeMode="contain" />
+                    <Image src={animatedImage} className=" h-full absolute nav-hover-image"  resizemode="contain" />
                   </Link>
 
                   <Link

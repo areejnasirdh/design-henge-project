@@ -97,14 +97,16 @@ function ContactUs() {
                   <div className="infocards flex justify-center md:justify-start space-x-6 md:space-x-6 lg:space-x-16 2xl:bottom-16">
                     {InformationDH.map(
                       ({ img, number, information, symbol }, idx) => (
-                        <NumberCounter
-                          startNumber={0}
-                          img={img}
-                          endNumber={parseInt(number)}
-                          information={information}
-                          duration={0.042}
-                          symbol={symbol}
-                        />
+                        <div key={idx}>
+                          <NumberCounter
+                            startNumber={0}
+                            img={img}
+                            endNumber={parseInt(number)}
+                            information={information}
+                            duration={0.042}
+                            symbol={symbol}
+                          />
+                        </div>
                       )
                     )}
                   </div>
