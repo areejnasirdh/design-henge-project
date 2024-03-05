@@ -80,7 +80,6 @@ const Navbr = () => {
                   <Link
                     href="/"
                     className={`nav-item relative ${pathname === "/" ? "nav-active" : ""}`}
-                  // onMouseEnter={() => handleMouseLeave()}
                   >
                     Home
                     <Image src={animatedImage} className=" h-full absolute nav-hover-image"  resizeMode="contain" />
@@ -89,7 +88,6 @@ const Navbr = () => {
                   <Link
                     href="/about-us"
                     className={`nav-item relative ${pathname === "/about-us" ? "nav-active" : ""}`}
-                  // onMouseEnter={() => handleMouseLeave()}
                   >
                     About Us
                     <Image src={animatedImage} className="w-full h-full absolute  nav-hover-image " />
@@ -98,7 +96,6 @@ const Navbr = () => {
                   <Link
                     href="/services"
                     className={`nav-item relative ${pathname === "/services" ? "nav-active" : ""}`}
-                  // onMouseEnter={() => handleMouseLeave()}
                   >
                     Services
                     <Image src={animatedImage} className="w-full h-full absolute  nav-hover-image " />
@@ -106,7 +103,7 @@ const Navbr = () => {
 
                   <Link
                     href="/case-study"
-                    // onMouseEnter={() => handleMouseLeave()}
+
                     className={
                       (pathname === "/case-study" || pathname === "/case-study/Zego" || pathname === "/case-study/Victek" || pathname === "/case-study/yummegurlo" || pathname === "/case-study/BookLover" || pathname === "/case-study/DreamShot" || pathname === "/case-study/orange-county" || pathname === "/case-study/Power_atm" || pathname === "/case-study/Speakable") ? "nav-active relative nav-item" : "relative nav-item"
                     }
@@ -124,17 +121,11 @@ const Navbr = () => {
                   </Link>
                   <Link
                     href={`tel:19173101802`}
-                  // onMouseEnter={() => handleMouseLeave()}
-                  // className={
-                  //   router.pathname === "/contact-us" ? "nav-active" : ""
-                  // }
                   >
                     +1 (917) 310-1802
                   </Link>
                   <ReusableButton
                     buttonText="GET IN TOUCH"
-                    // handleMouseMove={handleMouseMove}
-                    // btnRef={btnRef}
                     onClick={() => router.push("/contact-us")}
                     additionalClasses="mt-0 nav-btn p-[10px] "
                   />
