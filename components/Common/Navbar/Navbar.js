@@ -132,7 +132,7 @@ const Navbr = () => {
                     +1 (917) 310-1802
                   </Link>
                   <ReusableButton
-                    buttonText="GET IT TOUCH"
+                    buttonText="GET IN TOUCH"
                     // handleMouseMove={handleMouseMove}
                     // btnRef={btnRef}
                     onClick={() => router.push("/contact-us")}

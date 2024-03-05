@@ -43,7 +43,7 @@ const Contactform = () => {
               {/* <button className="cta_btn px-3 py-2 my-3">GET IT TOUCH</button>
                */}
                 <ReusableButton
-                    buttonText="GET IT TOUCH"
+                    buttonText="GET IN TOUCH"
                     // handleMouseMove={handleMouseMove}
                     // btnRef={btnRef}
                     // onClick={() => router.push("/contact-us")}
