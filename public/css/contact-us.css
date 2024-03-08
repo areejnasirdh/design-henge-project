@@ -150,7 +150,7 @@
 } 
 
 .home_about_main h4,
-.home_blog_main h4, .location-container h4 {
+.home_blog_main h4, .location-container h4, .digital_demand_main h2 {
   font-size: 85px;
   text-align: center;
   font-family: "Bebas Neue";
@@ -626,7 +626,7 @@
   }
 
   .home_about_main h4,
-  .home_blog_main h4, .who_we_are_main h4, .location-container h4 {
+  .home_blog_main h4, .who_we_are_main h4, .location-container h4, .digital_demand_main h2 {
     font-size: 42px;
     padding-top: 0px;
   }
@@ -752,7 +752,7 @@
   /* .contact_banner_section_main h1:nth-child(2) {
     font-size: 40px;
   } */
-  .clients_main h4, .home_about_main h4, .home_blog_main h4, .who_we_are_main h4{
+  .clients_main h4, .home_about_main h4, .home_blog_main h4, .who_we_are_main h4, .digital_demand_main h2{
     font-size: 55px;
     line-height: 50px;
   }

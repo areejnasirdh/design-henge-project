@@ -110,7 +110,7 @@ h1.font-bebas.uppercase {
 }
 
 .home_about_main h4,
-.home_blog_main h4, .location-container h4 {
+.home_blog_main h4, .location-container h4, .digital_demand_main h2 {
   font-size: 64px;
   font-family: "Bebas Neue";
   /* font-weight: 600; */
@@ -561,7 +561,7 @@ h1.font-bebas.uppercase {
     /* display: none; */
   }
 
-  .home_about_main h4 {
+  .home_about_main h4, .digital_demand_main h2 {
     font-size: 42px;
     padding-top: 0px;
   }

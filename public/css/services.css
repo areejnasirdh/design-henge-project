@@ -7,8 +7,9 @@
   -webkit-text-stroke: 2px black;
   /* For Webkit-based browsers */
   text-stroke: 2px black;
-  text-shadow: -4px 4px black;;
-  font-size:calc(1.375rem + 1.5vw) ;
+  text-shadow: -4px 4px black;
+  ;
+  font-size: calc(1.375rem + 1.5vw);
   font-family: "Zurich XBlk BT";
   font-weight: 800;
   line-height: 1.2;
@@ -16,19 +17,14 @@
 
 .services_banner_section_main h2 {
   color: white;
-  /* -webkit-text-stroke: 2px black; */
-  /* For Webkit-based browsers */
-  /* text-stroke: 2px black; */
-  /* text-shadow: -4px 4px black;; */
   font-size: 30px;
   font-family: "Bebas Neue Bold";
-
   line-height: 1.2;
   text-transform: uppercase;
   padding-top: 10px !important;
 }
 
-.services_banner_section_main p  {
+.services_banner_section_main p {
   font-size: 20px;
   font-weight: lighter;
   color: white;
@@ -50,7 +46,7 @@
   /* object-fit: cover; */
 }
 
-.digital_demand_main{
+.digital_demand_main {
   width: 100vw;
   max-width: 100%;
   background-image: url("../images/about_bg.jpg");
@@ -59,11 +55,11 @@
   padding: 60px 0px;
 }
 
-.digital_demand_main h2 {
-  font-size: 90px;
+/* .digital_demand_main h2 {
+  font-size: 95px;
   font-family: "Bebas Neue Bold";
   color: #0097d9;
-}
+} */
 
 .digital_demand_main .status_box {
   background-image: url("../images/status_box.png");
@@ -77,15 +73,44 @@
 }
 
 .status_box h3 {
-  font-size: 60px;
   font-family: "Bebas Neue Bold";
 }
 
 .status_box h6 {
-  font-size: 17px;
   color: gray;
   text-align: center;
   line-height: 19.5px;
+}
+
+@media (min-width: 990px) {
+  .status_box h6 {
+    font-size: 17px;
+  }
+
+  .status_box h3 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 990px) {
+  .status_box h3 {
+    font-size: 40px;
+  }
+
+  .status_box h6 {
+    font-size: 12px !important;
+    line-height: 16.5px;
+  }
+}
+
+@media (max-width: 990px) {
+  .status_box h3 {
+    font-size: 30px;
+  }
+
+  .status_box h6 {
+    font-size: 12px !important;
+  }
 }
 
 .solutions_provide h1 {
@@ -122,17 +147,17 @@
   transition: all 0.5s;
 }
 
-.our_services_main .services h4 svg{
+.our_services_main .services h4 svg {
   opacity: 0;
   transition: all 0.5s;
   transform: scaleX(1.5)
 }
 
-.our_services_main .services:hover h4{
+.our_services_main .services:hover h4 {
   transform: translateX(20px);
 }
 
-.our_services_main .services:hover  h4 svg{
+.our_services_main .services:hover h4 svg {
   opacity: 1;
 }
 
@@ -162,10 +187,16 @@
   font-size: 15px !important;
 }
 
-@media (max-width: 500px){
-  .our_services_main{
+@media (max-width: 500px) {
+  .our_services_main {
     background-image: none !important;
     background-color: rgb(209, 209, 209);
+  }
+}
+
+@media (max-width: 990px){
+  .when_we_started_main h2 {
+    font-size: 50px;
   }
 }
 
@@ -173,11 +204,13 @@
   .services_banner_section_main h2 {
     color: black;
   }
-  .services_banner_section_main p{
+
+  .services_banner_section_main p {
     color: black;
   }
-  .when_we_started_main h2{
-    font-size: 55px;
+
+  .when_we_started_main h2 {
+    font-size: 35px;
   }
 }
 
@@ -188,6 +221,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
   /* .services_banner_section_main h1 {
     font-size: 45px;
   } */
@@ -196,13 +230,13 @@
   }
 }
 
-@media (max-width: 1024px){
+/* @media (max-width: 1024px){
   .digital_demand_main h2 {
     font-size: 55px;
   }
-}
+} */
 
-@media (max-width: 1250px){
+@media (max-width: 1250px) {
   .services_banner_section_main p {
     font-size: 15px;
   }
@@ -239,11 +273,12 @@
     font-size: 35px;
     margin-bottom: 20px !important;
   }
-  .digital_demand_main h2 {
-    font-size: 42px;
-  }
 
-  .when_we_started_main h2{
+  /* .digital_demand_main h2 {
+    font-size: 42px;
+  } */
+
+  .when_we_started_main h2 {
     font-size: 42px;
   }
 }

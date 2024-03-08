@@ -19,6 +19,35 @@ import Head from "next/head";
 import AboutImg from "../public/images/home-about-1.png";
 
 export default function Home() {
+  const cases = [
+    // {
+    //   image: "/images/caseStudy/Case-study-section-1.webp",
+    //   heading: "YUMME GIRL O SKIN",
+    //   description:"Design Henge collaborated with Yumme Girl Skin O to craft a cohesive and engaging brand identity cross logo design, product labeling, website design, and social media presence.",
+    //   link: "/case-study/yummegurlo",
+    // },
+    {
+      image: "/images/caseStudy/Case-study-section-2.webp",
+      heading: "Speakable",
+      description:
+        "Design Henge, collaborated with Speakable, a language learning platform, to overhaul its user interface (UI) design for their dashboards. By combining our expertise in visual communication with Speakable's innovative language learning approach, the partnership aimed to create an intuitive and engaging user experience.",
+      link: "/case-study/Speakable",
+    },
+    {
+      image: "/images/caseStudy/Case-study-section-3.webp",
+      heading: "Orange County Eating Disorder",
+      description:
+        "A successful collaboration between Orange County Eating Disorder & Design Henge, to develop website, logo design, and create engaging blog content to enhance the providers online presence. The key was to address the challenge of raising awareness about eating disorders while providing valuable resources to those in need, the client sought our expertise.",
+      link: "/case-study/orange-county",
+    },
+    {
+      image: "/images/caseStudy/case-study-section-6.webp",
+      heading: "Zego",
+      description:
+        "ZEGO is an emerging AI company focused on empowering clients to identify opportunities for increased efficiencies through automation, AI integration, and leveraging outsourced teams. With a commitment to innovation and optimization, ZEGO aims to revolutionize business operations across various industries.",
+      link: "/case-study/Zego",
+    },
+  ];
   return (
     <div>
       <Head>
@@ -55,7 +84,7 @@ export default function Home() {
       <Services />
       <Process />
       <Clients />
-      <CaseStudy />
+      <CaseStudy data={cases} heading="CASE STUDY"/>
       <Blog />
     </div>
   );
