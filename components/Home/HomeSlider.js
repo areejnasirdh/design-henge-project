@@ -67,7 +67,7 @@ export default class HomeSlider extends Component {
       focusOnSelect: true,
       responsive: [
         {
-          breakpoint: 780,
+          breakpoint: 990,
           settings: {
             slidesToShow: 1,
             dots: false

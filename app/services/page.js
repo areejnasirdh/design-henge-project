@@ -1,11 +1,13 @@
 import React from "react";
 import Navbar from "@/components/Common/Navbar/Navbar";
-import Banner from "@/components/services/Banner";
+import Banner from "@/components/Common/Banner/Banner";
+// import Banner from "@/components/services/Banner";
 import Socials from "@/components/Home/Socials";
 import DigitalDemand from "@/components/services/DigitalDemand";
 import OurServices from "@/components/services/OurServices";
 import WhenWeStarted from "@/components/services/WhenWeStarted";
 import Head from "next/head";
+import BannerImg from "../../public/images/service_banner.png";
 
 const page = () => {
   return (
@@ -19,7 +21,17 @@ const page = () => {
       </Head>
       <div className="home_main">
         <Navbar />
-        <Banner />
+        {/* <Banner /> */}
+        <Banner
+          stempt={false}
+          heading="WORLD CLASS"
+          second="SOLUTION"
+          third=""
+          h2="For Business Across The Globe"
+          text=" We strive to become an integral part of every organizations business promotion plan. We are committed to achieving our vision through a three-pronged strategy: Deliver, Create, Advance."
+          img={BannerImg}
+          navigate=""
+        />
       </div>
       <Socials />
       <DigitalDemand />

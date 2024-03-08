@@ -4,6 +4,8 @@ import AboutBanner from "@/components/CaseStudy/Aboutbanner";
 import Socials from "@/components/Home/Socials";
 import Product from "@/components/CaseStudy/Product";
 import Head from "next/head";
+import Banner from "@/components/Common/Banner/Banner";
+import BannerImg from "@/public/images/caseStudy/caseStudyBanner.png";
 
 const page = () => {
   return (
@@ -17,7 +19,20 @@ const page = () => {
       </Head>
       <div className="home_main">
         <Navbar />
-        <AboutBanner />
+        <Banner
+          stempt={false}
+          heading="READ OUR"
+          second="CASE STUDIES"
+          third=""
+          h2=""
+          text=" Discover the impact of our multidisciplinary experts' fusion,
+          driving meaningful engagement through their combined expertise.
+          Experience the synergy that transforms ideas into impactful
+          realities."
+          img={BannerImg}
+          navigate=""
+        />
+        {/* <AboutBanner /> */}
       </div>
       <Socials />
       <Product />

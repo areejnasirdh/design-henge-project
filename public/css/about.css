@@ -232,9 +232,9 @@
 
 @media screen and (min-width:1400px) and (max-width:2560px) {
 
-  .contact_banner_section_main h1:nth-child(2) {
+  /* .contact_banner_section_main h1:nth-child(2) {
     font-size: 114px;
-  }
+  } */
 
   .acheivements_main h1{
     font-size: 70px;

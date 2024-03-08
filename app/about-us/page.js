@@ -6,6 +6,7 @@ import Acheivements from "@/components/About/Acheivements";
 import Projects from "@/components/About/Projects";
 import Socials from "@/components/Home/Socials";
 import Head from "next/head";
+import Banner from "@/components/Common/Banner/Banner";
 
 const page = () => {
   return (

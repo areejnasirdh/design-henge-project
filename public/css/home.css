@@ -87,12 +87,7 @@ h1.font-bebas.uppercase {
   object-fit: contain;
 }
 
-.banner-img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: contain !important;
-  transform: scale(1.1) !important;
-}
+
 
 /* *****************Home About *************** */
 .home_about_main {
@@ -107,11 +102,9 @@ h1.font-bebas.uppercase {
 .home_blog_main h3, .blog-main h3 {
   font-size: 70px;
   font-family: "Zurich XBlk BT";
-
   font-weight: 800;
   color: #ededed;
   -webkit-text-stroke: 1.5px black;
-  /* For Webkit-based browsers */
   text-shadow: -9px 4px #0097d9;
   letter-spacing: -4px;
 }
@@ -137,6 +130,21 @@ h1.font-bebas.uppercase {
 .home_about_details h6 {
   color: #0097d9;
   font-size: 24px;
+}
+
+@media (max-width: 1116px){
+  .home_about_details h6 {
+    text-align: center;
+  }
+  .home_about_details p {
+    text-align: center;
+  }
+  .about_vision_and_mission h5 {
+    text-align: center;
+  }
+  .home_about_details button {
+    padding: 10px 22px !important;
+  }
 }
 
 .home_about_details p {
@@ -170,14 +178,28 @@ h1.font-bebas.uppercase {
   background-size: cover;
 }
 
+@media (max-width: 767px){
+  .home_process_main .content h1 {
+    text-align: center;
+  }
+  .home_process_main .content h3 {
+    text-align: center;
+  }
+  .home_process_main .content p {
+    text-align: center;
+  }
+}
+
+
 .process-heading {
-  font-size: 70px;
-  font-family: "Zurich XBlk BT";
-  font-weight: 800;
+  font-size: 65px !important;
+  font-family: "Zurich XBlk BT" !important;
+  font-weight: 800 !important;
   color: #ededed !important;
-  -webkit-text-stroke: 1.5px black;
-  text-shadow: -7px 6px #0097d9;
-  letter-spacing: -4px;
+  -webkit-text-stroke: 1.5px black !important;
+  text-shadow: -7px 6px #0097d9 !important;
+  letter-spacing: -4px !important;
+  text-align: center;
 }
 
 .home_case_study_main {
@@ -186,6 +208,18 @@ h1.font-bebas.uppercase {
   background-image: url("../images/about_bg.jpg");
   background-position: top;
   background-size: cover;
+}
+
+@media (max-width: 768px){
+  .home_case_study_main .projects h1{
+    text-align: center;
+  }
+  .home_case_study_main .projects h2{
+    text-align: center;
+  }
+  .home_case_study_main .projects p{
+    text-align: center;
+  }
 }
 
 .home_case_study_main button,
@@ -243,6 +277,12 @@ h1.font-bebas.uppercase {
 
 .contact-us-tag a {
   margin-bottom: 0px !important;
+}
+@media (max-width: 768px){
+  .contact h1 {
+    text-align: center;
+  }
+
 }
 
 .subscribe-home-button {
@@ -326,10 +366,10 @@ h1.font-bebas.uppercase {
   margin-right: 15px;
 }
 
-.HomeSlider .SliderCard div h4 {
+/* .HomeSlider .SliderCard div h4 {
   font-family: "Bebas Neue";
   font-size: 34px;
-}
+} */
 
 .HomeSlider .SliderCard div p {
   font-family: "Montserrat";
@@ -483,10 +523,6 @@ h1.font-bebas.uppercase {
 }
 
 @media screen and (max-width: 767px) {
-  .banner-img{
-    margin-left: 0;
-    transform:  unset !important;
-  }
   .banner_section_main h1:nth-child(1) {
     font-size: 55px;
   }
@@ -549,10 +585,10 @@ h1.font-bebas.uppercase {
     line-height: 1;
   }
 
-  .HomeSlider .SliderCard div h4 {
+  /* .HomeSlider .SliderCard div h4 {
     font-family: "Bebas Neue";
     font-size: 28px;
-  }
+  } */
 
   .clients_main h4 {
     font-size: 54px;
@@ -616,8 +652,6 @@ h1.font-bebas.uppercase {
   } */
 
   .HomeSlider .SliderCard div h4 {
-    font-family: "Bebas Neue";
-    font-size: 20px !important;
     padding-left: 5px !important;
   }
 }
@@ -758,10 +792,10 @@ h1.font-bebas.uppercase {
   .banner_section_main p {
     color: black;
   }
-
+/* 
   .process-heading {
     font-size: 50px;
-  }
+  } */
 }
 
 @media (max-width: 600px){
@@ -771,9 +805,9 @@ h1.font-bebas.uppercase {
    .HomeSlider .SliderCard div p {
     font-size: 8px !important;
   }
-  .HomeSlider .SliderCard div h4{
+  /* .HomeSlider .SliderCard div h4{
     font-size: 25px !important;
-  }
+  } */
   .home_services_main>div>p{
     font-size: 15px;
   }

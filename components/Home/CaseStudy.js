@@ -147,7 +147,7 @@ function CaseStudy() {
                     <p className="font-light xl:w-4/5 text-[15px]">
                       {item.description}
                     </p>
-
+                    <div className="w-full flex md:block justify-center">
                     <ReusableButton
                       buttonText="SEE CASE STUDY"
                       handleMouseMove={handleMouseMovebutton}
@@ -156,6 +156,8 @@ function CaseStudy() {
                       type="button"
                       onClick={() => router.push(item.link)}
                     />
+                    </div>
+
                   </motion.div>
                 </motion.div>
               );

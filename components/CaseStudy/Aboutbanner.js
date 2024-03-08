@@ -9,7 +9,7 @@ import ReusableButton from "../Common/Banner/hoverbuttonclass";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-const AboutBanner = () => {
+const AboutBanner  = () => {
   const router = useRouter();
   return (
     <div className="contact_banner_section_main">

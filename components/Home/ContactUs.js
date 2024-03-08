@@ -90,7 +90,7 @@ function ContactUs() {
             <div className="flex flex-col md:flex-row justify-between mx-auto max-w-[90rem]">
               {/* title and four cards */}
               <div className="d-flex flex-col justify-content-between lg:w-[60%] md:w-[40%]">
-                <h1 className="sm:text-center stroke2 font-outline-2 text-shadow-left-6 md:text-left font-bebas text-[45px] md:text-[50px] lg:text-[65px] xl:text-[6rem] 2xl:text-[80px] text-[#ededed] pt-2">
+                <h1 className="stroke2 font-outline-2 text-shadow-left-6 font-bebas text-[45px] md:text-[50px] lg:text-[65px] xl:text-[6rem] 2xl:text-[80px] text-[#ededed] pt-2">
                   let’s build your next digital product
                 </h1>
                 <div className=" bg-[#171719] relative md:bg-inherit">

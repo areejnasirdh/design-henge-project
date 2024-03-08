@@ -52,7 +52,7 @@ const Location = () => {
                 production team
               </p>
             </div>
-            <p className="m-auto text-center font-light w-[300px] h-[100px] transition-all">
+            <p className="m-auto text-center font-light w-[250px] h-[100px] transition-all">
               Saadabad Cooperative Housing Society, 4, Block 4 Gulistan-e-Johar,
               Karachi, Karachi City, Sindh 75290
             </p>

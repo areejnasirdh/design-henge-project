@@ -66,19 +66,19 @@
   ;
 }
 
-.contact_banner_section_main h1:nth-child(1) {
+.contact_banner_section_main h1 {
   font-size: calc(1.375rem + 1.5vw);
 
   /* padding-top: 30px; */
   /* text-shadow: 2px 2px 0px  #000, -2px -2px 0px  #000, 2px -2px 0px  #000, -2px 2px 0px  #000; */
 }
 
-.contact_banner_section_main h1:nth-child(2) {
+/* .contact_banner_section_main h1:nth-child(2) {
   font-size: calc(1.375rem + 1.5vw);
   padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 10px; */
   /* text-shadow: 2px 2px 0px  #000, -2px -2px 0px  #000, 2px -2px 0px  #000, -2px 2px 0px  #000; */
-}
+/* } */
 
 .contact_banner_section_main p {
   font-size: 20px;
@@ -189,13 +189,6 @@
   font-size: 15px;
 }
 
-.home_about_details button {
-  margin-top: 25px;
-  padding: 10px 22px;
-  font-weight: 400;
-  font-size: 14px;
-}
-
 .home_process_main {
   width: 100vw;
   max-width: 100%;
@@ -298,8 +291,10 @@
   padding-top: 60px;
   text-align: center;
   color: #ededed !important;
-  font-size: 70px;
-  font-family: "Zurich XBlk BT";
+  font-size: 65px;
+  font-family: "Zurich XBlk BT" !important;
+  -webkit-text-stroke: 2px black !important;
+  text-shadow: -8px 8px black !important;
 }
 
 .home_services_main>div>p {
@@ -356,6 +351,12 @@
 .HomeSlider .SliderCard div h4 {
   font-family: "Bebas Neue";
   font-size: 34px;
+}
+
+@media (max-width: 1116px){
+  .HomeSlider .SliderCard div h4{
+    font-size: 23px;
+  }
 }
 
 .HomeSlider .SliderCard div p {
@@ -507,9 +508,9 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .contact_banner_section_main h1:nth-child(2) {
-    font-size: 55px;
-  }
+  /* .contact_banner_section_main h1:nth-child(2) {
+    font-size: 44px;
+  } */
 
   .contact-info h3 {
     font-size: 45px;
@@ -547,14 +548,22 @@
 @media screen and (max-width: 767px) {
   .clients_main h3{
     font-size: 50px;
+    text-align: center;
+  }
+  .clients_main h4{
+    text-align: center;
+  }
+  .clients_main .bott0m-line{
+    display: flex;
+    justify-content: center;
   }
   /* .contact_banner_section_main h1:nth-child(1) {
     font-size: 55px;
   } */
 
-  .contact_banner_section_main h1:nth-child(2) {
-    font-size: 55px;
-  }
+  /* .contact_banner_section_main h1:nth-child(2) {
+    font-size: 44px;
+  } */
 
   .contact_banner_section_main img {
     width: 100%;
@@ -644,10 +653,10 @@
     line-height: 1;
   }
 
-  .HomeSlider .SliderCard div h4 {
+  /* .HomeSlider .SliderCard div h4 {
     font-family: "Bebas Neue";
     font-size: 28px;
-  }
+  } */
 
   .clients_main h4 {
     font-size: 42px;
@@ -676,10 +685,10 @@
     font-size: 75px;
   } */
 
-  .contact_banner_section_main h1:nth-child(2) {
+  /* .contact_banner_section_main h1:nth-child(2) {
     font-size: 105px;
 
-  }
+  } */
 
   /* .contact_banner_section_main p {
     font-size: 18px;
@@ -725,9 +734,9 @@
     font-size: 36px;
   } */
 
-  .contact_banner_section_main h1:nth-child(2) {
+  /* .contact_banner_section_main h1:nth-child(2) {
     font-size: 40px;
-  }
+  } */
   .clients_main h4, .home_about_main h4, .home_blog_main h4, .who_we_are_main h4{
     font-size: 55px;
     line-height: 50px;

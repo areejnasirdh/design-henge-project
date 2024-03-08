@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="footer">
       <Container fluid className="container-width">
         <div className="footer-main mx-auto max-w-[90rem] px-0 pb-6 pt-10 md:pt-5 sm:px-6 lg:px-0 flex flex-wrap lg:justify-between">
-          <div className="max-w-[20%] min-w-[185px] mr-4 mt-4">
+          <div className="max-w-[250px] min-w-[185px] mr-4 mt-4">
             <a href="/" className="text-xs font-medium text-white">
               <img src="/images/Footer-logo.png" />
             </a>

@@ -7,6 +7,7 @@ import "../public/css/navbar.css";
 import "../public/css/home.css";
 import "../public/css/about.css";
 import "../public/css/blog.css";
+import "../public/css/banner.css";
 import "../public/css/blog-inner.css";
 import "../public/css/case-study.css";
 import "../public/css/services.css";

@@ -15,7 +15,7 @@ const Clients = () => {
             <div className="d-flex flex-column justify-content-center h-full pl-3 md:pl-[60px]">
               <h3>CLIENTS</h3>
               <h4>OUR VALUABLE PARTNERS</h4>
-              <div className="d-flex align-items-center mt-1">
+              <div className="d-flex align-items-center mt-1 bott0m-line">
                 <div className="w-8 h-[3px] bg-red-500 mr-2 "></div>
                 <p className="font-medium">Brands We Worked For</p>
               </div>

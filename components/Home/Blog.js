@@ -35,13 +35,13 @@ function Blog() {
           >
             <div className="d-flex flex-column align-items-center">
               {/* <h3>BLOG</h3> */}
-              <h3>TECH INSIGHTS</h3>
+              <h3 className="text-cenetr">TECH INSIGHTS</h3>
             </div>
           </div>
         </Container>
       </div>
-      <Container fluid className="container-width">
-        <div className="grid gap-20 md:grid-cols-3 md:gap-6 lg:gap-10 xl:gap-20 pb-[60px]">
+      <Container fluid className="container-width grid place-content-center">
+        <div className="grid gap-20 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 md:gap-6 lg:gap-10 xl:gap-20 pb-[60px]">
           {blogData.map(({ desc, img, id, date }, idx) => (
             <BlogCard key={idx} desc={desc} img={img} id={id} date={date} />
           ))}

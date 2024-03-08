@@ -1,0 +1,104 @@
+.page-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+.page-banner h1{
+    font-size: calc(1.375rem + 1.5vw);
+    color: #ededed;
+    line-height: 1.3;
+    font-family: "Zurich XBlk BT";
+    -webkit-text-stroke: 2px black;
+    /* For Webkit-based browsers */
+    text-stroke: 2px black;
+    text-shadow: -4px 4px black;
+    text-transform: uppercase;
+}
+
+.page-banner h2 {
+    color: white;
+    font-size: 30px;
+    font-family: "Bebas Neue Bold";
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding-top: 10px !important;
+}
+
+.page-banner p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    padding-top: 15px !important;
+    line-height: 1.5;
+    max-width: 460px;
+}
+
+.page-banner .btn-container{
+    text-decoration: none;
+}
+
+.page-banner .banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(1.1);
+  }
+
+
+  @media (max-width: 1250px){
+    .page-banner p{
+        font-size: 15px;
+      }
+  }
+
+  @media (min-width: 990px){
+    .page-banner button{
+        width: max-content;
+    }
+}
+
+@media (min-width: 767px){
+    .page-banner button{
+        width: max-content;
+    }
+}
+
+
+@media (max-width: 767px){
+    .page-banner{
+        padding: 0px;
+    }
+    .page-banner img{
+        margin: auto;
+    }
+    .page-banner h1{
+        text-align: center;
+    }
+    .page-banner h2 {
+        color: black;
+        text-align: center;
+    }
+    .page-banner p{
+        text-align: center;
+        color: black;
+        font-size: 15px;
+        margin: 0px 50px;
+        max-width: none;
+    }
+    .page-banner button {
+        width: 80% !important;
+    }
+    .page-banner .btn-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 490px){
+    .page-banner p{
+        margin: 0px 30px;
+    }
+}

@@ -35,7 +35,7 @@ function Process() {
               alt=""
               className="hidden md:block object-contain min-w-[30rem] -ml-16 md:min-w-[18rem] md:max-w-[18rem] md:-ml-0 lg:w-[21rem] lg:min-w-[21rem] xl:w-[23rem] xl:min-w-[27rem] 2xl:w-[32rem] 2xl:min-w-[32rem] 2xl:h-[90%] md:col-span-2"
             />
-            <div className="overflow-hidden flex flex-col space-y-[80px] md:col-span-3 2xl:max-w-4xl">
+            <div className="overflow-hidden flex flex-col space-y-[80px] md:col-span-3 2xl:max-w-4xl content">
               <motion.div
                initial={{ y: 100, opacity: 0 }}
                whileInView={{ opacity: 1, scale: 1, y: 0 }}

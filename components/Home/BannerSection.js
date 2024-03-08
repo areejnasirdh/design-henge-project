@@ -5,8 +5,10 @@ import Banner from "../Common/Banner/Banner";
 const BannerSection = () => {
   return (
     <Banner
+      stempt={true}
       heading="Boosting Business."
-      subHeading="Empowering Brands. Crafting Experiences."
+      second="Empowering Brands."
+      third="Crafting Experiences."
       text="We're a digital marketing and branding agency based in Illinois, passionately creating impactful work with a focus on our clients and their success."
       img={BannerImg}
       navigate="/services"

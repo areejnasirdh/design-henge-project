@@ -18,23 +18,6 @@ import AOS from "aos";
 import Head from "next/head";
 
 export default function Home() {
-  // useEffect(() => {
-  //   AOS.init({
-  //     easing: "ease-out-cubic",
-  //     once: true,
-  //     offset: 50,
-  //   });
-  // }, []);
-  // useLayoutEffect(()=>{
-  //   window.scroll({
-  //     top: 0,
-  //     left: 0,
-  //     behavior: 'smooth'
-  //   });
-
-  // },[])
-  // useEffect(() => {
-  // }, []);
   return (
     <div>
       <Head>

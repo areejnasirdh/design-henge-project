@@ -33,9 +33,10 @@ import Image from "next/image";
 const AboutBanner = () => {
   return (
     <Banner
+      stempt={false}
       heading="Strategic Thinkers."
-      subHeading="Digital Innovators. 
-      Growth Catalysts."
+      second="Digital Innovators."
+      third="Growth Catalysts."
       text="At Design Henge's inception, we realized success hinged on genuinely listening to people, including target audiences, partners, and team members."
       img={BannerImg}
       navigate="/about-us#who_we_are_main"
