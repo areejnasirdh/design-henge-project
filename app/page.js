@@ -16,6 +16,7 @@ import Testimonials from "@/components/Home/Testimonials";
 import Clients from "@/components/Home/Clients";
 import AOS from "aos";
 import Head from "next/head";
+import AboutImg from "../public/images/home-about-1.png";
 
 export default function Home() {
   return (
@@ -32,7 +33,25 @@ export default function Home() {
         <BannerSection />
       </div>
       <Socials />
-      <HomeAbout />
+      <HomeAbout
+        heading="ABOUT"
+        subHeading="HELPING BRANDS ONLINE"
+        bluePara="At Design Henge, we rise by helping others. This has helped us
+                cater numerous clients across the globe and make our mark in the
+                industry."
+        para=" We helps brands create meaningful and personalized customer
+                experiences for web, social and design in the field of
+                information and technology. Our work shows the commitment we’ve
+                shown over the years of mastering skills and working
+                hand-in-hand with clients to maximize the investment in their
+                online business efforts."
+        mission=" Design Henge's mission is to provide the endless
+        opportunities with a pinch of innovation, a twist of
+        creativity and a dash of passion."
+        vision={true}
+        navigate="/about-us"
+        img={AboutImg}
+      />
       <Services />
       <Process />
       <Clients />

@@ -40,8 +40,8 @@ function Blog() {
           </div>
         </Container>
       </div>
-      <Container fluid className="container-width grid place-content-center">
-        <div className="grid gap-20 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 md:gap-6 lg:gap-10 xl:gap-20 pb-[60px]">
+      <Container fluid className="container-width mb-5">
+        <div className="flex justify-around flex-wrap">
           {blogData.map(({ desc, img, id, date }, idx) => (
             <BlogCard key={idx} desc={desc} img={img} id={id} date={date} />
           ))}

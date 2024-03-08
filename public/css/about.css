@@ -155,6 +155,19 @@
 
   text-shadow: -3px 3px black;
 }
+@media (max-width: 768px){
+  .about_projects_main h3 {
+    text-align: center;
+  }
+  .about_projects_main h6 {
+    text-align: center;
+  }
+  .about_projects_main p {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+}
 
 .about_projects_main h6 {
   font-size: 28px;
@@ -208,6 +221,10 @@
 
   .acheivement_box h5 {
     font-size: 20px;
+    text-align: center;
+  }
+  .acheivement_box p {
+    text-align: center;
   }
 }
 

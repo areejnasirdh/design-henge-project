@@ -8,7 +8,7 @@ const Projects = () => {
     <div className="about_projects_main">
       <Container fluid className="container-width-2">
         <Row className="mt-3 justify-center items-center">
-          <Col xl={6} lg={5}>
+          <Col xl={6} lg={12}>
             <Row className="gx-0 mb-4 pb-2">
               <Col>
                 <h3>10+</h3>
@@ -54,7 +54,7 @@ const Projects = () => {
               </Col>
             </Row>
           </Col>
-          <Col xl={5} lg={7} className="d-flex justify-content-center">
+          <Col xl={5} className="d-flex justify-content-center">
             <Image src={ProjectImg}/>
           </Col>
         </Row>
