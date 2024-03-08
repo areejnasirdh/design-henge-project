@@ -11,16 +11,14 @@ function Services() {
   const [currentSlide, setCurrentSlide] = useState("LOGO DESIGNING");
 
   const handleSlideChange = (title) => {
-    // console.log("Current slide title:", title);
     setCurrentSlide(title);
   };
 
   return (
-    <div className="home_services">
+    <div className="home_services py-[50px]">
       <Container fluid className="container-width">
         <div className="home_services_main">
           <div className="flex flex-col justify-center items-center lg:pr-10 md:px-10 2xl:px-0 w-full md:pb-4">
-            {/* <div className="space-y-3 "> */}
             <motion.h1
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
@@ -28,16 +26,10 @@ function Services() {
                 duration: "0.7",
                 delay: "0.2",
               }}
-              className="blackGrayHeading"
+              className="blackGrayHeading text-center"
             >
               SERVICES WE PROVIDE
             </motion.h1>
-
-            {/* <div className="flex space-x-3 items-center pt-4">
-              <div className="border-t-4 border-red-primary w-7"></div>
-              <p className="text-white">What we offer</p>
-            </div> */}
-            {/* </div> */}
             <p className="pt-4 font-light">
             We are your one-stop solution to all your business misery. Breath a new air into your dying business, let’s walk the talk.
             </p>
