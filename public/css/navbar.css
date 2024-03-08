@@ -98,12 +98,6 @@
   align-items: center;
 }
 
-@media (min-width: 1116px){
-  #right_side_nav>a{
-    margin: 0px 10px;
-  }
-}
-
 #right_side_nav>a{
   text-decoration: none;
   color: black;
@@ -344,6 +338,13 @@
 .hamburger{
   display: none;
 }
+
+@media (min-width: 1116px){
+  #right_side_nav>a{
+    margin: 0px 10px;
+  }
+}
+
 
 @media (max-width: 1052px){
   #right_side_nav>a{

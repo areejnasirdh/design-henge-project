@@ -13,9 +13,9 @@ const Clients = () => {
         <Row>
           <Col md={5}>
             <div className="d-flex flex-column justify-content-center h-full pl-3 md:pl-[60px]">
-              <h3>CLIENTS</h3>
-              <h4>OUR VALUABLE PARTNERS</h4>
-              <div className="d-flex align-items-center mt-1 bott0m-line">
+              <h3 className="blueGrayHeading">CLIENTS</h3>
+              <h4 className="blueSubHeading leading-[80.5px]">OUR VALUABLE PARTNERS</h4>
+              <div className="d-flex align-items-center mt-1">
                 <div className="w-8 h-[3px] bg-red-500 mr-2 "></div>
                 <p className="font-medium">Brands We Worked For</p>
               </div>
@@ -182,20 +182,6 @@ const Clients = () => {
                 {/* <div className="absolute bottom-0 z-10  md:bottom-[29px] right-0 bg-gradient-to-l from-white to-transparent  w-36 md:w-[10rem] h-[8rem] lg:w-[14rem] 2xl:w-[18rem] 2xl:h-[10rem]" /> */}
               </Col>
             </Row>
-            {/* <Row className="gx-0">
-              <Col md={4}>
-                <Image src={CLient3}/>
-
-              </Col>
-              <Col md={4}>
-                <Image src={CLient6}/>
-
-              </Col>
-              <Col md={4}>
-                <Image src={CLient4}/>
-
-              </Col>
-            </Row> */}
           </Col>
         </Row>
       </Container>

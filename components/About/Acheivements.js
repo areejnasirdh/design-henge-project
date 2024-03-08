@@ -11,13 +11,7 @@ const Acheivements = () => {
       <Container fluid className="container-width">
         <Row className="justify-content-center">
           <Col className="d-flex flex-col items-center text-center mb-3">
-            <h1 className="stroke2 text-4xl">OUR ACHIEVEMENTS</h1>
-            {/* <div className="flex space-x-3 items-center mb-3">
-              <div className="border-t-4 border-red-primary w-7"></div>
-              <p className="font-medium text-[13px] text-white">
-                A variety of creative capabilities under one roof
-              </p>
-            </div> */}
+            <h1 className="blackGrayHeading">OUR ACHIEVEMENTS</h1>
             <p className="text-white md:w-[590px] mt-3 font-light">
               We are your one-stop solution to all your business misery. Breath
               a new air into your dying business, let's walk the talk.

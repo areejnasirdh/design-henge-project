@@ -5,7 +5,7 @@ const DigitalDemand = () => {
   return (
     <div className="mt-3 digital_demand_main">
       <Container fluid className="container-width-2">
-        <h2 className="stroke3 text-center">
+        <h2 className="blueSubHeading">
           Digital demand thrives in our hands
         </h2>
         <div className="flex space-x-3 items-center justify-center">
@@ -44,7 +44,7 @@ const DigitalDemand = () => {
           <Col md={6}>
             <Row>
               <Col md={12}>
-                <h1 className="text-[#ededed]">SOLUTION WE PROVIDE</h1>
+                <h1 className="blackGrayHeading">SOLUTION WE PROVIDE</h1>
               </Col>
             </Row>
           </Col>

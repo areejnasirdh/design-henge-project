@@ -50,7 +50,7 @@ function CaseStudy({ data, heading }) {
       <div className="flex flex-col justify-center items-center lg:pr-10 md:px-10 2xl:px-0 w-full pt-[60px]">
         {heading && (
           <>
-            <h1 className="process-heading font-bebas text-7xl sm:text-8xl md:text-7xl xl:text-[90px] 2xl:text-[110px] font-outline-white-1 text-white text-shadow-blue stroke">
+            <h1 className="blueGrayHeading">
               {heading}
             </h1>
 

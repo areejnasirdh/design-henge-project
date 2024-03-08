@@ -35,7 +35,7 @@ function Blog() {
           >
             <div className="d-flex flex-column align-items-center">
               {/* <h3>BLOG</h3> */}
-              <h3 className="text-cenetr">TECH INSIGHTS</h3>
+              <h3 className="text-cenetr blueGrayHeading">TECH INSIGHTS</h3>
             </div>
           </div>
         </Container>

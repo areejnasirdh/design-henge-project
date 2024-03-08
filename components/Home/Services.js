@@ -28,7 +28,7 @@ function Services() {
                 duration: "0.7",
                 delay: "0.2",
               }}
-              className="font-bebas font-outline-white-1 text-white text-shadow-blue stroke2 font-black"
+              className="blackGrayHeading"
             >
               SERVICES WE PROVIDE
             </motion.h1>

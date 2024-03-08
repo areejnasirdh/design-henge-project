@@ -10,14 +10,6 @@ import { useRouter } from "next/navigation";
 const HomeAbout = ({heading, subHeading, img, bluePara, para, mission, vision, navigate}) => {
   const btnRef = useRef(null);
   const router = useRouter();
-
-  // const handleMouseMove = (e) => {
-  //   const x = e.pageX - btnRef.current.offsetLeft;
-  //   const y = e.pageY - btnRef.current.offsetTop;
-
-  //   btnRef.current.style.setProperty("--x", `${x}px`);
-  //   btnRef.current.style.setProperty("--y", `${y}px`);
-  // };
   return (
     <div className="home_about_main">
       <motion.div
@@ -28,12 +20,8 @@ const HomeAbout = ({heading, subHeading, img, bluePara, para, mission, vision, n
         }}
         className="d-flex flex-column align-items-center py-[70px]"
       >
-        <h3>{heading}</h3>
-        <h4>{subHeading}</h4>
-        {/* <div className="d-flex align-items-center mt-1">
-          <div className="w-10 h-1 bg-red-500 mr-2 "></div>
-          <p>The best team</p>
-        </div> */}
+        <h3 className="blueGrayHeading">{heading}</h3>
+        <h4 className="blueSubHeading">{subHeading}</h4>
       </motion.div>
       <motion.div
         initial={{ y: 100, opacity: 0 }}

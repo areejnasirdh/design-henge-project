@@ -11,10 +11,10 @@ const WhenWeStarted = () => {
       <Container fluid className="container-width-2">
         <div className="d-flex flex-col justify-content-center align-items-center">
 
-          <h2 className="stroke3">
+          <h2 className="blueSubHeading">
             14 years of building digital products and we are
           </h2>
-          <h2 className="stroke3">just getting started!</h2>
+          <h2 className="blueSubHeading">just getting started!</h2>
           <ReusableButton
             buttonText="START A PROJECT"
             onClick={() => router.push("/contact-us")}

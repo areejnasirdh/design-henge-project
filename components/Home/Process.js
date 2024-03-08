@@ -16,7 +16,7 @@ function Process() {
               transition={{
                 duration: "0.7",
               }}
-              className="font-bebas text-5xl sm:text-8xl md:text-6xl xl:text-7xl 2xl:text-[110px] process-heading font-outline-white-1 text-blue-primary text-shadow-blue stroke1"
+              className="blueGrayHeading"
             >
               PROCESS WE FOLLOW
             </motion.h1>

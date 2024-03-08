@@ -17,77 +17,9 @@
   background-color: rgb(223, 220, 220);
 }
 
-@media (max-width: 767px){
-  .aftereffect::after{
-    content: none;
-  }
-}
-
-.banner_section_main {
-  padding: 0px;
-}
-
-.banner_section_main h1 {
-  font-weight: 800;
-  color: #ededed;
-  line-height: 1.2;
-  font-family: "Zurich XBlk BT";
-  -webkit-text-stroke: 2px black;
-  /* For Webkit-based browsers */
-  text-stroke: 2px black;
-  text-shadow: -4px 4px black;
-  text-transform: uppercase;
-}
-
 h1.font-bebas.uppercase {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
-
-.banner_section_main h1:nth-child(1) {
-  font-size: calc(1.375rem + 1.5vw);
-  /* padding-top: 30px; */
-  /* text-shadow: 2px 2px 0px  #000, -2px -2px 0px  #000, 2px -2px 0px  #000, -2px 2px 0px  #000; */
-}
-
-.banner_section_main h1:nth-child(3) {
-  font-size: calc(1.375rem + 1.5vw);
-  /* padding-top: 30px; */
-  /* text-shadow: 2px 2px 0px  #000, -2px -2px 0px  #000, 2px -2px 0px  #000, -2px 2px 0px  #000; */
-}
-
-.banner_section_main h1:nth-child(2) {
-  /* font-size: 50px; */
-  /* padding-bottom: 10px; */
-  font-size: calc(1.375rem + 1.5vw);
-  padding-top: 10px;
-  color: #ededed;
-  /* text-shadow: 2px 2px 0px  #000, -2px -2px 0px  #000, 2px -2px 0px  #000, -2px 2px 0px  #000; */
-}
-
-.banner_section_main p {
-  font-size: 20px;
-  font-weight: lighter;
-  color: white;
-  padding-top: 15px !important;
-  line-height: 1.5;
-  max-width: 600px;
-}
-
-.banner_section_main button {
-  /* padding: 10px 22px;
-  margin-top: 40px; */
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.banner_section_main img {
-  width: 480px;
-  height: 430px;
-  margin-top: 20px;
-  object-fit: contain;
-}
-
-
 
 /* *****************Home About *************** */
 .home_about_main {
@@ -96,29 +28,6 @@ h1.font-bebas.uppercase {
   background-image: url("../images/about_bg.jpg");
   background-position: top;
   background-size: cover;
-}
-
-.home_about_main h3,
-.home_blog_main h3, .blog-main h3 {
-  font-size: 70px;
-  font-family: "Zurich XBlk BT";
-  font-weight: 800;
-  color: #ededed;
-  -webkit-text-stroke: 1.5px black;
-  text-shadow: -9px 4px #0097d9;
-  letter-spacing: -4px;
-}
-
-.home_about_main h4,
-.home_blog_main h4, .location-container h4, .digital_demand_main h2 {
-  font-size: 64px;
-  font-family: "Bebas Neue";
-  /* font-weight: 600; */
-  color: #0097d9;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.644);
-
-  text-shadow: -3px 3px black;
-  padding-top: 15px;
 }
 
 .home_about_details img {
@@ -130,21 +39,6 @@ h1.font-bebas.uppercase {
 .home_about_details h6 {
   color: #0097d9;
   font-size: 24px;
-}
-
-@media (max-width: 1116px){
-  .home_about_details h6 {
-    text-align: center;
-  }
-  .home_about_details p {
-    text-align: center;
-  }
-  .about_vision_and_mission h5 {
-    text-align: center;
-  }
-  .home_about_details button {
-    padding: 10px 22px !important;
-  }
 }
 
 .home_about_details p {
@@ -178,17 +72,6 @@ h1.font-bebas.uppercase {
   background-size: cover;
 }
 
-@media (max-width: 767px){
-  .home_process_main .content h1 {
-    text-align: center;
-  }
-  .home_process_main .content h3 {
-    text-align: center;
-  }
-  .home_process_main .content p {
-    text-align: center;
-  }
-}
 
 
 .process-heading {
@@ -238,7 +121,6 @@ h1.font-bebas.uppercase {
   background-repeat: no-repeat;
   width: 100vw;
   max-width: 100%;
-  /* padding-bottom: 35px; */
 }
 
 .home_contact_form {
@@ -275,17 +157,10 @@ h1.font-bebas.uppercase {
 
 .footer a {
   text-decoration: none;
-  /* margin-bottom: 30px !important; */
 }
 
 .contact-us-tag a {
   margin-bottom: 0px !important;
-}
-@media (max-width: 768px){
-  .contact h1 {
-    text-align: center;
-  }
-
 }
 
 .subscribe-home-button {
@@ -308,16 +183,6 @@ h1.font-bebas.uppercase {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.home_services_main>div h1 {
-  width: 100%;
-  padding-top: 60px;
-  text-align: center;
-  color: #ededed !important;
-  font-size: 70px;
-  font-weight: bolder;
-  font-family: "Zurich XBlk BT";
 }
 
 .home_services_main>div>p {
@@ -368,11 +233,6 @@ h1.font-bebas.uppercase {
   margin-top: 5px;
   margin-right: 15px;
 }
-
-/* .HomeSlider .SliderCard div h4 {
-  font-family: "Bebas Neue";
-  font-size: 34px;
-} */
 
 .HomeSlider .SliderCard div p {
   font-family: "Montserrat";
@@ -458,40 +318,10 @@ h1.font-bebas.uppercase {
   max-width: 1600px;
 }
 
-.clients_main h3 {
-  font-size: 64px;
-  font-family: "Zurich XBlk BT";
-
-  font-weight: 800;
-  color: #ededed;
-  -webkit-text-stroke: 1.5px black;
-  /* For Webkit-based browsers */
-  text-shadow: -8px 6px #0097d9;
-  letter-spacing: -4px;
-}
-
-.clients_main h4 {
-  font-size: 74px;
-  font-family: "Bebas Neue";
-  /* font-weight: 600; */
-  color: #0097d9;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.644);
-
-  text-shadow: -3px 3px black;
-  padding-top: 10px;
-  line-height: 70px;
-}
-
-.clients_main p {
-  font-size: 13px;
-}
-
 .agent-image {
   width: 290px !important;
   height: 50px !important;
   margin-left: 0 !important;
-  /* margin-bottom: -50px; */
-  /* transform: translateY(138px) translateX(-45px); */
 }
 
 .clients_main img {
@@ -524,206 +354,6 @@ h1.font-bebas.uppercase {
 .partners img {
   width: 90%;
 }
-
-@media screen and (max-width: 767px) {
-  .banner_section_main h1:nth-child(1) {
-    font-size: 55px;
-  }
-
-  .partners {
-    margin-bottom: 20px;
-  }
-
-  /* .banner_section_main h1:nth-child(2) {
-    font-size: 40px;
-  } */
-  .banner_section_main p {
-    font-size: 10px;
-  }
-
-  .banner_section_main button {
-    width: 100%;
-  }
-  .banner_section_main button span{
-    margin: auto;
-    
-  }
-
-  .about-us>.banner_section_main img{
-    display: block !important;
-  }
-
-  .banner_section_main img {
-    /* width: 100%;
-    height: auto;
-    margin-top: 32px;
-    margin-left: 0px; */
-    /* display: none; */
-  }
-
-  .home_about_main h4, .digital_demand_main h2 {
-    font-size: 42px;
-    padding-top: 0px;
-  }
-
-  .home_blog_main h4 {
-    font-size: 50px;
-    padding-top: 0px;
-  }
-
-  .home_about_details img {
-    width: 500px;
-    height: auto;
-  }
-
-  .home_about_details h6 {
-    color: #0097d9;
-    font-size: 20px;
-  }
-
-  .home_services_main>div h1 {
-    padding-top: 25px;
-    /* font-size: 50px !important; */
-    font-weight: bolder;
-    line-height: 1;
-  }
-
-  /* .HomeSlider .SliderCard div h4 {
-    font-family: "Bebas Neue";
-    font-size: 28px;
-  } */
-
-  .clients_main h4 {
-    font-size: 54px;
-    padding-top: 5px;
-    line-height: 1;
-  }
-
-  .contact {
-    background-color: #171719;
-    background-image: none;
-  }
-
-  .home_contact_form {
-    margin-top: 30px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .testimonial_slider .slick-list {
-    overflow: initial !important;
-  }
-
-  .home_about_main h3,
-  .home_blog_main h3, .blog-main h3 {
-    font-size: 60px;
-  }
-}
-
-@media (max-width: 1250px) {
-  .banner_section_main p {
-    font-size: 15px;
-  }
-}
-
-@media screen and (min-width: 767px) and (max-width: 1024px) {
-  .banner_section_main p {
-    font-size: 15px;
-  }
-
-  .banner_section_main img {
-    height: 330px;
-  }
-
-  .HomeSlider .SliderCard img {
-    width: 30px !important;
-    height: 30px !important;
-    margin-top: 0px !important;
-    margin-right: 0px !important;
-  }
-
-  /* .banner_section_main h1:nth-child(2) {
-    font-size: 43px;
-  } */
-
-  .banner_section_main h1:nth-child(1) {
-    font-size: 40px;
-  }
-
-  /* .HomeSlider .SliderCard div p {
-    font-size: 7px !important;
-  } */
-
-  .HomeSlider .SliderCard div h4 {
-    padding-left: 5px !important;
-  }
-}
-
-/* @media (max-width: 600px){
-  .banner_section_main h1:nth-child(2) {
-    font-size: 40px !important;
-  }
-} */
-
-/* @media (max-width: 500px){
-  .banner_section_main h1:nth-child(2) {
-    font-size: 30px !important;
-  }
-} */
-
-@media screen and (min-width: 1400px) and (max-width: 2560px) {
-  .banner_section_main h1:nth-child(1) {
-    margin-top: 75px;
-    font-size: 50px;
-  }
-
-  /* .banner_section_main h1:nth-child(2) {
-    font-size: 40px;
-    line-height: 1.2;
-  } */
-
-
-  .banner_section_main p {
-    font-size: 25px;
-  }
-
-  .banner_section_main img {
-    width: 600px;
-    height: 630px;
-    margin-top: 27px;
-    margin-left: 40px;
-    /* object-fit: cover; */
-  }
-
-  .banner_section_main button {
-    /* padding: 12px 32px;
-    margin-top: 40px; */
-    font-weight: 400;
-    font-size: 17px;
-  }
-
-  .home_about_details img {
-    width: 633px;
-    height: 585px;
-    -o-object-fit: contain;
-    object-fit: contain;
-  }
-}
-
-@media screen and (min-width: 1560px) {
-  .banner_section_main img {
-    width: 619px;
-    height: 625px;
-    margin-top: 9px;
-    margin-left: 40px;
-  }
-
-}
-
-/* .section-2-slider{
-  background: linear-gradient(358deg, #0097d92b, white);
-} */
-
 
 /* Slideshow */
 
@@ -785,36 +415,6 @@ h1.font-bebas.uppercase {
   height: 100% !important;
 }
 
-/* @media (max-width: 990px){
-  .process-heading{
-    font-size: 50px;
-  }
-} */
-
-@media (max-width: 767px) {
-  .banner_section_main p {
-    color: black;
-  }
-/* 
-  .process-heading {
-    font-size: 50px;
-  } */
-}
-
-@media (max-width: 600px){
-  .partners h1{
-    font-size: 35px;
-  }
-   .HomeSlider .SliderCard div p {
-    font-size: 8px !important;
-  }
-  /* .HomeSlider .SliderCard div h4{
-    font-size: 25px !important;
-  } */
-  .home_services_main>div>p{
-    font-size: 15px;
-  }
-}
 .slick-current .testimonial-container::before {
   content: "";
   width: 100%;
@@ -867,9 +467,185 @@ h1.font-bebas.uppercase {
   display: none !important;
 }
 
-@media (max-width: 786px) {
+@media screen and (min-width: 1560px) {
+  .banner_section_main img {
+    width: 619px;
+    height: 625px;
+    margin-top: 9px;
+    margin-left: 40px;
+  }
+
+}
+
+@media screen and (min-width: 1400px) and (max-width: 2560px) {
+  .banner_section_main h1:nth-child(1) {
+    margin-top: 75px;
+    font-size: 50px;
+  }
+
+  .banner_section_main p {
+    font-size: 25px;
+  }
+
+  .banner_section_main img {
+    width: 600px;
+    height: 630px;
+    margin-top: 27px;
+    margin-left: 40px;
+  }
+
+  .banner_section_main button {
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+  .home_about_details img {
+    width: 633px;
+    height: 585px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 1250px) {
+  .banner_section_main p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1116px){
+  .home_about_details h6 {
+    text-align: center;
+  }
+  .home_about_details p {
+    text-align: center;
+  }
+  .about_vision_and_mission h5 {
+    text-align: center;
+  }
+  .home_about_details button {
+    padding: 10px 22px !important;
+  }
+}
+
+@media  (min-width: 767px) and (max-width: 1024px) {
+  .banner_section_main p {
+    font-size: 15px;
+  }
+
+  .banner_section_main img {
+    height: 330px;
+  }
+
+  .HomeSlider .SliderCard img {
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .banner_section_main h1:nth-child(1) {
+    font-size: 40px;
+  }
+
+  .HomeSlider .SliderCard div h4 {
+    padding-left: 5px !important;
+  }
+}
+
+@media (max-width: 1024px){
+  .testimonial_slider .slick-list {
+    overflow: initial !important;
+  }
+}
+
+@media (max-width: 768px){
+  .contact h1 {
+    text-align: center;
+  }
   .banner_section_main img {
     margin-left: 0;
     transform: unset !important;
+  }
+  .banner_section_main p {
+    color: black;
+  }
+  .aftereffect::after{
+    content: none;
+  }
+  .home_process_main .content h1 {
+    text-align: center;
+  }
+  .home_process_main .content h3 {
+    text-align: center;
+  }
+  .home_process_main .content p {
+    text-align: center;
+  }
+
+  .banner_section_main h1:nth-child(1) {
+    font-size: 55px;
+  }
+
+  .partners {
+    margin-bottom: 20px;
+  }
+
+  .banner_section_main p {
+    font-size: 10px;
+  }
+
+  .banner_section_main button {
+    width: 100%;
+  }
+  .banner_section_main button span{
+    margin: auto;
+    
+  }
+
+  .about-us>.banner_section_main img{
+    display: block !important;
+  }
+
+  .home_blog_main h4 {
+    font-size: 50px;
+    padding-top: 0px;
+  }
+
+  .home_about_details img {
+    width: 500px;
+    height: auto;
+  }
+
+  .home_about_details h6 {
+    color: #0097d9;
+    font-size: 20px;
+  }
+
+  .clients_main h4 {
+    font-size: 54px;
+    padding-top: 5px;
+    line-height: 1;
+  }
+
+  .contact {
+    background-color: #171719;
+    background-image: none;
+  }
+
+  .home_contact_form {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 600px){
+  .partners h1{
+    font-size: 35px;
+  }
+   .HomeSlider .SliderCard div p {
+    font-size: 8px !important;
+  }
+  .home_services_main>div>p{
+    font-size: 15px;
   }
 }

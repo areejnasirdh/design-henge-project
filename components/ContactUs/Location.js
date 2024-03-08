@@ -10,7 +10,7 @@ const Location = () => {
   return (
     <div className="location-container py-[60px]">
       <div className="container">
-        <h4>OUR LOCATIONS</h4>
+        <h4 className="blueSubHeading">OUR LOCATIONS</h4>
         <div className="w-full md:flex justify-around p-2">
           <div className="aftereffect relative md:w-[45%] mt-4 location-card">
             <div className="w-full h-[200px]">
