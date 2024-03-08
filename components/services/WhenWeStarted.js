@@ -17,11 +17,9 @@ const WhenWeStarted = () => {
           <h2 className="stroke3">just getting started!</h2>
           <ReusableButton
             buttonText="START A PROJECT"
-            handleMouseMove={() => router.push("/contact-us")}
-            // btnRef={btnRef}
+            onClick={() => router.push("/contact-us")}
             additionalClasses="your-custom-classes"
           />
-          {/* <button className="cta_btn" >START A PROJECT</button> */}
         </div>
       </Container>
     </div>

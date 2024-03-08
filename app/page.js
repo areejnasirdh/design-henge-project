@@ -1,31 +1,18 @@
-// "use client";
-// import styles from './page.module.css'
 import Navbar from "@/components/Common/Navbar/Navbar";
-import BannerSection from "@/components/Home/BannerSection";
+import Banner from "@/components/Common/Banner/Banner";
+import BannerImg from "../public/images/home_banner.png";
 import Socials from "@/components/Home/Socials";
 import HomeAbout from "@/components/Home/HomeAbout";
+import AboutImg from "../public/images/home-about-1.png";
 import Process from "@/components/Home/Process";
-// import { useEffect, useLayoutEffect } from "react";
-// import { Router } from "next/router";
 import CaseStudy from "@/components/Home/CaseStudy";
 import Blog from "@/components/Home/Blog";
-import ContactUs from "@/components/Home/ContactUs";
-import Footer from "@/components/Home/Footer";
 import Services from "@/components/Home/Services";
-import Testimonials from "@/components/Home/Testimonials";
 import Clients from "@/components/Home/Clients";
-import AOS from "aos";
 import Head from "next/head";
-import AboutImg from "../public/images/home-about-1.png";
 
 export default function Home() {
   const cases = [
-    // {
-    //   image: "/images/caseStudy/Case-study-section-1.webp",
-    //   heading: "YUMME GIRL O SKIN",
-    //   description:"Design Henge collaborated with Yumme Girl Skin O to craft a cohesive and engaging brand identity cross logo design, product labeling, website design, and social media presence.",
-    //   link: "/case-study/yummegurlo",
-    // },
     {
       image: "/images/caseStudy/Case-study-section-2.webp",
       heading: "Speakable",
@@ -59,7 +46,15 @@ export default function Home() {
       </Head>
       <div className="home_main">
         <Navbar />
-        <BannerSection />
+        <Banner
+          stempt={true}
+          heading="Boosting Business."
+          second="Empowering Brands."
+          third="Crafting Experiences."
+          text="We're a digital marketing and branding agency based in Illinois, passionately creating impactful work with a focus on our clients and their success."
+          img={BannerImg}
+          navigate="/services"
+        />
       </div>
       <Socials />
       <HomeAbout
@@ -84,7 +79,7 @@ export default function Home() {
       <Services />
       <Process />
       <Clients />
-      <CaseStudy data={cases} heading="CASE STUDY"/>
+      <CaseStudy data={cases} heading="CASE STUDY" />
       <Blog />
     </div>
   );

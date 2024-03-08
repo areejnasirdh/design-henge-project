@@ -1,12 +1,11 @@
 import React from "react";
 import Navbar from "@/components/Common/Navbar/Navbar";
-import AboutBanner from "@/components/About/AboutBanner";
-import WhoWeAre from "@/components/About/WhoWeAre";
 import Acheivements from "@/components/About/Acheivements";
 import Projects from "@/components/About/Projects";
 import Socials from "@/components/Home/Socials";
 import Head from "next/head";
 import Banner from "@/components/Common/Banner/Banner";
+import BannerImg from "../../public/images/about-banner.png";
 import HomeAbout from "@/components/Home/HomeAbout";
 import AboutImg2 from "../../public/images/about-img-2.png";
 
@@ -22,7 +21,15 @@ const page = () => {
       </Head>
       <div className="home_main about-us">
         <Navbar />
-        <AboutBanner />
+        <Banner
+          stempt={false}
+          heading="Strategic Thinkers."
+          second="Digital Innovators."
+          third="Growth Catalysts."
+          text="At Design Henge's inception, we realized success hinged on genuinely listening to people, including target audiences, partners, and team members."
+          img={BannerImg}
+          navigate="/about-us#who_we_are_main"
+        />
       </div>
       <Socials />
       <HomeAbout
@@ -33,7 +40,6 @@ const page = () => {
         vision={false}
         img={AboutImg2}
       />
-      {/* <WhoWeAre /> */}
       <Acheivements />
       <Projects />
     </div>

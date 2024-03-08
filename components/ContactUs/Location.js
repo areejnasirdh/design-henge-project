@@ -30,7 +30,7 @@ const Location = () => {
               Chicago, IL 60659, USA
             </p>
             <div className="flex justify-center mt-2">
-              <Link href="https://maps.app.goo.gl/4diHChNaaJQkz8ue7">
+              <Link href="https://maps.app.goo.gl/4diHChNaaJQkz8ue7" className="no-underline">
                 <ReusableButton
                   buttonText="VIEW LOCATION"
                   onClick={() => {}}
@@ -57,7 +57,7 @@ const Location = () => {
               Karachi, Karachi City, Sindh 75290
             </p>
             <div className="flex justify-center mt-2">
-              <Link href="https://maps.app.goo.gl/5hSzxtfEKw6rhtucA">
+              <Link href="https://maps.app.goo.gl/5hSzxtfEKw6rhtucA"  className="no-underline">
                 <ReusableButton
                   buttonText="VIEW LOCATION"
                   onClick={() => {}}

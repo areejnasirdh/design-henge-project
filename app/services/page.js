@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Common/Navbar/Navbar";
 import Banner from "@/components/Common/Banner/Banner";
-// import Banner from "@/components/services/Banner";
 import Socials from "@/components/Home/Socials";
 import DigitalDemand from "@/components/services/DigitalDemand";
 import OurServices from "@/components/services/OurServices";
@@ -21,7 +20,6 @@ const page = () => {
       </Head>
       <div className="home_main">
         <Navbar />
-        {/* <Banner /> */}
         <Banner
           stempt={false}
           heading="WORLD CLASS"

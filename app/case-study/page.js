@@ -1,8 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Common/Navbar/Navbar";
-import AboutBanner from "@/components/CaseStudy/Aboutbanner";
 import Socials from "@/components/Home/Socials";
-import Product from "@/components/CaseStudy/Product";
 import Head from "next/head";
 import Banner from "@/components/Common/Banner/Banner";
 import BannerImg from "@/public/images/caseStudy/caseStudyBanner.png";
@@ -11,13 +9,6 @@ import CaseStudy from "@/components/Home/CaseStudy";
 const page = () => {
 
   const cases =[
-    // {
-    //   image: "/images/caseStudy/Case-study-section-1.webp",
-    //   heading: "Yumme Girl O Skin",
-    //   description:
-    //     "Design Henge collaborated with Yumme Girl Skin O to craft a cohesive and engaging brand identity cross logo design, product labeling, website design, and social media presence.",
-    //   link: "/case-study/yummegurlo",
-    // },
     {
       image: "/images/caseStudy/Case-study-section-2.webp",
       heading: "Speakable",
@@ -92,11 +83,9 @@ const page = () => {
           img={BannerImg}
           navigate=""
         />
-        {/* <AboutBanner /> */}
       </div>
       <Socials />
       <CaseStudy data={cases}/>
-      {/* <Product /> */}
     </div>
   );
 };
