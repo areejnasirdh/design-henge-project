@@ -9,8 +9,8 @@ export default function Footer() {
   return (
     <footer className="footer">
       <Container fluid className="container-width">
-        <div className="footer-main mx-auto max-w-[90rem] px-0 pb-6 pt-10 md:pt-5 sm:px-6 lg:px-0 flex flex-wrap lg:justify-between">
-          <div className="max-w-[250px] min-w-[185px] mr-4 mt-4">
+        <div className="footer-main mx-auto max-w-[90rem] px-0 pb-6 pt-10 md:pt-5 sm:px-6 lg:px-0 flex flex-wrap justify-between">
+          <div className="w-[280px] mr-4 mt-4">
             <a href="/" className="text-xs font-medium text-white">
               <img src="/images/Footer-logo.png" />
             </a>
@@ -39,7 +39,7 @@ export default function Footer() {
             </div>
             <ReviewWidget />
           </div>
-          <div className="max-w-[200px] min-w-[150px] mr-4 mt-4">
+          <div className="w-[200px] mr-4 mt-4">
             <div className="mt-0">
               <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas">
                 Quick links
@@ -101,7 +101,7 @@ export default function Footer() {
             </div>
             {/* </div> */}
           </div>
-          <div className="min-w-[250px] mr-4 mt-4">
+          <div className="w-[220px] mr-4 mt-4">
             <p className="text-[30px] md:text-[42px] font-medium text-white font-bebas">
               CONTACT US
             </p>
@@ -126,7 +126,7 @@ export default function Footer() {
               info@designhenge.com
             </p>
           </div>
-          <div className="min-w-[250px] max-w-[300px] mr-4 mt-4">
+          <div className="w-[280px] mr-4 mt-4">
             <div className="flex items-center">
               <Image
                 src="/images/footer-America-flag.png"
