@@ -1,10 +1,8 @@
 "use client";
 import React, { useState } from "react";
-// import './HomeSectionThree.css';
 import HomeSlider from "./HomeSlider";
 import { Col, Container, Row } from "react-bootstrap";
 import Marquee from "react-fast-marquee";
-import Image from "next/image";
 import { motion } from "framer-motion";
 
 function Services() {
@@ -45,7 +43,6 @@ function Services() {
               </Col>
             </Row>
             <div className="relative mx-auto w-full ">
-              {/* <div className="absolute top-0 z-10  md:top-[40px] left-0 bg-gradient-to-r from-white to-transparent w-48 md:w-[10rem] h-[8rem] lg:w-[18rem] 2xl:w-[24rem] 2xl:h-[10rem]" /> */}
               <Marquee autoFill>
                 <div className="flex items-center gap-6 md:gap-16 py-4 px-3 md:px-10 md:py-12 services_marquee">
                   {currentSlide === "LOGO DESIGNING" && (
@@ -137,7 +134,6 @@ function Services() {
                   )}
                 </div>
               </Marquee>
-              {/* <div className="absolute top-0 z-10  md:top-[40px] right-0 bg-gradient-to-l from-white to-transparent  w-36 md:w-[10rem] h-[8rem] lg:w-[18rem] 2xl:w-[15rem] 2xl:h-[10rem]" /> */}
             </div>
           </Container>
         </div>

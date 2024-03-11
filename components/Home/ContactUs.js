@@ -1,8 +1,6 @@
 "use client";
-// import Box from "@mui/material/Box";
-// import TextField from "@mui/material/TextField";
+
 import React, { useEffect, useState } from "react";
-import InfoCard from "./InfoCard";
 import { Col, Container, Row } from "react-bootstrap";
 import ReusableButton from "../Common/Banner/hoverbuttonclass";
 import NumberCounter from "@/app/utils/numbercounter";
@@ -66,29 +64,12 @@ function ContactUs() {
     }, 2000);
   }, [toast]);
 
-  // const handleMouseMove = (e) => {
-  //   const x = e.pageX - btnRef.current.offsetLeft;
-  //   const y = e.pageY - btnRef.current.offsetTop;
-
-  //   btnRef.current.style.setProperty("--x", `${x}px`);
-  //   btnRef.current.style.setProperty("--y", `${y}px`);
-  // };
-
-  // const handleMouseMovebutton = (e) => {
-  //   const x = e.pageX - btnRef.current.offsetLeft;
-  //   const y = e.pageY - btnRef.current.offsetTop;
-
-  //   btnRef.current.style.setProperty("--x", `${x}px`);
-  //   btnRef.current.style.setProperty("--y", `${y}px`);
-  // };
-
   return (
     <>
       {!route.includes("contact-us") ? (
         <div id="contact-us" className="contact py-[50px] ">
           <Container fluid className="container-width">
             <div className="flex flex-col md:flex-row justify-between mx-auto max-w-[90rem]">
-              {/* title and four cards */}
               <div className="d-flex flex-col justify-content-between lg:w-[60%] md:w-[40%]">
                 <h1 className="stroke2 font-outline-2 text-shadow-left-6 font-bebas text-[45px] md:text-[50px] lg:text-[65px] xl:text-[6rem] 2xl:text-[80px] text-[#ededed] pt-2">
                   let’s build your next digital product
@@ -171,8 +152,6 @@ function ContactUs() {
                         <Col>
                           <ReusableButton
                             buttonText="GET IN TOUCH"
-                            // handleMouseMove={handleMouseMovebutton}
-                            // btnRef={btnRef}
                             type="submit"
                             additionalClasses="your-custom-classes"
                           />

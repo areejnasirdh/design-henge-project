@@ -7,7 +7,7 @@ import Testimonial from "./Testimonial";
 import { CustomNextArrow, CustomPrevArrow } from "./CustomSliderArrows";
 import { Container } from "react-bootstrap";
 import { usePathname } from "next/navigation";
-import Testi1Logo from "../../public/images/testi-logo-1.png"
+import Testi1Logo from "../../public/images/testi-logo-1.png";
 
 const settings = {
   dots: false,
@@ -39,7 +39,7 @@ const testimonials = [
     name: "- Sarah M.",
     position: "CEO",
     img: "testimonial-1.png",
-    logo: "testi-logo-1.png"
+    logo: "testi-logo-1.png",
   },
   {
     testimonial:
@@ -47,7 +47,7 @@ const testimonials = [
     name: "- John D",
     position: "Marketing Manager",
     img: "testimonial-2.png",
-    logo: "testi-logo-2.png"
+    logo: "testi-logo-2.png",
   },
   {
     testimonial:
@@ -55,7 +55,7 @@ const testimonials = [
     name: "- Gorgio K.",
     position: "Social Media Manager",
     img: "testimonial-3.png",
-    logo: "testi-logo-3.png"
+    logo: "testi-logo-3.png",
   },
   {
     testimonial:
@@ -63,7 +63,7 @@ const testimonials = [
     name: "- Michael L.",
     position: "Brand Manager",
     img: "testimonial-4.png",
-    logo: "testi-logo-4.png"
+    logo: "testi-logo-4.png",
   },
   {
     testimonial:
@@ -71,39 +71,43 @@ const testimonials = [
     name: "- Jessica W.",
     position: "Co-Founder",
     img: "testimonial-5.png",
-    logo: "testi-logo-5.png"
+    logo: "testi-logo-5.png",
   },
 ];
 
 function Testimonials() {
   const pathname = usePathname();
   const route = pathname.split("/");
-  return <>
-    {!route.includes("contact-us") && (
-      <div className="testimonials py-[100px]">
-        <Container fluid className="max-w-[1200px]">
-
-          <div className="relative overflow-hidden flex flex-col justify-center  mx-auto max-w-[90rem] space-y-3 ">
-            <div className="testimonial_slider mt-7 ">
-              <Slider {...settings}>
-                {testimonials.map(({ testimonial, name, position, img, logo }, idx) => (
-                  <div key={idx}>
-                    <Testimonial
-                      key={idx}
-                      testimonial={testimonial}
-                      name={name}
-                      position={position}
-                      img={img}
-                      logo={logo}
-                    />
-                  </div>
-                ))}
-              </Slider>
+  return (
+    <>
+      {!route.includes("contact-us") && (
+        <div className="testimonials py-[100px]">
+          <Container fluid className="max-w-[1200px]">
+            <div className="relative overflow-hidden flex flex-col justify-center  mx-auto max-w-[90rem] space-y-3 ">
+              <div className="testimonial_slider mt-7 ">
+                <Slider {...settings}>
+                  {testimonials.map(
+                    ({ testimonial, name, position, img, logo }, idx) => (
+                      <div key={idx}>
+                        <Testimonial
+                          key={idx}
+                          testimonial={testimonial}
+                          name={name}
+                          position={position}
+                          img={img}
+                          logo={logo}
+                        />
+                      </div>
+                    )
+                  )}
+                </Slider>
+              </div>
             </div>
-          </div>
-        </Container>
-      </div>)}
-  </>
+          </Container>
+        </div>
+      )}
+    </>
+  );
 }
 
 export default Testimonials;

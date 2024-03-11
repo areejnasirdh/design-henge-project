@@ -1,8 +1,7 @@
 "use client"
 import Image from "next/image";
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import CLient1 from "../../public/images/client.png"
 import Marquee from "react-fast-marquee";
 
 
@@ -24,7 +23,6 @@ const Clients = () => {
           <Col md={7} className="mt-4 mt-md-0">
             <Row className="relative" >
               <Col >
-                {/* <div className="absolute bottom-0 z-10 md:bottom-[29px] left-0 bg-gradient-to-r from-white to-transparent  w-48 md:w-[10rem] h-[8rem] lg:w-[14rem] 2xl:w-[13rem] 2xl:h-[10rem]" /> */}
                 <Marquee direction="right" autoFill>
                   <div className="flex items-center gap-6 md:gap-16 pt-10 px-10 -mt-10 h-[150px]">
                     <Image
@@ -99,12 +97,10 @@ const Clients = () => {
                     />
                   </div>
                 </Marquee>
-                {/* <div className="absolute bottom-0 z-10  md:bottom-[29px] right-0 bg-gradient-to-l from-white to-transparent  w-36 md:w-[10rem] h-[8rem] lg:w-[14rem] 2xl:w-[18rem] 2xl:h-[10rem]" /> */}
               </Col>
             </Row>
             <Row className="relative" >
               <Col >
-                {/* <div className="absolute bottom-0 z-10 md:bottom-[29px] left-0 bg-gradient-to-r from-white to-transparent  w-48 md:w-[10rem] h-[8rem] lg:w-[14rem] 2xl:w-[13rem] 2xl:h-[10rem]" /> */}
                 <Marquee direction="left" autoFill>
                   <div className="flex items-center gap-6 md:gap-16 pt-10 px-10 -mt-10 h-[150px]">
                   <Image
@@ -179,7 +175,6 @@ const Clients = () => {
                     />
                   </div>
                 </Marquee>
-                {/* <div className="absolute bottom-0 z-10  md:bottom-[29px] right-0 bg-gradient-to-l from-white to-transparent  w-36 md:w-[10rem] h-[8rem] lg:w-[14rem] 2xl:w-[18rem] 2xl:h-[10rem]" /> */}
               </Col>
             </Row>
           </Col>

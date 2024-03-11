@@ -47,7 +47,6 @@ function Testimonial({ testimonial, name, position, img, logo }) {
         <div className="flex mt-5 w-full justify-between items-center">
           <div className="flex items-center">
             <div className="w-[80px] h-full rounded-full">
-              {/* <div className="bg-white w-[98%] h-[98%] rounded-full overflow-hidden absolute left-[-4px] top-[-3px]"> */}
               <Image
                 src={`/images/${img}`}
                 width={100}
@@ -55,7 +54,6 @@ function Testimonial({ testimonial, name, position, img, logo }) {
                 alt=""
                 className="object-cover w-full h-full"
               />
-              {/* </div> */}
             </div>
             <div className="ml-4">
               <p className="mt-1 text-lg md:text-4xl font-bebas font-medium flex items-center">
@@ -70,7 +68,13 @@ function Testimonial({ testimonial, name, position, img, logo }) {
             </div>
           </div>
           <div className="hidden md:block w-[100px] h-[50px]">
-            <Image src={`/images/${logo}`} alt="logo" width={100} height={100} className="w-full h-full object-contain" />
+            <Image
+              src={`/images/${logo}`}
+              alt="logo"
+              width={100}
+              height={100}
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
       </blockquote>

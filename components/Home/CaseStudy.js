@@ -1,49 +1,11 @@
 "use client";
-import Image from "next/image";
 import React, { useRef } from "react";
 import ReusableButton from "../Common/Banner/hoverbuttonclass";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import { useState } from "react";
 
 function CaseStudy({ data, heading }) {
-  const btnRef1 = useRef(null);
-  const btnRef2 = useRef(null);
-  const btnRef3 = useRef(null);
   const router = useRouter();
-
-  // const handleMouseMove = (e) => {
-  //   // for case study 1 button
-  //   const x1 = e.pageX - btnRef1.current.offsetLeft;
-  //   const y1 = e.pageY - btnRef1.current.offsetTop;
-
-  //   btnRef1.current.style.setProperty("--x", `${x1}px`);
-  //   btnRef1.current.style.setProperty("--y", `${y1}px`);
-
-  //   // for case study 2 button
-  //   const x2 = e.pageX - btnRef2.current.offsetLeft;
-  //   const y2 = e.pageY - btnRef2.current.offsetTop;
-
-  //   btnRef2.current.style.setProperty("--x", `${x2}px`);
-  //   btnRef2.current.style.setProperty("--y", `${y2}px`);
-
-  //   // for case study 3 button
-  //   const x3 = e.pageX - btnRef3.current.offsetLeft;
-  //   const y3 = e.pageY - btnRef3.current.offsetTop;
-
-  //   btnRef3.current.style.setProperty("--x", `${x3}px`);
-  //   btnRef3.current.style.setProperty("--y", `${y3}px`);
-  // };
-
-  // const btnRef = useRef(null);
-
-  // const handleMouseMovebutton = (e) => {
-  //   const x = e.pageX - btnRef.current.offsetLeft;
-  //   const y = e.pageY - btnRef.current.offsetTop;
-
-  //   btnRef.current.style.setProperty("--x", `${x}px`);
-  //   btnRef.current.style.setProperty("--y", `${y}px`);
-  // };
 
   return (
     <div className="home_case_study_main">
@@ -91,23 +53,9 @@ function CaseStudy({ data, heading }) {
                     className={`object-contain md:object-cover w-[100%] md:w-[50%] pr-3 overflow-hidden ${
                       i % 2 === 0 ? "lg:ml-[-10px]" : "lg:mr-[-20px]"
                     }`}
-                    // initial={{
-                    //   opacity: 0,
-                    //   scale: 1,
-                    //   x: i % 2 === 0 ? 400 : -400,
-                    // }}
-                    // whileInView={{ opacity: 1, scale: 1, x: 0 }}
-                    // transition={{ duration: 0.6 }}
                   />
 
                   <motion.div
-                    // initial={{
-                    //   opacity: 0,
-                    //   scale: 1,
-                    //   x: i % 2 === 0 ? -400 : 400,
-                    // }}
-                    // whileInView={{ opacity: 1, scale: 1, x: 0 }}
-                    // transition={{ duration: 0.6 }}
                     className={`flex flex-col space-y-4 pb-4 md:space-y-2 lg:space-y-4 overflow-hidden md:w-[50%] mx-5 mt-4 ${
                       i % 2 === 0
                         ? "px-3 md:pl-0 ml-10 w-full"

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import BlogCard from "./BlogCard";
 import { Container } from "react-bootstrap";
@@ -34,7 +33,6 @@ function Blog() {
             className="pt-0 flex flex-col space-y-7 mx-auto max-w-[90rem] "
           >
             <div className="d-flex flex-column align-items-center">
-              {/* <h3>BLOG</h3> */}
               <h3 className="text-cenetr blueGrayHeading">TECH INSIGHTS</h3>
             </div>
           </div>

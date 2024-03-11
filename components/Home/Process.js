@@ -20,11 +20,6 @@ function Process() {
             >
               PROCESS WE FOLLOW
             </motion.h1>
-
-            {/* <div className="flex space-x-3 items-center">
-              <div className="border-t-[3px] border-red-primary w-7"></div>
-              <p className="font-light text-sm">What we offer</p>
-            </div> */}
           </div>
 
           <div className="grid md:grid-cols-5 md:mt-24  mx-auto max-w-[90rem] items-center justify-center mb-24 md:mb-0">

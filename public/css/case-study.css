@@ -425,6 +425,12 @@
   }
 }
 
+@media (max-width: 1116px){
+  .case_study_banner_main p{
+    color: black;
+  }
+}
+
 @media (max-width: 1024px){
   .case_study_banner_main h1:nth-child(2){
     font-size: 50px;
