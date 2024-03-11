@@ -41,17 +41,17 @@
   color: gray !important;
 }
 
-.contact-us-page{
+.contact_banner_section_main {
   width: 100vw;
   max-width: 100%;
-  background-image: url("../images/main_banner_bg.jpg");
+  background-image: url("../images/banner-back.png");
   background-size: cover;
   background-position: top;
-  padding-bottom: 20px;
+  padding: 50px 0px;
 }
 
-.contact_banner_section_main {
-  padding: 0px 0px 40px 0px;
+.contact_banner_section_main h1:nth-child(1){
+  line-height: 1.5;
 }
 
 .contact_banner_section_main h1 {
@@ -230,6 +230,7 @@
   background-image: url("../images/contact_form_box.png");
   background-position: top;
   background-size: 100% 100%;
+  width: 100% !important;
 }
 
 .home_contact_form h3 {
@@ -328,14 +329,12 @@
   background-image: url("../images/service-nonactive.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  /* background-position: contain; */
   display: flex;
   padding: 30px 15px;
   width: 80%;
   align-items: flex-start;
-  /* margin-left: 40px;
-  margin-right: 40px; */
   cursor: pointer;
+  justify-content: center;
 }
 
 .HomeSlider .SliderCard img {
@@ -463,6 +462,9 @@
 .clients_main h4 {
   text-align: left !important;
 }
+.clients_main h3{
+  text-align: left !important;
+}
 
 /* .clients_main h4 {
   font-size: 74px;
@@ -477,10 +479,10 @@
 .clients_main p {
   font-size: 13px;
 }
-
+/* 
 .clients_main img {
   height: 200px;
-}
+} */
 
 .clients_main img {
   height: 100% !important;
@@ -541,21 +543,38 @@
 } */
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1025px) {
   .home_contact_form h3 {
     font-size: 30px;
     line-height: 40px;
+  }
+  .home_contact_form {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 990px){
+  .contact_banner_section_main h1{
+    text-align: center !important;
+  }
+  .contact_banner_section_main p{
+    text-align: center !important;
+    margin: auto !important;
+    color: black !important;
+  }
+  .contact_banner_section_main{
+    background-image: none !important;
   }
 }
 
 @media screen and (max-width: 767px) {
   .clients_main h3{
-    text-align: center;
+    text-align: center !important;
   }
   .clients_main h4{
     text-align: center !important;
   }
-  .clients_main .bott0m-line{
+  .clients_main .bottom-line{
     display: flex;
     justify-content: center;
   }
@@ -608,7 +627,6 @@
   }
 
   .contact_banner_section_main {
-    background-color: #0097d9;
     padding: 0px 0px 0px 0px;
   }
 
@@ -633,8 +651,7 @@
   } */
 
   .home_about_details img {
-    width: 500px;
-    height: auto;
+    display: none;
   }
 
   .home_about_details h6 {
@@ -651,14 +668,8 @@
 
   .home_services_main>div h1 {
     padding-top: 25px;
-    /* font-size: 50px !important; */
     line-height: 1;
   }
-
-  /* .HomeSlider .SliderCard div h4 {
-    font-family: "Bebas Neue";
-    font-size: 28px;
-  } */
 
   .clients_main h4 {
     font-size: 42px;
@@ -669,10 +680,6 @@
   .contact {
     background-color: #171719;
     background-image: none;
-  }
-
-  .home_contact_form {
-    margin-top: 30px;
   }
 }
 

@@ -6,7 +6,7 @@ import Marquee from "react-fast-marquee";
 import { motion } from "framer-motion";
 
 function Services() {
-  const [currentSlide, setCurrentSlide] = useState("LOGO DESIGNING");
+  const [currentSlide, setCurrentSlide] = useState("DESIGNING");
 
   const handleSlideChange = (title) => {
     setCurrentSlide(title);
@@ -45,7 +45,7 @@ function Services() {
             <div className="relative mx-auto w-full ">
               <Marquee autoFill>
                 <div className="flex items-center gap-6 md:gap-16 py-4 px-3 md:px-10 md:py-12 services_marquee">
-                  {currentSlide === "LOGO DESIGNING" && (
+                  {currentSlide === "DESIGNING" && (
                     <>
                       <div className="flex text-white items-center justify-between gap-5">
                         <p>Logo Designing</p>

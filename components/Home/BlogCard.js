@@ -25,7 +25,7 @@ function BlogCard({ desc, img, id, date }) {
   };
 
   return (
-    <div className="blog_card w-[350px] mb-[40px]">
+    <div className="blog_card w-[350px] mb-[40px] md:mr-4">
       <div className="w-full h-[200px] bg-[#edbf33] relative border-2 border-black">
         <div className="w-full h-[200px] bg-white absolute right-2 bottom-2 border-2 border-black">
           <Image
@@ -38,8 +38,8 @@ function BlogCard({ desc, img, id, date }) {
         </div>
       </div>
 
-      <div className="flex-flex-col space-y-4 w-[250px] lg:w-full mt-3">
-        <h4 className="font-[400] text-[20px] hover:text-[#0097d9]">{desc}</h4>
+      <div className="flex-flex-col space-y-4 lg:w-full mt-3">
+        <h4 className="font-[400] hover:text-[#0097d9]">{desc}</h4>
         <p className="text-[12px] text-gray-500 mt-2 font-light">{date}</p>
       </div>
 

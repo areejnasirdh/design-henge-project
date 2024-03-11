@@ -69,13 +69,13 @@ function ContactUs() {
       {!route.includes("contact-us") ? (
         <div id="contact-us" className="contact py-[50px] ">
           <Container fluid className="container-width">
-            <div className="flex flex-col md:flex-row justify-between mx-auto max-w-[90rem]">
-              <div className="d-flex flex-col justify-content-between lg:w-[60%] md:w-[40%]">
-                <h1 className="stroke2 font-outline-2 text-shadow-left-6 font-bebas text-[45px] md:text-[50px] lg:text-[65px] xl:text-[6rem] 2xl:text-[80px] text-[#ededed] pt-2">
+            <div className="flex flex-col lg:flex-row justify-between mx-auto max-w-[90rem]">
+              <div className="d-flex flex-col justify-content-between xl:w-[60%] lg:w-[40%]">
+                <h1 className="stroke2 font-outline-2 text-shadow-left-6 font-bebas text-[80px] text-[#ededed] pt-2">
                   let’s build your next digital product
                 </h1>
-                <div className=" bg-[#171719] relative md:bg-inherit">
-                  <div className="infocards flex justify-center md:justify-start space-x-6 md:space-x-6 lg:space-x-16 2xl:bottom-16">
+                <div className="bg-[#171719] relative xl:bg-inherit">
+                  <div className="infocards flex justify-center lg:justify-start space-x-6 md:space-x-6 lg:space-x-16 2xl:bottom-16">
                     {InformationDH.map(
                       ({ img, number, information, symbol }, idx) => (
                         <div key={idx}>
@@ -94,8 +94,8 @@ function ContactUs() {
                 </div>
               </div>
               {/* form */}
-              <div className="d-flex justify-end lg:w-[40%] md:w-[50%]">
-                <div className="home_contact_form w-full md:w-[29rem] px-6 py-6 lg:pl-10 lg:pr-10 lg:py-10 flex justify-center">
+              <div className="d-flex justify-end xl:w-[40%] lg:w-[50%]">
+                <div className="home_contact_form w-full lg:w-[29rem] px-6 py-6 lg:pl-10 lg:pr-10 lg:py-10 flex justify-center">
                   <div>
                     <h3>LET'S GET STARTED WITH YOUR BRAND!</h3>
                     <form className="pt-4 pb-3" onSubmit={handleSubmit}>

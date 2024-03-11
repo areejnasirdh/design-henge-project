@@ -7,7 +7,7 @@ function Testimonial({ testimonial, name, position, img, logo }) {
   return (
     <div className="relative border-4 border-black testimonial-container bg-white h-full flex items-center justify-center py-[50px]">
       <blockquote className="w-[80%] m-0">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 stars">
           <div>
             <div className="flex items-center space-x-3">
               <div className="flex justify-center gap-0.5 text-red-primary">
@@ -45,7 +45,7 @@ function Testimonial({ testimonial, name, position, img, logo }) {
           &quot;{testimonial}&quot;
         </p>
         <div className="flex mt-5 w-full justify-between items-center">
-          <div className="flex items-center">
+          <div className="flex items-center profile">
             <div className="w-[80px] h-full rounded-full">
               <Image
                 src={`/images/${img}`}
@@ -56,7 +56,7 @@ function Testimonial({ testimonial, name, position, img, logo }) {
               />
             </div>
             <div className="ml-4">
-              <p className="mt-1 text-lg md:text-4xl font-bebas font-medium flex items-center">
+              <p className="mt-1 text-lg md:text-4xl font-bebas font-medium flex items-center test">
                 {name}
               </p>
               <div className="flex space-x-2 items-center">

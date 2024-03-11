@@ -18,7 +18,7 @@ const HomeAbout = ({heading, subHeading, img, bluePara, para, mission, vision, n
         transition={{
           duration: "0.7",
         }}
-        className="d-flex flex-column align-items-center py-[70px]"
+        className="d-flex flex-column align-items-center pt-[70px] pb-[20px]"
       >
         <h3 className="blueGrayHeading">{heading}</h3>
         <h4 className="blueSubHeading">{subHeading}</h4>
@@ -37,7 +37,7 @@ const HomeAbout = ({heading, subHeading, img, bluePara, para, mission, vision, n
             <Col xl={6} lg={12} className="flex justify-center">
               <Image src={img} />
             </Col>
-            <Col xl={6} lg={12} className="mt-4 ">
+            <Col xl={6} lg={12} className="mt-4">
               <h6>
                {bluePara}
               </h6>

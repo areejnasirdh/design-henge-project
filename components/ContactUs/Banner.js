@@ -52,10 +52,10 @@ const ContactBanner = () => {
   return (
     <div className="contact_banner_section_main">
       <Container fluid className="container-width-2">
-        <Row>
+        <Row className="justify-between">
           <Col
-            lg={7}
-            md={5}
+            xl={6}
+            lg={5}
             className="pt-5 pt-md-0 d-flex flex-col justify-content-center"
           >
             <motion.h1
@@ -93,8 +93,8 @@ const ContactBanner = () => {
             </motion.p>
           </Col>
           <Col
-            lg={5}
-            md={7}
+            xl={5}
+            lg={6}
             className="d-flex justify-content-center align-items-center mt-4"
           >
             <div className="d-flex justify-end py-3 w-full">

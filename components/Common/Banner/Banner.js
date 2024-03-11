@@ -22,8 +22,8 @@ const Banner = ({ heading, second, third, text, img, navigate, stempt, h2 }) => 
     <>
       <div className="page-banner w-full">
         <Container fluid className="container-width-2">
-          <Row className="items-center py-[10px] px-0">
-            <Col xl={7} lg={8}>
+          <Row className="items-center">
+            <Col xl={7}>
               {stempt === true && (
                 <motion.img
                   initial={{ y: 200, opacity: 0 }}
@@ -105,7 +105,7 @@ const Banner = ({ heading, second, third, text, img, navigate, stempt, h2 }) => 
             <Col
               xl={5}
               lg={4}
-              className="hidden lg:flex justify-content-center"
+              className="hidden xl:flex justify-content-center"
             >
               <Image src={img} className="banner-img" />
             </Col>

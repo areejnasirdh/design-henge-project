@@ -80,7 +80,7 @@ const Navbr = () => {
 
       <div className="header_main">
         <section className="nav_section">
-          <Navbar collapseOnSelect expand="lg" className="py-[15px]">
+          <Navbar collapseOnSelect expand="lg">
             <Container fluid className="container-width-2">
               <Navbar.Brand href="/" className="h-[80px]">
                 <Image

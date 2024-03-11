@@ -1,12 +1,12 @@
-.home_main {
+.header_main {
   width: 100vw;
   max-width: 100%;
-  background-image: url("../images/main_banner_bg.jpg");
+  background-image: url("../images/nav-back.png");
   background-size: cover;
   background-position: top;
-  padding-bottom: 20px;
 }
-.aftereffect::after{
+
+.aftereffect::after {
   content: "";
   height: 80%;
   width: 1px;
@@ -93,17 +93,24 @@ h1.font-bebas.uppercase {
   background-size: cover;
 }
 
-@media (max-width: 768px){
-  .home_case_study_main .projects h1{
+@media (max-width: 768px) {
+  .home_case_study_main .projects h1 {
     text-align: center;
   }
-  .home_case_study_main .projects h2{
+
+  .home_case_study_main .projects h2 {
     text-align: center;
   }
-  .home_case_study_main .projects p{
+
+  .home_case_study_main .projects p {
     text-align: center;
   }
-  .blog_card h4{
+
+  .home_case_study_main .projects button {
+    margin: auto;
+  }
+
+  .blog_card h4 {
     font-size: 15px !important;
   }
 }
@@ -114,6 +121,7 @@ h1.font-bebas.uppercase {
   width: fit-content;
   margin-top: 30px !important;
 }
+
 .contact {
   background-image: url("../images/contact-blue-black-bg.png");
   background-size: 100% 100%;
@@ -427,37 +435,47 @@ h1.font-bebas.uppercase {
 }
 
 @keyframes animate {
-  0%{
+  0% {
     width: 0;
   }
-  10%{
+
+  10% {
     width: 10%;
   }
-  20%{
+
+  20% {
     width: 20%;
   }
-  30%{
+
+  30% {
     width: 30%;
   }
-  40%{
+
+  40% {
     width: 40%;
   }
-  50%{
+
+  50% {
     width: 50%;
   }
-  60%{
+
+  60% {
     width: 60%;
   }
-  70%{
+
+  70% {
     width: 70%;
   }
-  80%{
+
+  80% {
     width: 80%;
   }
-  90%{
+
+  90% {
     width: 90%;
   }
-  100%{
+
+  100% {
     width: 100%;
   }
 }
@@ -513,22 +531,25 @@ h1.font-bebas.uppercase {
   }
 }
 
-@media (max-width: 1116px){
+@media (max-width: 1116px) {
   .home_about_details h6 {
     text-align: center;
   }
+
   .home_about_details p {
     text-align: center;
   }
+
   .about_vision_and_mission h5 {
     text-align: center;
   }
+
   .home_about_details button {
     padding: 10px 22px !important;
   }
 }
 
-@media  (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .banner_section_main p {
     font-size: 15px;
   }
@@ -537,48 +558,96 @@ h1.font-bebas.uppercase {
     height: 330px;
   }
 
-  .HomeSlider .SliderCard img {
-    width: 30px !important;
-    height: 30px !important;
-    margin-top: 0px !important;
-    margin-right: 0px !important;
+  .HomeSlider .SliderCard div p {
+    font-size: 14px !important;
   }
 
   .banner_section_main h1:nth-child(1) {
     font-size: 40px;
   }
 
-  .HomeSlider .SliderCard div h4 {
+  /* .HomeSlider .SliderCard div h4 {
     padding-left: 5px !important;
-  }
+  } */
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1025px) {
   .testimonial_slider .slick-list {
     overflow: initial !important;
   }
+  .blog_card h4 {
+    text-align: center;
+  }
+
+  .blog_card p {
+    text-align: center;
+  }
+
+  .blog_card button {
+    margin: auto;
+  }
 }
 
-@media (max-width: 768px){
+@media (max-width: 1115px) and (min-width: 1025px) {
+  .contact h1 {
+    font-size: 70px !important;
+  }
+}
+
+@media (max-width: 1025px) {
+  .contact {
+    background-color: #171719 !important;
+    background-image: none !important;
+  }
+
   .contact h1 {
     text-align: center;
   }
+
+  .home_contact_form h3 {
+    font-size: 40px !important;
+  }
+
+  .home_contact_form button {
+    width: 97% !important;
+  }
+}
+
+@media(max-width: 990px){
+  .testimonial-container p {
+    text-align: center !important;
+  }
+  .testimonial-container .stars {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .testimonial-container .profile{
+    margin: auto !important;
+  }
+}
+
+@media (max-width: 768px) {
   .banner_section_main img {
     margin-left: 0;
     transform: unset !important;
   }
+
   .banner_section_main p {
     color: black;
   }
-  .aftereffect::after{
+
+  .aftereffect::after {
     content: none;
   }
+
   .home_process_main .content h1 {
     text-align: center;
   }
+
   .home_process_main .content h3 {
     text-align: center;
   }
+
   .home_process_main .content p {
     text-align: center;
   }
@@ -598,12 +667,13 @@ h1.font-bebas.uppercase {
   .banner_section_main button {
     width: 100%;
   }
-  .banner_section_main button span{
+
+  .banner_section_main button span {
     margin: auto;
-    
+
   }
 
-  .about-us>.banner_section_main img{
+  .about-us>.banner_section_main img {
     display: block !important;
   }
 
@@ -628,24 +698,21 @@ h1.font-bebas.uppercase {
     line-height: 1;
   }
 
-  .contact {
-    background-color: #171719;
-    background-image: none;
-  }
-
   .home_contact_form {
     margin-top: 30px;
   }
 }
 
-@media (max-width: 600px){
-  .partners h1{
+@media (max-width: 600px) {
+  .partners h1 {
     font-size: 35px;
   }
-   .HomeSlider .SliderCard div p {
+
+  .HomeSlider .SliderCard div p {
     font-size: 8px !important;
   }
-  .home_services_main>div>p{
+
+  .home_services_main>div>p {
     font-size: 15px;
   }
 }
