@@ -50,9 +50,9 @@ const Blog = () => {
       <Navbar />
       <div className="container-width container-fluid w-full py-[60px]">
         <div className="d-flex flex-column align-items-center">
-          <h3>BLOG</h3>
+          <h3 className="blueGrayHeading">BLOG</h3>
         </div>
-        <div className="w-full flex justify-center py-3 mt-4">
+        <div className="w-full flex justify-center py-3 mt-5">
           <div className="bg-[#edbf33] min-w-[250px] w-[60%] h-10 relative border-2 border-black">
             <div className="bg-white px-1 h-10 absolute bottom-2 right-2 w-full border-2 border-black flex justify-between">
               <input
