@@ -180,41 +180,51 @@ export default function Footer() {
               AWARDS AND Acknowledgements
             </p>
             <div className="flex justify-around items-center flex-wrap">
-              <Image
-                src="/images/clutch.png"
-                width={300}
-                height={300}
-                alt=""
-                className="object-contain w-[150px] sm:w-16 md:w-20 my-4"
-              />
-              <Image
-                src="/images/seo-blog.png"
-                width={300}
-                height={300}
-                alt=""
-                className="object-contain w-[150px] sm:w-16 md:w-24 my-4"
-              />
-              <Image
-                src="/images/google-partner.png"
-                width={300}
-                height={300}
-                alt=""
-                className="object-contain w-[150px] sm:w-16 md:w-24 my-4"
-              />
-              <Image
-                src="/images/expertise.png"
-                width={300}
-                height={300}
-                alt=""
-                className="object-contain w-[150px] sm:w-16 md:w-24 my-4"
-              />
-              <Image
-                src="/images/inc-5000.png"
-                width={300}
-                height={300}
-                alt=""
-                className="object-contain w-[150px] sm:w-28 md:w-32 my-4"
-              />
+              <div className="w-[50%] p-[10px] flex justify-center items-center min-h-[130px] md:w-auto">
+                <Image
+                  src="/images/clutch.png"
+                  width={300}
+                  height={300}
+                  alt=""
+                  className="object-contain w-[119px]"
+                />
+              </div>
+              <div className="w-[50%] p-[10px] flex justify-center items-center min-h-[130px] md:w-auto">
+                <Image
+                  src="/images/seo-blog.png"
+                  width={300}
+                  height={300}
+                  alt=""
+                  className="object-contain w-[119px]"
+                />
+              </div>
+              <div className="w-[50%] p-[10px] flex justify-center items-center min-h-[130px] md:w-auto">
+                <Image
+                  src="/images/google-partner.png"
+                  width={300}
+                  height={300}
+                  alt=""
+                  className="object-contain w-[119px]"
+                />
+              </div>
+              <div className="w-[50%] p-[10px] flex justify-center items-center min-h-[130px] md:w-auto">
+                <Image
+                  src="/images/expertise.png"
+                  width={300}
+                  height={300}
+                  alt=""
+                  className="object-contain w-[119px]"
+                />
+              </div>
+              <div className="w-[50%] p-[10px] flex justify-center items-center min-h-[130px] md:w-auto">
+                <Image
+                  src="/images/inc-5000.png"
+                  width={300}
+                  height={300}
+                  alt=""
+                  className="object-contain w-[119px]"
+                />
+              </div>
             </div>
           </div>
         </div>
