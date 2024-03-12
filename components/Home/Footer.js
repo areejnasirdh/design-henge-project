@@ -39,10 +39,10 @@ export default function Footer() {
             </div>
             <ReviewWidget />
           </div>
-          <div className=" flex flex-wrap justify-start md:justify-center lg:justify-between min-w-fit lg:w-[75%] ml-4">
-            <div className="mt-4 mr-4 w-fit">
+          <div className="flex flex-wrap justify-start md:justify-center lg:justify-between min-w-fit lg:w-[75%] ml-4">
+            <div className="mt-4 mr-4 w-[50%] sm:w-fit">
               <div className="mt-0">
-                <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas text-center md:text-start">
+                <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas">
                   Quick links
                 </p>
               </div>
