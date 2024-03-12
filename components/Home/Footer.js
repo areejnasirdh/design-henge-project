@@ -40,9 +40,9 @@ export default function Footer() {
             <ReviewWidget />
           </div>
           <div className="flex flex-wrap justify-between w-full xl:w-[75%] ml-4">
-            <div className="mt-4 mr-4 w-[50%] sm:w-fit">
+            <div className="mt-4 mr-4 w-[100%] sm:w-fit">
               <div className="mt-0">
-                <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas">
+                <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas textalign">
                   Quick links
                 </p>
               </div>
@@ -50,7 +50,7 @@ export default function Footer() {
                 <a
                   href="/"
                   target="__blank"
-                  className="text-sm font-light text-gray-200"
+                  className="text-sm font-light text-gray-200 flex items-center justify-center sm:justify-start"
                 >
                   HOME
                 </a>
@@ -59,7 +59,7 @@ export default function Footer() {
                 <a
                   href="/about-us"
                   target="__blank"
-                  className="text-sm font-light text-gray-200"
+                  className="text-sm font-light text-gray-200 flex items-center justify-center sm:justify-start"
                 >
                   ABOUT US
                 </a>
@@ -68,7 +68,7 @@ export default function Footer() {
                 <a
                   href="/services"
                   target="__blank"
-                  className="text-sm font-light text-gray-200"
+                  className="text-sm font-light text-gray-200 flex items-center justify-center sm:justify-start"
                 >
                   SERVICES
                 </a>
@@ -77,7 +77,7 @@ export default function Footer() {
                 <a
                   href="/case-study"
                   target="__blank"
-                  className="text-sm font-light text-gray-200"
+                  className="text-sm font-light text-gray-200 flex items-center justify-center sm:justify-start"
                 >
                   CASE STUDY
                 </a>
@@ -86,7 +86,7 @@ export default function Footer() {
                 <a
                   href="/contact-us"
                   target="__blank"
-                  className="text-sm font-light text-gray-200"
+                  className="text-sm font-light text-gray-200 flex items-center justify-center sm:justify-start"
                 >
                   CONTACT US
                 </a>
@@ -95,44 +95,44 @@ export default function Footer() {
                 <a
                   href="/blog"
                   target="__blank"
-                  className="text-sm font-light text-gray-200"
+                  className="text-sm font-light text-gray-200 flex items-center justify-center sm:justify-start"
                 >
                   BLOG
                 </a>
               </div>
               {/* </div> */}
             </div>
-            <div className="mt-4 mr-4 w-fit">
-              <p className="text-[30px] md:text-[42px] font-medium text-white font-bebas">
+            <div className="mt-4 mr-4 w-[100%] sm:w-fit">
+              <p className="text-[30px] md:text-[42px] font-medium text-white font-bebas textalign">
                 CONTACT US
               </p>
               <p
                 style={{ fontSize: "15px" }}
-                className="text-gray-200 text-sm leading-7 font-light"
+                className="text-gray-200 text-sm leading-7 font-light textalign"
               >
                 Support@designhenge.com <br />
               </p>
               <p
                 style={{ fontSize: "15px" }}
-                className=" text-sm leading-7 font-light"
+                className=" text-sm leading-7 font-light textalign"
               >
                 <Link href={`tel:19173101802`} className="text-gray-200">
                   {" "}
                   +1 (917) 310-1802
                 </Link>
               </p>
-              <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas mt-2">
+              <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas mt-2 textalign">
                 Email us
               </p>
               <p
                 style={{ fontSize: "15px" }}
-                className="text-gray-200 text-sm font-light leading-7"
+                className="text-gray-200 text-sm font-light leading-7 textalign"
               >
                 info@designhenge.com
               </p>
             </div>
-            <div className="w-fit max-w-[300px] mt-4">
-              <div className="flex items-center">
+            <div className="w-[100%] sm:w-fit sm:max-w-[300px] mt-4">
+              <div className="flex items-center justify-center sm:justify-start">
                 <Image
                   src="/images/footer-America-flag.png"
                   width={20}
@@ -145,13 +145,13 @@ export default function Footer() {
               </div>
               <Link
                 href="https://maps.app.goo.gl/dsFesYtGXHp4iT3f8"
-                className="text-gray-200 font-light leading-7 text-sm"
+                className="text-gray-200 font-light leading-7 text-sm flex items-center justify-center sm:justify-start textalign"
               >
                 2259 W. Rosemont Ave. Apt. 1 <br />
                 Chicago, IL 60659, USA
               </Link>
 
-              <div className="flex items-center mt-3">
+              <div className="flex items-center mt-3 justify-center sm:justify-start">
                 <Image
                   src="/images/footer-pakistan-flag.png"
                   width={20}
@@ -164,7 +164,7 @@ export default function Footer() {
               </div>
               <Link
                 href="https://maps.app.goo.gl/gptisda4XykBm9Ks7"
-                className="text-gray-200 font-light w-[250px]"
+                className="text-gray-200 font-light sm:w-[250px] flex items-center justify-center sm:justify-start textalign"
               >
                 Saadabad Cooperative Housing Society, 4, Block 4
                 Gulistan-e-Johar, Karachi, Karachi City, Sindh 75290
