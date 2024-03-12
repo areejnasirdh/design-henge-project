@@ -39,7 +39,7 @@ export default function Footer() {
             </div>
             <ReviewWidget />
           </div>
-          <div className="flex flex-wrap justify-between w-full xl:w-[75%] ml-4">
+          <div className="flex flex-wrap justify-between w-full xl:w-[70%] ml-4">
             <div className="mt-4 mr-4 w-[100%] sm:w-fit">
               <div className="mt-0">
                 <p className="text-[30px] md:text-[38px] font-medium text-white font-bebas textalign">

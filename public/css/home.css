@@ -721,7 +721,7 @@ h1.font-bebas.uppercase {
   }
 }
 
-@media (max-width: 426px){
+@media (max-width: 639px){
   .footer .textalign{
     text-align: center;
   }
