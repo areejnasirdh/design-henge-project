@@ -156,7 +156,7 @@ span {
   background-color: #FD022C !important;
   border: 2px solid black !important;
   padding: 10px 23px !important;
-  margin-top: 26px !important;
+  margin-top: 26px;
   border-radius: unset !important;
 
 }
