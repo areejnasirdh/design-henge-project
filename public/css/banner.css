@@ -57,9 +57,9 @@
   }
 
   @media (max-width: 1115px){
-    .page-banner{
+    .page-banner, .Booklover, .dreamshot, .orange_county, .powerAtm, .speakable, .Zego, .vicket, .yummy_gurlo, .contact_banner_section_main{
         padding: 20px 0px;
-        background-image: url("../images/mobile-bg.png");
+        background-image: url("../images/mobile-bg.png") !important;
         min-height: fit-content !important;
     }
     .page-banner img{
@@ -69,7 +69,6 @@
         text-align: center;
     }
     .page-banner h2 {
-        color: black;
         text-align: center;
     }
     .page-banner p{

@@ -16,7 +16,7 @@
   min-height: 670px;
 }
 
-.case_study_main.yummy_gurlo {
+.yummy_gurlo {
   background-image: url("../images/yummygurlo/case-study-banner.webp");
 }
 
@@ -24,31 +24,31 @@
   background-image: url("../images/yummygurlo/case-study-banner.webp");
 }
 
-.case_study_main.orange_county {
+.orange_county {
   background-image: url("../images/orangeCounty/banner.webp");
 }
 
-.case_study_main.speakable {
+.speakable {
   background-image: url("../images/Speakable/speakable-banner.webp");
 }
 
-.case_study_main.dreamshot {
+.dreamshot {
   background-image: url("../images/Dreamshot/banner.webp");
 }
 
-.case_study_main.Booklover {
+.Booklover {
   background-image: url("../images/Booklover/banner.webp");
 }
 
-.case_study_main.Zego {
+.Zego {
   background-image: url("../images/Zego/banner.webp");
 }
 
-.case_study_main.vicket {
+.vicket {
   background-image: url("../images/vickek/banner.webp");
 }
 
-.case_study_main.powerAtm {
+.powerAtm {
   background-image: url("../images/power_atm/banner.webp");
 }
 
@@ -414,9 +414,9 @@
     font-size: 18px;
   } */
 
-  .case_study_banner_main .row>div {
+  /* .case_study_banner_main .row>div {
     padding-top: 6rem;
-  }
+  } */
 }
 
 @media (max-width: 1250px){
@@ -425,9 +425,9 @@
   }
 }
 
-@media (max-width: 1116px){
-  .case_study_banner_main p{
-    color: black;
+@media (max-width: 1115px){
+  .case_study_banner_main .row>div {
+    padding-top: 0 !important;
   }
 }
 

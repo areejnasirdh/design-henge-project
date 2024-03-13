@@ -13,8 +13,8 @@ import HomePageDesign from "@/components/CaseStudy/OrangeCounty/HomePage";
 const page = () => {
   return (
     <div>
-      <div className="case_study_main orange_county">
         <Navbar />
+      <div className="case_study_main orange_county">
         <Banner />
       </div>
       <Overview />

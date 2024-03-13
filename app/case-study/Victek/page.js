@@ -12,8 +12,8 @@ import Home from "@/components/CaseStudy/Victek/Homepage";
 const page = () => {
   return (
     <div>
-      <div className="case_study_main vicket">
         <Navbar />
+      <div className="case_study_main vicket">
         <Banner />
       </div>
       <Overview />

@@ -12,8 +12,8 @@ import Home from "@/components/CaseStudy/Power_atm/Homepage";
 const page = () => {
   return (
     <div>
-      <div className="case_study_main powerAtm">
         <Navbar />
+      <div className="case_study_main powerAtm">
         <Banner />
       </div>
       <Overview />

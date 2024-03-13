@@ -227,6 +227,9 @@
     background-image: none !important;
     background-color: rgb(209, 209, 209);
   }
+  .our_services_main .services h4{
+    font-size: 22px !important;
+  }
 }
 
 @media (max-width: 439px) {

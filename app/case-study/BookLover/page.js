@@ -12,8 +12,8 @@ import Home from "@/components/CaseStudy/BookLover/Homepage";
 const page = () => {
   return (
     <div>
-      <div className="case_study_main Booklover">
         <Navbar />
+      <div className="case_study_main Booklover">
         <Banner />
       </div>
       <Overview />

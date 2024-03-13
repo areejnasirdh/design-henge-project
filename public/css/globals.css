@@ -150,9 +150,9 @@ span {
 }
 
 .btn {
-  position: relative;
-  display: inline-flex;
-  overflow: hidden;
+  position: relative !important;
+  display: inline-flex !important;
+  overflow: hidden !important; 
   background-color: #FD022C !important;
   border: 2px solid black !important;
   padding: 10px 23px !important;
@@ -166,28 +166,30 @@ span {
 }
 
 .btn span {
-  position: relative;
-  z-index: 1;
-  font-size: 14px;
+  position: relative !important;
+  z-index: 1 !important;
+  font-size: 14px !important;
 }
 
 .btn::before {
   content: '';
-  position: absolute;
-  top: var(--y);
-  left: var(--x);
-  transform: translate(-50%, -50%);
-  width: 0px;
-  height: 0px;
-  border-radius: 50%;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: translate(-50%, -50%) !important;
+  width: 0px !important;
+  height: 0px !important;
+  border-radius: 50% !important;
   background-color: #fff !important;
-  transition: width 0.5s, height 0.5s;
+  transition: width 0.5s, height 0.5s !important;
 }
 
 .btn:hover::before {
-  width: 300px;
-  height: 300px;
-  color: black;
+  width: 100% !important;
+  height: 300px !important;
+  color: black !important;
+  transform: translate(0) !important;
+  border-radius: 0% !important;
 }
 
 

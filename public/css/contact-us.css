@@ -560,10 +560,6 @@
   .contact_banner_section_main p{
     text-align: center !important;
     margin: auto !important;
-    color: black !important;
-  }
-  .contact_banner_section_main{
-    background-image: none !important;
   }
 }
 

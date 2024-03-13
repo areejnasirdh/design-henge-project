@@ -707,6 +707,12 @@ h1.font-bebas.uppercase {
   }
 }
 
+@media (max-width: 639px){
+  .footer .textalign{
+    text-align: center;
+  }
+}
+
 @media (max-width: 600px) {
   .partners h1 {
     font-size: 35px;
@@ -718,11 +724,5 @@ h1.font-bebas.uppercase {
 
   .home_services_main>div>p {
     font-size: 15px;
-  }
-}
-
-@media (max-width: 639px){
-  .footer .textalign{
-    text-align: center;
   }
 }

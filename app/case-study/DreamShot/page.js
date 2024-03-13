@@ -12,8 +12,8 @@ import Home from "@/components/CaseStudy/DreamShot/Homepage";
 const page = () => {
   return (
     <div>
-      <div className="case_study_main dreamshot">
         <Navbar />
+      <div className="case_study_main dreamshot">
         <Banner />
       </div>
       <Overview />

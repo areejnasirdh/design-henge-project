@@ -13,8 +13,8 @@ import Home from "@/components/CaseStudy/Speakable/Homepage";
 const page = () => {
   return (
     <div>
-      <div className="case_study_main speakable">
         <Navbar />
+      <div className="case_study_main speakable">
         <Banner />
       </div>
       <Overview />

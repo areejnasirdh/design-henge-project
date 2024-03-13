@@ -13,8 +13,8 @@ import SocialMedia from "@/components/CaseStudy/YummyGirlo/SocialMedia";
 const page = () => {
   return (
     <div>
-      <div className="case_study_main yummy_gurlo">
         <Navbar />
+      <div className="case_study_main yummy_gurlo">
         <CaseStudyBanner />
       </div>
       <Overview />

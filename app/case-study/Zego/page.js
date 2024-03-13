@@ -12,8 +12,8 @@ import Home from "@/components/CaseStudy/Zego/Homepage";
 const page = () => {
   return (
     <div>
-      <div className="case_study_main Zego">
         <Navbar />
+      <div className="case_study_main Zego">
         <Banner />
       </div>
       <Overview />
