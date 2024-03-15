@@ -222,6 +222,10 @@ span {
   text-shadow: -8px 8px black !important;
 }
 
+.red-line-para{
+  font-size: 13px;
+}
+
 @media (min-width: 1025px) {
   .blueGrayHeading {
     font-size: 60px;
@@ -284,6 +288,12 @@ span {
   }
 }
 
+@media (max-width: 500px){
+  .red-line-para{
+    font-size: 12px !important;
+  }
+}
+
 @media (max-width: 400px) {
   .blueGrayHeading {
     font-size: 35px !important;
@@ -294,10 +304,16 @@ span {
   .blueSubHeading {
     font-size: 35px !important;
     padding-top: 0px !important;
+    text-shadow: -2px 2px black !important;
   }
 
   .blackGrayHeading {
     font-size: 30px !important;
     letter-spacing: unset !important;
+    text-shadow: -2px 5px black !important;
+  }
+
+  .red-line-para{
+    font-size: 10px !important;
   }
 }

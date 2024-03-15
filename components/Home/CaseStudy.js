@@ -18,7 +18,7 @@ function CaseStudy({ data, heading }) {
 
             <div className="flex space-x-3 items-center mt-3 mb-[12px]">
               <div className="border-t-4 border-red-primary w-7"></div>
-              <p className="font-medium text-[13px]">
+              <p className="font-medium red-line-para">
                 A variety of creative capabilities under one roof
               </p>
             </div>

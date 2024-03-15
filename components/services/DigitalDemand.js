@@ -10,8 +10,8 @@ const DigitalDemand = () => {
         </h2>
         <div className="flex space-x-3 items-center justify-center">
           <div className="border-t-4 border-red-primary w-7"></div>
-          <p className="font-medium text-[15px]">
-            DISCOVERY . DESIGN . DEVELOPMENT . TESTING
+          <p className="font-medium red-line-para">
+            Discovery . Design . Development . Testing
           </p>
         </div>
         <Row className="pt-5">

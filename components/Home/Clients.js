@@ -16,7 +16,7 @@ const Clients = () => {
               <h4 className="blueSubHeading leading-[80.5px]">OUR VALUABLE PARTNERS</h4>
               <div className="d-flex align-items-center mt-1 bottom-line">
                 <div className="w-8 h-[3px] bg-red-500 mr-2"></div>
-                <p className="font-medium">Brands We Worked For</p>
+                <p className="font-medium red-line-para">Brands We Worked For</p>
               </div>
             </div>
           </Col>
