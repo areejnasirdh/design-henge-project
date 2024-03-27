@@ -11,7 +11,7 @@ const DesignTheme = ({ Logo, Color, text, Font }) => {
             <h3 className="stroke4">THE LOGO</h3>
           </Col>
           <Col md={6}>
-            <Image src={Logo} height={140} />
+            <Image src={Logo} height={120} width={400} />
           </Col>
         </Row>
         <Row className="py-3 gx-2">
@@ -22,7 +22,7 @@ const DesignTheme = ({ Logo, Color, text, Font }) => {
             </h3>
           </Col>
           <Col md={8}>
-            <Image src={Color} />
+            <Image src={Color} width={800} height={700}/>
           </Col>
         </Row>
         <Row className="py-3 gx-2">
@@ -31,7 +31,7 @@ const DesignTheme = ({ Logo, Color, text, Font }) => {
             <p>{text}</p>
           </Col>
           <Col md={8}>
-            <Image src={Font} className="mt-4" />
+            <Image src={Font} className="mt-4" width={800} height={100}/>
           </Col>
         </Row>
       </Container>

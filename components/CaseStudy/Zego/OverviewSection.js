@@ -22,7 +22,7 @@ const Overview = () => {
     // "Gallery Module",
   ];
   return (
-    <OverviewSection logo={booklover} services_list={services_list} client="ZEGO" industry="AI Automation" >
+    <OverviewSection logo="https://res.cloudinary.com/diha3kofd/image/upload/v1711453700/design-henge/images/case-study-zego/logo_outuwo.webp" services_list={services_list} client="ZEGO" industry="AI Automation" >
       <h5>
         Design Henge collaborates with ZEGO, an AI company, crafting its logo
         and UI to propel automation, AI implementation, and outsourced team

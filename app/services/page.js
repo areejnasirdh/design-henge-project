@@ -6,7 +6,7 @@ import DigitalDemand from "@/components/services/DigitalDemand";
 import OurServices from "@/components/services/OurServices";
 import WhenWeStarted from "@/components/services/WhenWeStarted";
 import Head from "next/head";
-import BannerImg from "../../public/images/service_banner.png";
+import BannerImg from "../../public/images/service_banner.webp";
 
 const page = () => {
   return (
@@ -27,7 +27,7 @@ const page = () => {
           third=""
           h2="For Business Across The Globe"
           text=" We strive to become an integral part of every organizations business promotion plan. We are committed to achieving our vision through a three-pronged strategy: Deliver, Create, Advance."
-          img={BannerImg}
+          img="https://res.cloudinary.com/diha3kofd/image/upload/v1711453170/design-henge/images/home/service_banner_ggykxj.webp"
           navigate=""
         />
       </div>

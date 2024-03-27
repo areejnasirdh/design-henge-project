@@ -9,7 +9,7 @@ const WhereItStartedSection = ({Img ,text, heading}) => {
         <Row className="justify-content-center">
           <Col md={10} className="d-flex flex-col items-center">
             <div className="where_it_started_img_container">
-              <Image src={Img} className="absolute bottom-0 w-full" />
+              <Image src={Img} className="absolute bottom-0 w-[90%]" width={500} height={500} />
             </div>
             <h1 className="stroke1">{heading}</h1>
             <p className="text-white text-center">

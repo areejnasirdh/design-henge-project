@@ -107,7 +107,7 @@ const Banner = ({ heading, second, third, text, img, navigate, stempt, h2 }) => 
               lg={4}
               className="hidden xl:flex justify-content-center"
             >
-              <Image src={img} className="banner-img" />
+              <Image src={img} className="banner-img" width={500} height={100} />
             </Col>
           </Row>
         </Container>

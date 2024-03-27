@@ -16,37 +16,37 @@ const OurServices = () => {
   const [selected, setSelected] = useState(0);
   const services = [
       {
-          image: Image1,
+          image: "https://res.cloudinary.com/diha3kofd/image/upload/v1711446820/design-henge/images/home/branding-and-identity_lzukl8.webp",
           heading: "Branding & Identity",
       },
       {
-          image: Image2,
+          image: "https://res.cloudinary.com/diha3kofd/image/upload/v1711446838/design-henge/images/home/website-design-development_vn23sm.webp",
           heading: "Website Design & Development",
       },
       {
-          image: Image6,
+          image: "https://res.cloudinary.com/diha3kofd/image/upload/v1711446824/design-henge/images/home/digital-marketing_mj7mmu.webp",
           heading: "Digital Marketing",
       },
       {
-          image: Image5,
+          image: "https://res.cloudinary.com/diha3kofd/image/upload/v1711446831/design-henge/images/home/mobile-app-development_amwelz.webp",
           heading: "Mobile App Development",
       },
       {
-          image: Image7,
+          image: "https://res.cloudinary.com/diha3kofd/image/upload/v1711446813/design-henge/images/home/2d-3d_vdygab.gif",
           heading: "Custom 2D/3D Animation",
       },
       {
-          image: Image4,
+          image: "https://res.cloudinary.com/diha3kofd/image/upload/v1711446827/design-henge/images/home/ecommerce_bpadlv.webp",
           heading: "eCommerce Experiences",
       },
       {
-          image: Image3,
+          image: "https://res.cloudinary.com/diha3kofd/image/upload/v1711446834/design-henge/images/home/web3-design_fihgw8.webp",
           heading: "Web3 Experience Design",
       },
 
   ];
 
-  return<div className="our_services_main" style={{ backgroundImage: `url(${services[selected]?.image?.src})` }}>
+  return<div className="our_services_main" style={{ backgroundImage: `url(${services[selected]?.image})` }}>
       <Container fluid className="container-width-2">
           <Row className="align-items-center">
               <Col md={12} onMouseLeave={() => setSelected(0)}>

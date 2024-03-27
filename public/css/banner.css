@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     min-height: 90vh;
-    background-image: url("../images/banner-back.png");
+    background-image: url("https://res.cloudinary.com/diha3kofd/image/upload/v1711447137/design-henge/images/home/banner-back_wf1r1i.png");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
   }
 
 

@@ -88,8 +88,7 @@ const ContactBanner = () => {
               }}
             >
               We'll contact you within a couple of hours to schedule a meeting
-              to discuss your goals. We'll contact you within a couple of hours
-              to schedule a meeting to discuss your goals.
+              to discuss your goals. Sit back and one of our representative will call to discuss your project.
             </motion.p>
           </Col>
           <Col

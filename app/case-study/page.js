@@ -3,7 +3,7 @@ import Navbar from "@/components/Common/Navbar/Navbar";
 import Socials from "@/components/Home/Socials";
 import Head from "next/head";
 import Banner from "@/components/Common/Banner/Banner";
-import BannerImg from "@/public/images/caseStudy/caseStudyBanner.png";
+import BannerImg from "@/public/images/caseStudyBanner.png";
 import CaseStudy from "@/components/Home/CaseStudy";
 
 const page = () => {

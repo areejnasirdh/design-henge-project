@@ -20,42 +20,42 @@ function Socials() {
         <Marquee direction="right" autoFill>
           <div className="flex items-center gap-6 md:gap-16 pt-10 px-10 -mt-10 h-[150px]">
             <Image
-              src="/images/salesforce.png"
+              src="https://res.cloudinary.com/diha3kofd/image/upload/v1711446524/design-henge/images/home/salesforce_odmpna.png"
               width={70}
               height={70}
               alt=""
               className="mx-auto 2xl:w-16"
             />
             <Image
-              src="/images/shopify.png"
+              src="https://res.cloudinary.com/diha3kofd/image/upload/v1711446550/design-henge/images/home/shopify_ntkg63.png"
               width={100}
               height={100}
               alt=""
               className="mx-auto 2xl:w-32"
             />
             <Image
-              src="/images/google.png"
+              src="https://res.cloudinary.com/diha3kofd/image/upload/v1711446580/design-henge/images/home/google_m9nolt.png"
               width={100}
               height={100}
               alt=""
               className="mx-auto 2xl:w-32"
             />
             <Image
-              src="/images/rivera.png"
+              src="https://res.cloudinary.com/diha3kofd/image/upload/v1711446618/design-henge/images/home/rivera_oqkbfh.png"
               width={100}
               height={100}
               alt=""
               className="mx-auto 2xl:w-40"
             />
             <Image
-              src="/images/amazon.png"
+              src="https://res.cloudinary.com/diha3kofd/image/upload/v1711446633/design-henge/images/home/amazon_imx0o4.png"
               width={100}
               height={100}
               alt=""
               className="mx-auto 2xl:w-32"
             />
             <Image
-              src="/images/meta.png"
+              src="https://res.cloudinary.com/diha3kofd/image/upload/v1711446640/design-henge/images/home/meta_zwnjfd.png"
               width={100}
               height={100}
               alt=""

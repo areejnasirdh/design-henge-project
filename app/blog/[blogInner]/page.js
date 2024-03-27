@@ -16,12 +16,12 @@ const BlogInner = () => {
   const handlefilter = () => {
     const decodedSlug = decodeURIComponent(blogInner);
     const filterDatas = blogData.filter((e) => e?.title === decodedSlug);
-    setData(filterDatas)
-  }
+    setData(filterDatas);
+  };
 
-  useEffect(()=> {
-    handlefilter()
-  }, [])
+  useEffect(() => {
+    handlefilter();
+  }, []);
 
   return (
     <>
@@ -41,10 +41,10 @@ const BlogInner = () => {
               <div className=" w-full lg:w-[65%] ">
                 <div className="w-full h-[400px]">
                   <Image
+                    width={500}
+                    height={400}
                     src={`/images/${data[0]?.img}`}
-                    width={100}
-                    height={100}
-                    className="w-full h-full object-cover"
+                    className="h-full w-full object-cover"
                   />
                 </div>
                 <h2>{data[0]?.date}</h2>

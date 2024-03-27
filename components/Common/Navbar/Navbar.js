@@ -84,9 +84,11 @@ const Navbr = () => {
             <Container fluid className="container-width-2">
               <Navbar.Brand href="/" className="h-[80px]">
                 <Image
-                  src={Logo}
+                  src="https://res.cloudinary.com/diha3kofd/image/upload/v1711450598/design-henge/images/home/logo_xfdifg.gif"
                   alt="logo"
                   className="w-full h-full object-contain"
+                  width={100}
+                  height={100}
                 />
               </Navbar.Brand>
               <Navbar.Toggle

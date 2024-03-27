@@ -7,11 +7,11 @@ import DesignTheme from "../Layout/DesignTheme";
 const Zego = () => {
   return (
     <DesignTheme
-      Logo={orange}
-      Color={Color}
+      Logo="https://res.cloudinary.com/diha3kofd/image/upload/v1711453700/design-henge/images/case-study-zego/logo_outuwo.webp"
+      Color="https://res.cloudinary.com/diha3kofd/image/upload/v1711453674/design-henge/images/case-study-zego/Colorpallete_dgu5hp.webp"
       text="To ensure the integrity of the brand consistent typography is to
     be used throughout all communications as specified below."
-      Font={Font}
+      Font="https://res.cloudinary.com/diha3kofd/image/upload/v1711453682/design-henge/images/case-study-zego/font_ggdu1c.webp"
     />
   );
 };

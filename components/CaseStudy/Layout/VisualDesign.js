@@ -9,7 +9,7 @@ const VisualDesign = ({img}) => {
         <Row className="justify-content-center">
           <Col md={10}>
             <h1 className="stroke1 text-center">Visual Website Design</h1>
-            <Image src={img} />
+            <Image src={img} width={1000} height={100}/>
           </Col>
         </Row>
       </Container>

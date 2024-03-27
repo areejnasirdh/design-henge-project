@@ -8,14 +8,14 @@ import { usePathname } from "next/navigation";
 import axios from "axios";
 
 const InformationDH = [
-  { img: "done", number: "10+", information: "Projects Done", symbol: "+" },
+  { img: "done", number: "150", information: "Projects Done", symbol: "+" },
   {
     img: "thumbs-up",
-    number: "12K+",
+    number: "200",
     information: "Feedback Done",
-    symbol: "K+",
+    symbol: "+",
   },
-  { img: "user", number: "10K+", information: "Total Users", symbol: "K+" },
+  { img: "user", number: "100", information: "Total Users", symbol: "+" },
 ];
 
 function ContactUs() {

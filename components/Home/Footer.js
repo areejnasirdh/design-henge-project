@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="footer-main mx-auto max-w-[90rem] px-0 pb-6 pt-10 md:pt-5 sm:px-6 lg:px-0 flex flex-wrap xl:justify-between justify-center">
           <div className="mt-4 w-[250px]">
             <a href="/" className="text-xs font-medium text-white">
-              <img src="/images/Footer-logo.png" />
+              <img src="https://res.cloudinary.com/diha3kofd/image/upload/v1711447359/design-henge/images/home/Footer-logo_zqo8rw.png" />
             </a>
             <div className="h-[40px] flex mt-4 w-fit mx-auto">
               <a
@@ -134,7 +134,7 @@ export default function Footer() {
             <div className="w-[100%] sm:w-fit sm:max-w-[300px] mt-4">
               <div className="flex items-center justify-center sm:justify-start">
                 <Image
-                  src="/images/footer-America-flag.png"
+                  src="https://res.cloudinary.com/diha3kofd/image/upload/v1711447364/design-henge/images/home/footer-America-flag_ddotli.png"
                   width={20}
                   height={10}
                   className="h-[30px] w-[40px] mt-[-5px]"
@@ -153,7 +153,7 @@ export default function Footer() {
 
               <div className="flex items-center mt-3 justify-center sm:justify-start">
                 <Image
-                  src="/images/footer-pakistan-flag.png"
+                  src="https://res.cloudinary.com/diha3kofd/image/upload/v1711447350/design-henge/images/home/footer-pakistan-flag_jftnxl.png"
                   width={20}
                   height={10}
                   className="h-[30px] w-[40px] mt-[-5px]"
@@ -182,7 +182,7 @@ export default function Footer() {
             <div className="flex justify-around items-center flex-wrap">
               <div className="w-[50%] p-[10px] flex justify-center items-center min-h-[130px] md:w-auto">
                 <Image
-                  src="/images/clutch.png"
+                  src="https://res.cloudinary.com/diha3kofd/image/upload/v1711447425/design-henge/images/home/clutch_vuzrqu.png"
                   width={300}
                   height={300}
                   alt=""
@@ -191,7 +191,7 @@ export default function Footer() {
               </div>
               <div className="w-[50%] p-[10px] flex justify-center items-center min-h-[130px] md:w-auto">
                 <Image
-                  src="/images/seo-blog.png"
+                  src="https://res.cloudinary.com/diha3kofd/image/upload/v1711447469/design-henge/images/home/google-partner_nqkojz.png"
                   width={300}
                   height={300}
                   alt=""
@@ -200,7 +200,7 @@ export default function Footer() {
               </div>
               <div className="w-[50%] p-[10px] flex justify-center items-center min-h-[130px] md:w-auto">
                 <Image
-                  src="/images/google-partner.png"
+                  src="https://res.cloudinary.com/diha3kofd/image/upload/v1711447432/design-henge/images/home/seo-blog_nmiamq.png"
                   width={300}
                   height={300}
                   alt=""
@@ -209,7 +209,7 @@ export default function Footer() {
               </div>
               <div className="w-[50%] p-[10px] flex justify-center items-center min-h-[130px] md:w-auto">
                 <Image
-                  src="/images/expertise.png"
+                  src="https://res.cloudinary.com/diha3kofd/image/upload/v1711447485/design-henge/images/home/expertise_cgfnxv.png"
                   width={300}
                   height={300}
                   alt=""
@@ -218,7 +218,7 @@ export default function Footer() {
               </div>
               <div className="w-[50%] p-[10px] flex justify-center items-center min-h-[130px] md:w-auto">
                 <Image
-                  src="/images/inc-5000.png"
+                  src="https://res.cloudinary.com/diha3kofd/image/upload/v1711447513/design-henge/images/home/inc-5000_vfpp88.png"
                   width={300}
                   height={300}
                   alt=""

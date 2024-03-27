@@ -18,7 +18,7 @@ const OverviewSection = ({ logo, services_list, children, client, industry }) =>
               <h3 className="stroke3">OVERVIEW</h3>
             </Col>
             <Col md={8}>
-              <Image src={logo} height={120} />
+              <Image src={logo} height={120} width={400} />
             </Col>
           </Row>
         </Container>
