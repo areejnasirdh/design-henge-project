@@ -62,7 +62,7 @@ function NumberCounter({
             {symbol}
           </h1>
         </div>
-        <h4 className="text-[15px] lg:text-[18px] font-light">{information}</h4>
+        <h4 className="text-[11px] lg:text-[18px] font-light">{information}</h4>
       </div>
     </div>
   );

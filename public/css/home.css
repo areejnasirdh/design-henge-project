@@ -388,6 +388,11 @@ h1.font-bebas.uppercase {
   border-radius: 40px;
 }
 
+#contact-us .heading {
+  text-shadow: -6px 4px black !important;
+  -webkit-text-stroke: 2px black !important;
+}
+
 /* Buttons */
 
 .slideshowDots {
@@ -536,6 +541,9 @@ h1.font-bebas.uppercase {
 }
 
 @media (max-width: 1116px) {
+  .achievement-count{
+    font-size: 60px !important;
+  }
   .home_about_details h6 {
     text-align: center;
   }
@@ -593,7 +601,7 @@ h1.font-bebas.uppercase {
 }
 
 @media (max-width: 1115px) and (min-width: 1025px) {
-  .contact h1 {
+  .contact .heading {
     font-size: 70px !important;
   }
 }
@@ -616,6 +624,13 @@ h1.font-bebas.uppercase {
     width: 97% !important;
   }
 }
+
+@media (max-width: 1050px){
+  .achievement-count{
+    font-size: 50px !important;
+  }
+}
+
 
 @media(max-width: 990px){
   .testimonial-container p {
@@ -724,5 +739,11 @@ h1.font-bebas.uppercase {
 
   .home_services_main>div>p {
     font-size: 15px;
+  }
+} 
+
+@media (max-width: 426px){
+  .achievement-count{
+    font-size: 30px !important;
   }
 }

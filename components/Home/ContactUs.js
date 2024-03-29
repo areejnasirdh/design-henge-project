@@ -71,7 +71,7 @@ function ContactUs() {
           <Container fluid className="container-width">
             <div className="flex flex-col lg:flex-row justify-between mx-auto max-w-[90rem]">
               <div className="d-flex flex-col justify-content-between xl:w-[60%] lg:w-[40%]">
-                <h1 className="stroke2 font-outline-2 text-shadow-left-6 font-bebas text-[80px] text-[#ededed] pt-2">
+                <h1 className="heading font-outline-2 text-shadow-left-6 font-bebas text-[90px] text-[#ededed] pt-2">
                   let’s build your next digital product
                 </h1>
                 <div className="bg-[#171719] relative xl:bg-inherit">
